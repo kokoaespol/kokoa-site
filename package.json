@@ -7,9 +7,11 @@
     "preview": "nuxt preview",
     "lint": "prettier --check . && eslint .",
     "format": "prettier --write .",
-    "typecheck": "nuxt typecheck"
+    "typecheck": "nuxt typecheck",
+    "test": "vitest run --dir tests"
   },
   "devDependencies": {
+    "@nuxt/test-utils-edge": "3.0.0-rc.4-27620254.38e0fa6",
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
     "@nuxtjs/tailwindcss": "^5.1.3",
     "eslint": "^8.19.0",
@@ -18,6 +20,7 @@
     "nuxt": "3.0.0-rc.4",
     "prettier": "^2.7.1",
     "typescript": "^4.7.4",
+    "vitest": "^0.17.1",
     "webpack": "^5.73.0"
   },
   "dependencies": {
