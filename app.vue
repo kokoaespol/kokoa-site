@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="text-red-500 text-xl text-center font-bold">¡Hola, mundo!</div>
-    <div class="text-green-500 text-xl text-center font-bold">
+    <div class="text-center text-xl font-bold text-red-500">¡Hola, mundo!</div>
+    <div class="text-center text-xl font-bold text-green-500">
       Hello, world!
     </div>
   </div>

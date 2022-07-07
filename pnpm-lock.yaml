@@ -10,6 +10,7 @@ specifiers:
   eslint-plugin-prettier: ^4.2.1
   nuxt: 3.0.0-rc.4
   prettier: ^2.7.1
+  prettier-plugin-tailwindcss: ^0.1.12
   typescript: ^4.7.4
   vitest: ^0.17.1
   vue: ^3.2.37
@@ -28,6 +29,7 @@ devDependencies:
   eslint-plugin-prettier: 4.2.1_7uxdfn2xinezdgvmbammh6ev5i
   nuxt: 3.0.0-rc.4_webpack@5.73.0
   prettier: 2.7.1
+  prettier-plugin-tailwindcss: 0.1.12_prettier@2.7.1
   typescript: 4.7.4
   vitest: 0.17.1
   webpack: 5.73.0
@@ -5623,6 +5625,15 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       fast-diff: 1.2.0
+    dev: true
+
+  /prettier-plugin-tailwindcss/0.1.12_prettier@2.7.1:
+    resolution: {integrity: sha512-pEZ6tppwknCeq3ObR9g8t61AhWtVRRR3I0EQNeiRrrJ3D42FJGeUDxiFc/LJRYEeAx5JOxagsF0MICwuWOJa+w==}
+    engines: {node: '>=12.17.0'}
+    peerDependencies:
+      prettier: '>=2.2.0'
+    dependencies:
+      prettier: 2.7.1
     dev: true
 
   /prettier/2.7.1:
