@@ -1,6 +1,12 @@
-# Nuxt 3 Minimal Starter
+# Kokoa-Website
+
+Sitio web oficial del club Kokoa ESPOL.
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+
+## Vite
+
+We use the [Composition API](https://vuejs.org/guide/extras/composition-api-faq.html).
 
 ## Setup
 
@@ -10,6 +16,8 @@ Make sure to install the dependencies (using pnpm):
 # pnpm
 pnpm install --shamefully-hoist
 ```
+
+Use the Volar VS-Code extension with workspace Take Over Mode to enable typescript intellisense
 
 ## Development Server
 

@@ -4,9 +4,17 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write ."
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.4"
+    "@nuxtjs/eslint-config-typescript": "^10.0.0",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nuxt": "3.0.0-rc.4",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
   }
 }
