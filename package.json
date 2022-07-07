@@ -23,5 +23,6 @@
   "dependencies": {
     "@headlessui/vue": "^1.6.5",
     "vue": "^3.2.37"
-  }
+  },
+  "packageManager": "pnpm@7.5.0"
 }
