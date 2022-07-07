@@ -6,7 +6,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "lint": "prettier --check . && eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "typecheck": "nuxt typecheck"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
