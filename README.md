@@ -21,7 +21,7 @@ Use the Volar VS-Code extension with workspace Take Over Mode to enable typescri
 
 ## Development Server
 
-Start the development server on http://localhost:3000
+Start the development server on <http://localhost:3000>
 
 ```bash
 pnpm run dev -o
