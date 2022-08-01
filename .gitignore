@@ -1,19 +1,10 @@
-# Nuxt
-dist
-.nuxt
-.nitro
-.output
-
-# Env
-.env
-
-# Dependencies
+.DS_Store
 node_modules
-
-# Logs
-*.log*
-
-# Temp directories
-.temp
-.tmp
-.cache
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+.vercel
+.output

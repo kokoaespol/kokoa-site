@@ -2,43 +2,27 @@
 
 Sitio web oficial del club Kokoa ESPOL.
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+## Developing
 
-## Vite
+Once you've created a project and installed dependencies with `pnpm install`, start a development server:
 
-We use the [Composition API](https://vuejs.org/guide/extras/composition-api-faq.html).
+```bash
+pnpm run dev
+
+# or start the server and open the app in a new browser tab
+pnpm run dev -- --open
+```
 
 ## Setup
 
-Make sure to install the dependencies (using pnpm):
+It is recommended to use VSCode with the Eslint, Prettier, Svelte, and TailwindCSS Extensions.
 
-```bash
-# pnpm
-pnpm install --shamefully-hoist
-```
+## Building
 
-Use the Volar VS-Code extension with workspace Take Over Mode to enable typescript intellisense
-
-## Development Server
-
-Start the development server on <http://localhost:3000>
-
-```bash
-pnpm run dev -o
-```
-
-## Production
-
-Build the application for production:
+To create a production version of your app:
 
 ```bash
 pnpm run build
 ```
 
-Locally preview production build:
-
-```bash
-pnpm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+You can preview the production build with `pnpm run preview`.
