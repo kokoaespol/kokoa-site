@@ -7,7 +7,7 @@
 
 {#if dev}
   <div
-    class="fixed top-2 left-2 z-20 w-fit rounded-full bg-gray-900 p-2 font-semibold text-gray-50"
+    class="fixed top-2 left-2 z-20 w-fit rounded-full bg-gray-900/80 p-2 font-semibold text-gray-50"
   >
     <span class="sm:hidden">celular</span>
     <span class="hidden sm:inline md:hidden">sm</span>

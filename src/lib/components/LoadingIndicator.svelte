@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { onMount } from "svelte";
 
   let p = 0;
@@ -42,7 +42,7 @@
     left: 0;
     top: 0;
     height: 100%;
-    background-color: rgb(101 163 13);
+    background-color: rgb(251, 146, 60);
     transition: width 0.4s;
   }
 
