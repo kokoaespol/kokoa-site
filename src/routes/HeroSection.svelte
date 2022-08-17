@@ -1,6 +1,6 @@
 <script lang="ts">
   import espol from "$lib/assets/logos/espol.svg";
-  import UnirseOrange from "../UnirseOrange.svelte";
+  import UnirseOrange from "$lib/components/UnirseOrange.svelte";
 </script>
 
 <section class="lg:relative">

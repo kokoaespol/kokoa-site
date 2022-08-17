@@ -5,8 +5,8 @@ specifiers:
   '@felte/validator-zod': ^1.0.11
   '@playwright/test': ^1.25.0
   '@rgossiaux/svelte-headlessui': ^1.0.2
-  '@sveltejs/adapter-cloudflare': 1.0.0-next.31
-  '@sveltejs/kit': 1.0.0-next.411
+  '@sveltejs/adapter-cloudflare': ^1.0.0-next.31
+  '@sveltejs/kit': ^1.0.0-next.415
   '@tailwindcss/forms': ^0.5.2
   '@tailwindcss/line-clamp': ^0.4.0
   '@tailwindcss/typography': ^0.5.4
@@ -42,7 +42,7 @@ dependencies:
 devDependencies:
   '@playwright/test': 1.25.0
   '@sveltejs/adapter-cloudflare': 1.0.0-next.31
-  '@sveltejs/kit': 1.0.0-next.411_svelte@3.49.0+vite@3.0.8
+  '@sveltejs/kit': 1.0.0-next.415_svelte@3.49.0+vite@3.0.8
   '@tailwindcss/forms': 0.5.2_tailwindcss@3.1.8
   '@tailwindcss/line-clamp': 0.4.0_tailwindcss@3.1.8
   '@tailwindcss/typography': 0.5.4_tailwindcss@3.1.8
@@ -218,8 +218,8 @@ packages:
       worktop: 0.8.0-next.14
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.411_svelte@3.49.0+vite@3.0.8:
-    resolution: {integrity: sha512-VSkQemKpztgsKjjkrp9kkYI7ESe3mspXjibKaevJ+FzTcJqB1Ehnp8lRbspXqXGtumrLLNADpLJ9c9vhXhhsSA==}
+  /@sveltejs/kit/1.0.0-next.415_svelte@3.49.0+vite@3.0.8:
+    resolution: {integrity: sha512-XtiiEW/LuhYeT0YdyLxNA+lCcu+1NMhLd4xM8ZYJ//x408eM9Oeckfh8qmzcBurksaZEZHd1cwHscSkOnJLOww==}
     engines: {node: '>=16.9'}
     hasBin: true
     requiresBuild: true
@@ -571,7 +571,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001377
-      electron-to-chromium: 1.4.221
+      electron-to-chromium: 1.4.222
       node-releases: 2.0.6
       update-browserslist-db: 1.0.5_browserslist@4.21.3
     dev: true
@@ -871,8 +871,8 @@ packages:
       domhandler: 4.3.1
     dev: true
 
-  /electron-to-chromium/1.4.221:
-    resolution: {integrity: sha512-aWg2mYhpxZ6Q6Xvyk7B2ziBca4YqrCDlXzmcD7wuRs65pVEVkMT1u2ifdjpAQais2O2o0rW964ZWWWYRlAL/kw==}
+  /electron-to-chromium/1.4.222:
+    resolution: {integrity: sha512-gEM2awN5HZknWdLbngk4uQCVfhucFAfFzuchP3wM3NN6eow1eDU0dFy2kts43FB20ZfhVFF0jmFSTb1h5OhyIg==}
     dev: true
 
   /entities/2.2.0:

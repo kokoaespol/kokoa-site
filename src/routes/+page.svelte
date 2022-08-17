@@ -1,8 +1,8 @@
 <script lang="ts">
-  import Chocomision from "$lib/components/home/Chocomision.svelte";
-  import ChocoSection from "$lib/components/home/ChocoSection.svelte";
-  import HeroSection from "$lib/components/home/HeroSection.svelte";
-  import SectionH2 from "$lib/components/home/SectionH2.svelte";
+  import Chocomision from "./Chocomision.svelte";
+  import ChocoSection from "./ChocoSection.svelte";
+  import HeroSection from "./HeroSection.svelte";
+  import SectionH2 from "./SectionH2.svelte";
   import Icon from "$lib/components/Icon.svelte";
   import linkedin from "$lib/assets/icons/linkedin.svg?raw";
   import github from "$lib/assets/icons/github.svg?raw";
