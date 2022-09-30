@@ -1,7 +1,7 @@
 <script lang="ts">
   import "../app.css";
   import { navigating } from "$app/stores";
-  import { dev } from "$app/env";
+  import { dev } from "$app/environment";
   import LoadingIndicator from "$lib/components/LoadingIndicator.svelte";
 </script>
 
