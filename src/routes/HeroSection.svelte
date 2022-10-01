@@ -1,5 +1,4 @@
 <script lang="ts">
-  import espol from "$lib/assets/logos/espol.svg";
   import UnirseOrange from "$lib/components/UnirseOrange.svelte";
 </script>
 
@@ -14,7 +13,6 @@
         Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
         Elit sunt amet fugiat veniam occaecat fugiat aliqua.
       </p>
-      <img class="mx-auto max-w-lg" src={espol} alt="logo de la espol" />
       <UnirseOrange href="/registro" class="mt-9">Unirse</UnirseOrange>
     </div>
   </div>

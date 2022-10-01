@@ -7,7 +7,7 @@
 </script>
 
 <article
-  class="mt-3 aspect-[5/6] px-7 py-10  {is_first
+  class="mt-3 px-7 py-10 md:aspect-[5/6]  {is_first
     ? 'bg-orange-400 text-zinc-800'
     : 'bg-zinc-800 text-zinc-300'}"
 >

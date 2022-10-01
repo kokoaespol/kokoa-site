@@ -86,46 +86,46 @@
 
 <HeroSection />
 <ChocoSection>
-  <div class="flex items-center">
-    <div class="w-3/5">
-      <SectionH2>¿Quiénes Somos?</SectionH2>
+  <div class="flex flex-col items-start md:flex-row md:items-center">
+    <div class="w-full md:w-3/5">
+      <SectionH2>¿Quiénes<wbr /> Somos?</SectionH2>
       <p class="mt-3 text-xl">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error repudiandae animi
         necessitatibus maiores, quis temporibus recusandae fuga exercitationem iste nesciunt sint
         culpa, tempora doloremque! Qui expedita sint voluptate non et.
       </p>
     </div>
-    <div class="mx-auto aspect-[4/5] w-40 bg-zinc-500" />
+    <div class="my-8 mx-auto aspect-[4/5] w-40 bg-zinc-500" />
   </div>
 </ChocoSection>
 <ChocoSection>
-  <SectionH2>Chocomisión</SectionH2>
-  <div class="grid grid-cols-3 gap-8">
+  <SectionH2>Choco<wbr />misión</SectionH2>
+  <div class="flex flex-col gap-8 sm:grid sm:grid-cols-3">
     {#each chocomisiones as content, idx}
       <Chocomision {content} {idx} />
     {/each}
   </div>
 </ChocoSection>
-<ChocoSection class="grid grid-cols-3 gap-16">
+<ChocoSection class="grid grid-cols-1 gap-16 md:grid-cols-3">
   <div>
-    <SectionH2>Chocoáreas</SectionH2>
+    <SectionH2>Choco<wbr />áreas</SectionH2>
     <p class="mt-3 text-xl">
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error repudiandae animi
       necessitatibus maiores, quis temporibus.
     </p>
   </div>
-  <ul class="col-span-2 grid grid-cols-2 content-center gap-8">
+  <ul class="grid grid-cols-1 content-center gap-8 sm:grid-cols-2 md:col-span-2">
     {#each chocoareas as area}
-      <li class="flex items-center gap-4 text-lg font-semibold text-zinc-50">
-        <div class="aspect-square w-16 bg-orange-400" />
+      <li class="flex items-center gap-4 overflow-hidden text-lg font-semibold text-zinc-50">
+        <div class="aspect-square w-16 flex-shrink-0 bg-orange-400" />
         <span>{area.text}</span>
       </li>
     {/each}
   </ul>
 </ChocoSection>
 <ChocoSection>
-  <SectionH2>Chocobeneficios</SectionH2>
-  <div class="mt-16 grid grid-cols-3 justify-items-center">
+  <SectionH2>Choco<wbr />beneficios</SectionH2>
+  <div class="mt-16 grid grid-cols-1 justify-items-center gap-8 md:grid-cols-3">
     {#each chocobeneficios as beneficio}
       <article class="text-center">
         <div class="mx-auto aspect-[4/5] w-32 bg-zinc-500" />
@@ -135,7 +135,7 @@
   </div>
 </ChocoSection>
 <ChocoSection>
-  <SectionH2>Chocomiembros</SectionH2>
+  <SectionH2>Choco<wbr />miembros</SectionH2>
   <ul
     class="mx-auto mt-10 space-y-16 text-center sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:max-w-5xl lg:grid-cols-3"
   >
