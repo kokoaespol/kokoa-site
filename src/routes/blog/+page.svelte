@@ -1,5 +1,9 @@
 <script lang="ts">
   import SectionHeader from "$lib/components/SectionHeader.svelte";
+  import { json } from "@sveltejs/kit";
+  import type { PageData } from "./$types";
+
+  export let data: PageData;
 </script>
 
 <SectionHeader title="Blog">
@@ -7,3 +11,8 @@
   deserunt! Eum reiciendis explicabo blanditiis ea aperiam? Odio vero voluptate quod consequatur sed
   delectus ea possimus odit?
 </SectionHeader>
+
+{#each data.posts as post}
+  <h2>{post.title}</h2>
+  <p>{post.description}</p>
+{/each}
