@@ -4,7 +4,7 @@
   import Icon from "$lib/components/Icon.svelte";
   import menu from "$lib/assets/icons/menu.svg?raw";
   import x from "$lib/assets/icons/x.svg?raw";
-  import UnirseOrange from "../UnirseOrange.svelte";
+  import ButtonPrimary from "$lib/components/ButtonPrimary.svelte";
 
   const navigation = [
     { text: "Home", url: "/" },
@@ -46,7 +46,7 @@
       >
         Ingresa
       </a>
-      <UnirseOrange href="/registro" class="ml-8">Unirse</UnirseOrange>
+      <ButtonPrimary href="/registro" class="ml-8">Unirse</ButtonPrimary>
     </div>
   </div>
 

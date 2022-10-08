@@ -8,7 +8,7 @@
   import github from "$lib/assets/icons/github.svg?raw";
   import linked_chain from "$lib/assets/icons/linked-chain.svg?raw";
 
-  const chocomisiones = [
+  const chocomisions = [
     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa cumque optio expedita quas soluta tenetur impedit placeat illo hic voluptate. Mollitia magni nam nulla rerum?",
     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa cumque optio expedita quas soluta tenetur impedit placeat illo hic voluptate. Mollitia magni nam nulla rerum?",
     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa cumque optio expedita quas soluta tenetur impedit placeat illo hic voluptate. Mollitia magni nam nulla rerum?",
@@ -21,13 +21,13 @@
     { text: "Programación de sistemas" },
   ];
 
-  const chocobeneficios = [
+  const chocobenefits = [
     { text: "Eventos y actividades" },
     { text: "Recursos exclusivos" },
     { text: "Conexiones" },
   ];
 
-  type ChocoMiembro = {
+  type ChocoMembers = {
     name: string;
     role: string;
     image_url?: string;
@@ -36,7 +36,7 @@
     personal_page_url?: string;
   };
 
-  const chocomiembros: ChocoMiembro[] = [
+  const chocomembers: ChocoMembers[] = [
     {
       name: "Beatriz Pinzón",
       role: "Presidente",
@@ -101,7 +101,7 @@
 <ChocoSection>
   <SectionH2>Choco<wbr />misión</SectionH2>
   <div class="flex flex-col gap-8 sm:grid sm:grid-cols-3">
-    {#each chocomisiones as content, idx}
+    {#each chocomisions as content, idx}
       <Chocomision {content} {idx} />
     {/each}
   </div>
@@ -126,10 +126,10 @@
 <ChocoSection>
   <SectionH2>Choco<wbr />beneficios</SectionH2>
   <div class="mt-16 grid grid-cols-1 justify-items-center gap-8 md:grid-cols-3">
-    {#each chocobeneficios as beneficio}
+    {#each chocobenefits as benefit}
       <article class="text-center">
         <div class="mx-auto aspect-[4/5] w-32 bg-zinc-500" />
-        <h3 class="mt-2 text-xl font-semibold text-zinc-50">{beneficio.text}</h3>
+        <h3 class="mt-2 text-xl font-semibold text-zinc-50">{benefit.text}</h3>
       </article>
     {/each}
   </div>
@@ -139,7 +139,7 @@
   <ul
     class="mx-auto mt-10 space-y-16 text-center sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:max-w-5xl lg:grid-cols-3"
   >
-    {#each chocomiembros as member}
+    {#each chocomembers as member}
       <li>
         <div class="space-y-6">
           <div class="mx-auto h-40 w-40 rounded-full bg-zinc-500 xl:h-56 xl:w-56" />

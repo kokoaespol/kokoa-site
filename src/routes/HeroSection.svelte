@@ -1,5 +1,5 @@
 <script lang="ts">
-  import UnirseOrange from "$lib/components/UnirseOrange.svelte";
+  import ButtonPrimary from "$lib/components/ButtonPrimary.svelte";
 </script>
 
 <section class="lg:relative">
@@ -13,7 +13,7 @@
         Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
         Elit sunt amet fugiat veniam occaecat fugiat aliqua.
       </p>
-      <UnirseOrange href="/registro" class="mt-9">Unirse</UnirseOrange>
+      <ButtonPrimary href="/registro" class="mt-9">Unirse</ButtonPrimary>
     </div>
   </div>
   <div

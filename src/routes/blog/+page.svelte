@@ -1,6 +1,5 @@
 <script lang="ts">
   import SectionHeader from "$lib/components/SectionHeader.svelte";
-  import { json } from "@sveltejs/kit";
   import type { PageData } from "./$types";
 
   export let data: PageData;

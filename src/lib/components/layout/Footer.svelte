@@ -123,9 +123,8 @@
                 id="language"
                 name="language"
                 class="block w-full appearance-none rounded-md border border-transparent bg-zinc-700 bg-none py-2 pl-3 pr-10 text-base text-white focus:border-white focus:outline-none focus:ring-white sm:text-sm"
-                default-value="Spanish"
               >
-                <option>Spanish</option>
+                <option selected>Spanish</option>
                 <option>English</option>
               </select>
               <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2">
