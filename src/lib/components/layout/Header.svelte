@@ -5,6 +5,9 @@
   import menu from "$lib/assets/icons/menu.svg?raw";
   import x from "$lib/assets/icons/x.svg?raw";
   import ButtonPrimary from "$lib/components/ButtonPrimary.svelte";
+  import { page } from "$app/stores";
+
+  console.log($page.url.pathname);
 
   const navigation = [
     { text: "Home", url: "/" },
@@ -20,7 +23,7 @@
     <div class="flex justify-start lg:w-0 lg:flex-1">
       <a href="/">
         <span class="sr-only">Kokoa</span>
-        <div class="aspect-square h-8 bg-zinc-500 sm:h-10" />
+        <img class="h-8 w-auto sm:h-10" src="src/lib/assets/logos/LOGO SEMI B.png" alt="" />
       </a>
     </div>
     <div class="-my-2 -mr-2 md:hidden">
@@ -31,9 +34,14 @@
         <Icon data={menu} fill="currentColor" aria-hidden="true" />
       </PopoverButton>
     </div>
-    <nav class="hidden space-x-10 md:flex">
+    <nav class="group hidden space-x-10 md:flex">
       {#each navigation as item}
-        <a href={item.url} class="text-base font-medium text-zinc-300 hover:text-zinc-100">
+        <a
+          class="{$page.url.pathname == item.url
+            ? 'text-base font-medium text-zinc-100 before:text-green-kokoa-500 before:content-["<"] after:text-green-kokoa-500 after:content-["/>"]'
+            : 'text-base font-medium text-zinc-400 hover:text-zinc-300'} text-base font-medium text-zinc-300 hover:text-zinc-200 hover:before:text-green-kokoa-500 hover:before:content-['<'] hover:after:text-green-kokoa-500 hover:after:content-['/>']"
+          href={item.url}
+        >
           {item.text}
         </a>
       {/each}

@@ -78,7 +78,7 @@
         <div class="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
           <button
             type="submit"
-            class="flex w-full items-center justify-center rounded-md border border-transparent bg-orange-400 py-2 px-4 text-base font-medium hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 focus:ring-offset-zinc-800"
+            class="flex w-full items-center justify-center rounded-md border border-transparent bg-green-kokoa-500 py-2 px-4 text-base font-medium text-gray-800 hover:bg-green-kokoa-600 hover:text-zinc-100 focus:outline-none focus:ring-2 focus:ring-green-kokoa-600 focus:ring-offset-2 focus:ring-offset-zinc-800"
           >
             Subscríbete
           </button>
@@ -88,7 +88,7 @@
     <div class="mt-8 border-t border-zinc-700 pt-8 md:flex md:items-center md:justify-between">
       <div class="flex space-x-6 md:order-2">
         {#each navigation.social as item (item.name)}
-          <a href={item.url} class="text-zinc-400 hover:text-zinc-300">
+          <a href={item.url} class="text-zinc-400 hover:text-green-kokoa-500">
             <span class="sr-only">{item.name}</span>
             <Icon data={item.icon} fill="currentColor" aria-hidden="true" />
           </a>

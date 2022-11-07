@@ -5,109 +5,83 @@
     {
       name: "Luis Bajaña",
       position: "Miembro Activo",
-      image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      image: "https://avatars.githubusercontent.com/u/36106785?v=4",
     },
     {
       name: "Alina Carpio",
       position: "Miembro Activo",
-      image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      image: "",
     },
-    {
-      name: "Washington Cotera",
-      position: "Miembro Activo",
-      image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    },
+
     {
       name: "Axcel Espinoza",
       position: "Miembro Activo",
-      image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      image: "https://avatars.githubusercontent.com/u/62627084?v=4",
     },
     {
       name: "Adrián Delgato",
       position: "Miembro Activo",
-      image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      image: "https://avatars.githubusercontent.com/u/11708972?v=4",
     },
     {
       name: "Alexander Goussas",
       position: "Miembro Activo",
-      image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      image: "https://avatars.githubusercontent.com/u/84427521?v=4",
     },
     {
       name: "Joangie Marquez",
       position: "Miembro Activo",
-      image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      image: "https://avatars.githubusercontent.com/u/59121896?v=4",
     },
     {
       name: "Ashley Nivelo",
       position: "Miembro Activo",
-      image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      image: "",
     },
     {
       name: "Andrea Mero",
       position: "Miembro Activo",
-      image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      image: "https://avatars.githubusercontent.com/u/9570683?v=4",
     },
     {
       name: "Mario Ruiz",
       position: "Miembro Activo",
-      image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      image: "",
     },
     {
-      name: "Yiam",
+      name: "Yiam Rodriguez",
       position: "Miembro Activo",
-      image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      image: "https://avatars.githubusercontent.com/u/44529630?v=4",
     },
     {
       name: "Kelvin",
       position: "Miembro Activo",
-      image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      image: "",
     },
     {
       name: "Nicolás Plaza",
       position: "Miembro Activo",
-      image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      image: "",
     },
     {
       name: "Cristopher Villa",
       position: "Miembro Activo",
-      image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      image: "https://avatars.githubusercontent.com/u/74066095?v=4",
     },
     {
       name: "Jonathan Santana",
       position: "Miembro Activo",
-      image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      image: "",
     },
   ];
 </script>
 
-<SectionHeader title="ChocoMiembros">
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto labore eos aliquam aspernatur
-  deserunt! Eum reiciendis explicabo blanditiis ea aperiam? Odio vero voluptate quod consequatur sed
-  delectus ea possimus odit?
-</SectionHeader>
+<SectionHeader title="ChocoMiembros" />
 <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
   <div class="grid grid-cols-1 gap-12 lg:grid-cols-3 lg:gap-8">
     <div class="space-y-5 sm:space-y-4">
-      <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Meet our leadership</h2>
-      <p class="text-xl text-gray-500">
-        Libero fames augue nisl porttitor nisi, quis. Id ac elit odio vitae elementum enim vitae
-        ullamcorper suspendisse. Vivamus fringilla.
-      </p>
+      <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Conoce a nuestros miembros</h2>
+      <p class="text-xl text-gray-500">Un equipo de trabajo que aún no tiene historial criminal</p>
     </div>
     <div class="lg:col-span-2">
       <!-- svelte-ignore a11y-no-redundant-roles -->
@@ -122,7 +96,7 @@
               />
               <div class="space-y-1 text-lg font-medium leading-6">
                 <h3>{member.name}</h3>
-                <p class="text-orange-500">{member.position}</p>
+                <p class="text-green-kokoa-500">{member.position}</p>
               </div>
             </div>
           </li>

@@ -8,23 +8,17 @@
   import github from "$lib/assets/icons/github.svg?raw";
   import linked_chain from "$lib/assets/icons/linked-chain.svg?raw";
 
-  const chocomisions = [
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa cumque optio expedita quas soluta tenetur impedit placeat illo hic voluptate. Mollitia magni nam nulla rerum?",
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa cumque optio expedita quas soluta tenetur impedit placeat illo hic voluptate. Mollitia magni nam nulla rerum?",
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa cumque optio expedita quas soluta tenetur impedit placeat illo hic voluptate. Mollitia magni nam nulla rerum?",
-  ];
-
   const chocoareas = [
     { text: "Electrónica" },
-    { text: "Videojuegos" },
+    { text: "Seguridad" },
     { text: "Desarrollo web y móvil" },
     { text: "Programación de sistemas" },
   ];
 
   const chocobenefits = [
-    { text: "Eventos y actividades" },
-    { text: "Recursos exclusivos" },
-    { text: "Conexiones" },
+    { text: "Eventos", subtext: "" },
+    { text: "Talleres", subtext: "" },
+    { text: "Amigos", subtext: "(No Garantizado)" },
   ];
 
   type ChocoMembers = {
@@ -38,45 +32,45 @@
 
   const chocomembers: ChocoMembers[] = [
     {
-      name: "Beatriz Pinzón",
-      role: "Presidente",
+      name: "Alexander Goussas",
+      role: "Core Planificación",
       image_url: "",
       github_url: "#",
       linkedin_url: "#",
       personal_page_url: "#",
     },
     {
-      name: "Juanita Crespo",
-      role: "Core Administración",
+      name: "Joangie Márquez",
+      role: "Core Proyectos",
       image_url: "",
       github_url: "#",
       linkedin_url: "#",
       personal_page_url: "#",
     },
     {
-      name: "Armando Mendoza",
-      role: "Core Proyectos",
+      name: "Alina Carpio",
+      role: "Core Difusión",
       image_url: "",
       github_url: "#",
       linkedin_url: "#",
     },
     {
-      name: "Armando Mendoza",
-      role: "Core Proyectos",
+      name: "Andrea Mero",
+      role: "Core Soporte",
       image_url: "",
       github_url: "#",
       linkedin_url: "#",
     },
     {
-      name: "Armando Mendoza",
-      role: "Core Proyectos",
+      name: "Axcel Espinoza ",
+      role: "Líder Electrónica",
       image_url: "",
       github_url: "#",
       linkedin_url: "#",
     },
     {
-      name: "Armando Mendoza",
-      role: "Core Proyectos",
+      name: "Adrián Delgado",
+      role: "Líder Seguridad",
       image_url: "",
       github_url: "#",
       linkedin_url: "#",
@@ -88,36 +82,27 @@
 <ChocoSection>
   <div class="flex flex-col items-start md:flex-row md:items-center">
     <div class="w-full md:w-3/5">
-      <SectionH2>¿Quiénes<wbr /> Somos?</SectionH2>
+      <SectionH2>Choco<wbr />Misión</SectionH2>
       <p class="mt-3 text-xl">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error repudiandae animi
-        necessitatibus maiores, quis temporibus recusandae fuga exercitationem iste nesciunt sint
-        culpa, tempora doloremque! Qui expedita sint voluptate non et.
+        Compartir, difundir e implementar, conocimiento y herramientas, para el desarrollo académico
+        y tecnológico de la sociedad Ecuatoriana.
       </p>
     </div>
-    <div class="my-8 mx-auto aspect-[4/5] w-40 bg-zinc-500" />
+    <div class="mx-auto aspect-[4/5] w-80">
+      <img src="src/lib/assets/logos/LOGO SEMI B.png" alt="Chocomision" />
+    </div>
   </div>
 </ChocoSection>
-<ChocoSection>
-  <SectionH2>Choco<wbr />misión</SectionH2>
-  <div class="flex flex-col gap-8 sm:grid sm:grid-cols-3">
-    {#each chocomisions as content, idx}
-      <Chocomision {content} {idx} />
-    {/each}
-  </div>
-</ChocoSection>
+
 <ChocoSection class="grid grid-cols-1 gap-16 md:grid-cols-3">
   <div>
     <SectionH2>Choco<wbr />áreas</SectionH2>
-    <p class="mt-3 text-xl">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error repudiandae animi
-      necessitatibus maiores, quis temporibus.
-    </p>
+    <p class="mt-3 text-xl">Conoce nuestras áreas de trabajo.</p>
   </div>
   <ul class="grid grid-cols-1 content-center gap-8 sm:grid-cols-2 md:col-span-2">
     {#each chocoareas as area}
       <li class="flex items-center gap-4 overflow-hidden text-lg font-semibold text-zinc-50">
-        <div class="aspect-square w-16 flex-shrink-0 bg-orange-400" />
+        <div class="aspect-square w-16 flex-shrink-0 bg-green-kokoa-500" />
         <span>{area.text}</span>
       </li>
     {/each}
@@ -130,12 +115,13 @@
       <article class="text-center">
         <div class="mx-auto aspect-[4/5] w-32 bg-zinc-500" />
         <h3 class="mt-2 text-xl font-semibold text-zinc-50">{benefit.text}</h3>
+        <p>{benefit.subtext}</p>
       </article>
     {/each}
   </div>
 </ChocoSection>
 <ChocoSection>
-  <SectionH2>Choco<wbr />miembros</SectionH2>
+  <SectionH2>Choco<wbr />líderes</SectionH2>
   <ul
     class="mx-auto mt-10 space-y-16 text-center sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:max-w-5xl lg:grid-cols-3"
   >
@@ -146,7 +132,7 @@
           <div class="space-y-2">
             <div class="space-y-1 text-lg font-medium leading-6">
               <h3 class="text-zinc-50">{member.name}</h3>
-              <p class="text-orange-400">{member.role}</p>
+              <p class="text-green-kokoa-500">{member.role}</p>
             </div>
             <ul class="flex justify-center space-x-5">
               {#if member.github_url}
@@ -180,7 +166,7 @@
     {/each}
   </ul>
 </ChocoSection>
-<div class="bg-orange-400">
+<div class="bg-green-kokoa-500">
   <ChocoSection class="py-32">
     <div class="lg:flex lg:items-center lg:justify-between lg:px-10">
       <SectionH2 invert>¿Te gustaría ser parte?</SectionH2>
