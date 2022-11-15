@@ -1,10 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 @layer utilities {
   .text-shadow-kokoa {
     text-shadow: 0 0 2px #6dd743, 0 0 5px #6dd743;

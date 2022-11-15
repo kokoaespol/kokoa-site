@@ -6,6 +6,7 @@
   import x from "$lib/assets/icons/x.svg?raw";
   import ButtonPrimary from "$lib/components/ButtonPrimary.svelte";
   import { page } from "$app/stores";
+  import choconavimg from "$lib/assets/logos/kokoa.svg?raw";
 
   console.log($page.url.pathname);
 
@@ -23,7 +24,7 @@
     <div class="flex justify-start lg:w-0 lg:flex-1">
       <a href="/">
         <span class="sr-only">Kokoa</span>
-        <img class="h-8 w-auto sm:h-10" src="src/lib/assets/logos/LOGO SEMI B.png" alt="" />
+        <img class="h-8 w-auto sm:h-10" src="choconavimg" alt="" />
       </a>
     </div>
     <div class="-my-2 -mr-2 md:hidden">

@@ -13,6 +13,7 @@
   import linkedin from "$lib/assets/icons/linkedin.svg?raw";
   import github from "$lib/assets/icons/github.svg?raw";
   import linked_chain from "$lib/assets/icons/linked-chain.svg?raw";
+  import chocoimagen from "$lib/assets/logos/kokoa.svg?raw";
 
   const chocoareas = [
     { text: "Electrónica", icon: electronic },
@@ -95,7 +96,7 @@
       </p>
     </div>
     <div class="mx-auto aspect-[4/5] w-80">
-      <img src="src/lib/assets/logos/LOGO SEMI B.png" alt="Chocomision" />
+      <img src={chocoimagen} alt="Chocomision" />
     </div>
   </div>
 </ChocoSection>
@@ -120,13 +121,7 @@
   <div class="mt-16 grid grid-cols-1 justify-items-center gap-8 md:grid-cols-3">
     {#each chocobenefits as benefit}
       <article class="text-center">
-        <Icon
-          data={benefit.icon}
-          fill="green-kokoa-500"
-          width="80"
-          height="80"
-          aria-hidden="true"
-        />
+        <Icon data={benefit.icon} fill="#6DD743" width="80" height="80" aria-hidden="true" />
         <h3 class="mt-2 text-xl font-semibold text-zinc-50">{benefit.text}</h3>
         <p>{benefit.subtext}</p>
       </article>
