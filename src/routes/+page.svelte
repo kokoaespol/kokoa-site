@@ -3,21 +3,28 @@
   import HeroSection from "./HeroSection.svelte";
   import SectionH2 from "./SectionH2.svelte";
   import Icon from "$lib/components/Icon.svelte";
+  import events from "$lib/assets/icons/events.svg?raw";
+  import friends from "$lib/assets/icons/friends.svg?raw";
+  import workshop from "$lib/assets/icons/workshop.svg?raw";
+  import cybersecurity from "$lib/assets/icons/cybersecurity.svg?raw";
+  import systems from "$lib/assets/icons/systems-prog.svg?raw";
+  import web from "$lib/assets/icons/web.svg?raw";
+  import electronic from "$lib/assets/icons/electronic.svg?raw";
   import linkedin from "$lib/assets/icons/linkedin.svg?raw";
   import github from "$lib/assets/icons/github.svg?raw";
   import linked_chain from "$lib/assets/icons/linked-chain.svg?raw";
 
   const chocoareas = [
-    { text: "Electrónica" },
-    { text: "Seguridad" },
-    { text: "Desarrollo web y móvil" },
-    { text: "Programación de sistemas" },
+    { text: "Electrónica", icon: electronic },
+    { text: "Seguridad", icon: cybersecurity },
+    { text: "Desarrollo web y móvil", icon: web },
+    { text: "Programación de sistemas", icon: systems },
   ];
 
   const chocobenefits = [
-    { text: "Eventos", subtext: "" },
-    { text: "Talleres", subtext: "" },
-    { text: "Amigos", subtext: "(No Garantizado)" },
+    { text: "Eventos", subtext: "", icon: events },
+    { text: "Talleres", subtext: "", icon: workshop },
+    { text: "Amigos", subtext: "(No Garantizado)", icon: friends },
   ];
 
   type ChocoMembers = {
@@ -101,7 +108,8 @@
   <ul class="grid grid-cols-1 content-center gap-8 sm:grid-cols-2 md:col-span-2">
     {#each chocoareas as area}
       <li class="flex items-center gap-4 overflow-hidden text-lg font-semibold text-zinc-50">
-        <div class="aspect-square w-16 flex-shrink-0 bg-green-kokoa-500" />
+        <Icon data={area.icon} fill="green-kokoa-500" width="80" height="80" aria-hidden="true" />
+
         <span>{area.text}</span>
       </li>
     {/each}
@@ -112,7 +120,13 @@
   <div class="mt-16 grid grid-cols-1 justify-items-center gap-8 md:grid-cols-3">
     {#each chocobenefits as benefit}
       <article class="text-center">
-        <div class="mx-auto aspect-[4/5] w-32 bg-zinc-500" />
+        <Icon
+          data={benefit.icon}
+          fill="green-kokoa-500"
+          width="80"
+          height="80"
+          aria-hidden="true"
+        />
         <h3 class="mt-2 text-xl font-semibold text-zinc-50">{benefit.text}</h3>
         <p>{benefit.subtext}</p>
       </article>
@@ -165,6 +179,7 @@
     {/each}
   </ul>
 </ChocoSection>
+<div class="absolute " />
 <div class="bg-green-kokoa-500">
   <ChocoSection class="py-32">
     <div class="lg:flex lg:items-center lg:justify-between lg:px-10">

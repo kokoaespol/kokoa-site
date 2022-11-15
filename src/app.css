@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .text-shadow-kokoa {
+    text-shadow: 0 0 2px #6dd743, 0 0 5px #6dd743;
+  }
+
+  .text-shadow-white {
+    text-shadow: -1px -1px 6px rgba(255, 215, 77, 0.6), 1px 1px 6px rgba(124, 127, 255, 0.6);
+  }
+}
+
+::selection {
+  color: #00363b;
+  background: #99ff99;
+}

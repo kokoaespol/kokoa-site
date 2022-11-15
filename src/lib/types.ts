@@ -17,7 +17,7 @@ export type Image = {
   large_file: ImageFile;
 };
 
-export type Author = {
+export type Member = {
   id: string;
   username: string;
   full_name?: string;
@@ -37,10 +37,27 @@ export type Post = {
   slug: string;
   description: string;
   content: string;
-  author: Author;
+  Member: Member;
   cover_image: Image;
   og_image: Image;
   published_at: string;
   updated_at: string;
   tags: Tag[];
+};
+
+export type Project = {
+  id: string;
+  title: string;
+  short_description: string;
+  slug: string;
+  description: string;
+  project_image: Image;
+  og_image: Image;
+  tags: Tag[];
+  published_at: string;
+  updated_at: string;
+  skills: string[];
+
+  team_lead: Member[];
+  contributors: Member[];
 };
