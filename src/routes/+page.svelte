@@ -1,5 +1,4 @@
 <script lang="ts">
-  import Chocomision from "./Chocomision.svelte";
   import ChocoSection from "./ChocoSection.svelte";
   import HeroSection from "./HeroSection.svelte";
   import SectionH2 from "./SectionH2.svelte";
