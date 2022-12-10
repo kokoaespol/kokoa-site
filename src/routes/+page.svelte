@@ -96,7 +96,7 @@
       </p>
     </div>
     <div class="mx-auto aspect-[4/5] w-80">
-      <img src={chocoimagen} alt="Chocomision" />
+      <Icon data={chocoimagen} width="300" height="400" aria-hidden="true" />
     </div>
   </div>
 </ChocoSection>
@@ -109,7 +109,14 @@
   <ul class="grid grid-cols-1 content-center gap-8 sm:grid-cols-2 md:col-span-2">
     {#each chocoareas as area}
       <li class="flex items-center gap-4 overflow-hidden text-lg font-semibold text-zinc-50">
-        <Icon data={area.icon} fill="green-kokoa-500" width="80" height="80" aria-hidden="true" />
+        <Icon
+          class="gap-4 overflow-hidden md:mx-auto md:flex md:items-center"
+          data={area.icon}
+          fill="green-kokoa-500"
+          width="80"
+          height="80"
+          aria-hidden="true"
+        />
 
         <span>{area.text}</span>
       </li>
@@ -118,10 +125,18 @@
 </ChocoSection>
 <ChocoSection>
   <SectionH2>Choco<wbr />beneficios</SectionH2>
-  <div class="mt-16 grid grid-cols-1 justify-items-center gap-8 md:grid-cols-3">
+  <div class="mt-16 items-center gap-8 sm:grid-cols-2 md:grid md:grid-cols-3">
     {#each chocobenefits as benefit}
-      <article class="text-center">
-        <Icon data={benefit.icon} fill="#6DD743" width="80" height="80" aria-hidden="true" />
+      <article class="flex items-center md:grid-cols-1 md:text-center ">
+        <Icon
+          class="gap-4 overflow-hidden md:mx-auto md:flex md:items-center"
+          data={benefit.icon}
+          fill="green-kokoa-500"
+          width="120"
+          height="120"
+          aria-hidden="true"
+        />
+
         <h3 class="mt-2 text-xl font-semibold text-zinc-50">{benefit.text}</h3>
         <p>{benefit.subtext}</p>
       </article>

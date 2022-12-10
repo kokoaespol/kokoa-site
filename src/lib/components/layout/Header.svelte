@@ -6,9 +6,7 @@
   import x from "$lib/assets/icons/x.svg?raw";
   import ButtonPrimary from "$lib/components/ButtonPrimary.svelte";
   import { page } from "$app/stores";
-  import choconavimg from "$lib/assets/logos/kokoa.svg?raw";
-
-  console.log($page.url.pathname);
+  import choconavimg from "$lib/assets/logos/kokoa-nav.svg?raw";
 
   const navigation = [
     { text: "Home", url: "/" },
@@ -24,7 +22,7 @@
     <div class="flex justify-start lg:w-0 lg:flex-1">
       <a href="/">
         <span class="sr-only">Kokoa</span>
-        <img class="h-8 w-auto sm:h-10" src="choconavimg" alt="" />
+        <Icon data={choconavimg} aria-hidden="true" height="40" width="40" />
       </a>
     </div>
     <div class="-my-2 -mr-2 md:hidden">
