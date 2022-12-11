@@ -4,6 +4,8 @@
   import instagram from "$lib/assets/icons/instagram.svg?raw";
   import twitter from "$lib/assets/icons/twitter.svg?raw";
   import github from "$lib/assets/icons/github.svg?raw";
+  import chocomascot from "$lib/assets/logos/mascota.svg?raw";
+
   import Icon from "../Icon.svelte";
   const navigation = {
     social: [
@@ -33,9 +35,12 @@
 
 <footer aria-labelledby="footer-heading">
   <h2 id="footer-heading" class="sr-only">Pié de página</h2>
-  <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-    <div class="pb-8 xl:grid xl:grid-cols-5 xl:gap-8">
-      <div class="mt-12 xl:mt-0">
+  <div class="absolute z-10 hidden items-center justify-center sm:mt-8 md:flex">
+    <Icon data={chocomascot} width="350" height="450" />
+  </div>
+  <div class="z-0 mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+    <div class=" pb-8 ">
+      <div class="mt-12 md:flex md:flex-col md:items-end xl:mt-0">
         <h3 class="text-sm font-semibold uppercase tracking-wider text-zinc-400">Idioma</h3>
         <form class="mt-4 sm:max-w-xs">
           <fieldset class="w-full">
@@ -57,12 +62,16 @@
         </form>
       </div>
     </div>
-    <div class="border-t border-zinc-700 pt-8 lg:flex lg:items-center lg:justify-between xl:mt-0">
-      <div>
-        <h3 class="text-sm font-semibold uppercase tracking-wider text-zinc-400">
+    <div
+      class="border-t border-zinc-700 pt-8 md:flex md:flex-col md:items-end md:justify-end xl:mt-0"
+    >
+      <div class="items-end">
+        <h3 class="text-sm font-semibold uppercase tracking-wider text-zinc-400 md:text-right">
           Subscríbete a nuestro boletín
         </h3>
-        <p class="mt-2 text-base text-zinc-300">Conoce las noticias más recientes de Kokoa</p>
+        <p class="my-2 text-base text-zinc-300 md:text-right">
+          Conoce las noticias más recientes de Kokoa
+        </p>
       </div>
       <form class="mt-4 sm:flex sm:max-w-md lg:mt-0">
         <label for="email-address" class="sr-only">Correo</label>
@@ -85,8 +94,13 @@
         </div>
       </form>
     </div>
-    <div class="mt-8 border-t border-zinc-700 pt-8 md:flex md:items-center md:justify-between">
-      <div class="flex space-x-6 md:order-2">
+    <div
+      class="mt-8 border-t border-zinc-700 pt-8 md:flex md:flex-col md:items-end md:justify-between"
+    >
+      <p class="mt-8 text-base text-zinc-400 md:order-1 md:mt-0">
+        &copy; 2022 Kokoa. All rights reserved.
+      </p>
+      <div class="mt-2 flex space-x-6 md:order-2">
         {#each navigation.social as item (item.name)}
           <a href={item.url} class="text-zinc-400 hover:text-green-kokoa-500">
             <span class="sr-only">{item.name}</span>
@@ -94,9 +108,6 @@
           </a>
         {/each}
       </div>
-      <p class="mt-8 text-base text-zinc-400 md:order-1 md:mt-0">
-        &copy; 2022 Kokoa. All rights reserved.
-      </p>
     </div>
   </div>
 </footer>

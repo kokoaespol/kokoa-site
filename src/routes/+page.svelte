@@ -41,46 +41,43 @@
     {
       name: "Alexander Goussas",
       role: "Core Planificación",
-      image_url: "",
-      github_url: "#",
-      linkedin_url: "#",
-      personal_page_url: "#",
+      image_url: "https://avatars.githubusercontent.com/u/84427521?v=4",
+      github_url: "https://github.com/aloussase",
+      linkedin_url: "https://www.linkedin.com/in/alexander-goussas-9895a3226/",
     },
-    {
-      name: "Joangie Márquez",
-      role: "Core Proyectos",
-      image_url: "",
-      github_url: "#",
-      linkedin_url: "#",
-      personal_page_url: "#",
-    },
+
     {
       name: "Alina Carpio",
       role: "Core Difusión",
-      image_url: "",
-      github_url: "#",
-      linkedin_url: "#",
+      image_url: "https://avatars.githubusercontent.com/u/72272077?v=4",
+      github_url: "https://github.com/alicarpio",
+      linkedin_url: "https://www.linkedin.com/in/alina-carpio-758bb220b/",
     },
     {
       name: "Andrea Mero",
       role: "Core Soporte",
-      image_url: "",
-      github_url: "#",
-      linkedin_url: "#",
+      image_url: "https://avatars.githubusercontent.com/u/9570683?v=4",
+      github_url: "https://github.com/adelovelace",
+      linkedin_url: "https://www.linkedin.com/in/andrea-adelina-mero-plaza-522011b0/",
+    },
+    {
+      name: "Joangie Márquez",
+      role: "Core Proyectos",
+      image_url: "https://avatars.githubusercontent.com/u/59121896?v=4",
+      github_url: "https://github.com/practicatto",
     },
     {
       name: "Axcel Espinoza ",
       role: "Líder Electrónica",
-      image_url: "",
-      github_url: "#",
-      linkedin_url: "#",
+      image_url: "https://avatars.githubusercontent.com/u/62627084?v=4",
+      github_url: "https://github.com/Axcel17",
+      linkedin_url: "https://www.linkedin.com/in/axcelespinoza/",
     },
     {
       name: "Adrián Delgado",
       role: "Líder Seguridad",
-      image_url: "",
-      github_url: "#",
-      linkedin_url: "#",
+      image_url: "https://avatars.githubusercontent.com/u/11708972?v=4",
+      github_url: "https://github.com/adriandelgado",
     },
   ];
 </script>
@@ -109,14 +106,7 @@
   <ul class="grid grid-cols-1 content-center gap-8 sm:grid-cols-2 md:col-span-2">
     {#each chocoareas as area}
       <li class="flex items-center gap-4 overflow-hidden text-lg font-semibold text-zinc-50">
-        <Icon
-          class="gap-4 overflow-hidden md:mx-auto md:flex md:items-center"
-          data={area.icon}
-          fill="green-kokoa-500"
-          width="80"
-          height="80"
-          aria-hidden="true"
-        />
+        <Icon data={area.icon} fill="green-kokoa-500" width="80" height="80" aria-hidden="true" />
 
         <span>{area.text}</span>
       </li>
@@ -125,11 +115,11 @@
 </ChocoSection>
 <ChocoSection>
   <SectionH2>Choco<wbr />beneficios</SectionH2>
-  <div class="mt-16 items-center gap-8 sm:grid-cols-2 md:grid md:grid-cols-3">
+  <ul class="col-span-2 grid grid-cols-1 content-center gap-2 sm:grid-cols-3 md:col-span-1">
     {#each chocobenefits as benefit}
-      <article class="flex items-center md:grid-cols-1 md:text-center ">
+      <li class="mt-4 flex items-center overflow-hidden sm:flex-col">
         <Icon
-          class="gap-4 overflow-hidden md:mx-auto md:flex md:items-center"
+          class="flex items-center md:mx-auto md:items-center"
           data={benefit.icon}
           fill="green-kokoa-500"
           width="120"
@@ -137,11 +127,11 @@
           aria-hidden="true"
         />
 
-        <h3 class="mt-2 text-xl font-semibold text-zinc-50">{benefit.text}</h3>
-        <p>{benefit.subtext}</p>
-      </article>
+        <h3 class="mt-2 text-xl font-semibold text-zinc-50 md:text-center">{benefit.text}</h3>
+        <p class="md:text-center">{benefit.subtext}</p>
+      </li>
     {/each}
-  </div>
+  </ul>
 </ChocoSection>
 <ChocoSection>
   <SectionH2>Choco<wbr />líderes</SectionH2>
@@ -151,7 +141,11 @@
     {#each chocomembers as member}
       <li>
         <div class="space-y-6">
-          <div class="mx-auto h-40 w-40 rounded-full bg-zinc-500 xl:h-56 xl:w-56" />
+          <img
+            class="mx-auto h-40 w-40 rounded-full xl:h-56 xl:w-56"
+            src={member.image_url}
+            alt="foto de {member.name}"
+          />
           <div class="space-y-2">
             <div class="space-y-1 text-lg font-medium leading-6">
               <h3 class="text-zinc-50">{member.name}</h3>

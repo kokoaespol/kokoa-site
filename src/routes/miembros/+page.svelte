@@ -10,7 +10,7 @@
     {
       name: "Alina Carpio",
       position: "Miembro Activo",
-      image: "",
+      image: "https://avatars.githubusercontent.com/u/72272077?v=4",
     },
 
     {
