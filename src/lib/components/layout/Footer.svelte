@@ -4,7 +4,7 @@
   import instagram from "$lib/assets/icons/instagram.svg?raw";
   import twitter from "$lib/assets/icons/twitter.svg?raw";
   import github from "$lib/assets/icons/github.svg?raw";
-  import chocomascot from "$lib/assets/logos/mascota.svg?raw";
+  import chocomascot from "$lib/assets/logos/mascota.svg";
 
   import Icon from "../Icon.svelte";
   const navigation = {
@@ -36,7 +36,7 @@
 <footer aria-labelledby="footer-heading">
   <h2 id="footer-heading" class="sr-only">Pié de página</h2>
   <div class="absolute z-10 hidden items-center justify-center sm:mt-8 md:flex">
-    <Icon data={chocomascot} width="350" height="450" />
+    <img src={chocomascot} alt="mascota de kokoa" width="350" height="450" />
   </div>
   <div class="z-0 mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
     <div class=" pb-8 ">

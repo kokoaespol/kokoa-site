@@ -13,7 +13,7 @@
   import linkedin from "$lib/assets/icons/linkedin.svg?raw";
   import github from "$lib/assets/icons/github.svg?raw";
   import linked_chain from "$lib/assets/icons/linked-chain.svg?raw";
-  import chocoimagen from "$lib/assets/logos/kokoa.svg?raw";
+  import chocoimagen from "$lib/assets/logos/kokoa.svg";
 
   const chocoareas = [
     { text: "Electrónica", icon: electronic },
@@ -93,7 +93,7 @@
       </p>
     </div>
     <div class="mx-auto aspect-[4/5] w-80">
-      <Icon data={chocoimagen} width="300" height="400" aria-hidden="true" />
+      <img src={chocoimagen} alt="logo de kokoa" width="300" height="400" />
     </div>
   </div>
 </ChocoSection>
@@ -183,7 +183,7 @@
     {/each}
   </ul>
 </ChocoSection>
-<div class="absolute " />
+
 <div class="bg-green-kokoa-500">
   <ChocoSection class="py-32">
     <div class="lg:flex lg:items-center lg:justify-between lg:px-10">
