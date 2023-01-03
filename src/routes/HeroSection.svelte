@@ -22,3 +22,13 @@
     <div class="absolute inset-0 h-full w-full bg-zinc-500 object-cover lg:rounded-r-[3rem]" />
   </div>
 </section>
+
+<style>
+  .text-shadow-white {
+    text-shadow: -1px -1px 6px rgba(255, 215, 77, 0.6), 1px 1px 6px rgba(124, 127, 255, 0.6);
+  }
+
+  .text-shadow-kokoa {
+    text-shadow: 0 0 2px #6dd743, 0 0 5px #6dd743;
+  }
+</style>
