@@ -1,5 +1,6 @@
 <script lang="ts">
   import SectionHeader from "$lib/components/SectionHeader.svelte";
+  import tumbleweed from "$lib/assets/gif/tumbleweed.gif";
   import type { PageData } from "./$types";
   export let data: PageData;
 </script>
@@ -12,6 +13,6 @@
   {/each}
 {:else}
   <div class="flex justify-center">
-    <img class="mt-4" src="src/lib/assets/gif/tumbleweed.gif" alt="no posts here" />
+    <img class="mt-4" src={tumbleweed} alt="no posts here" />
   </div>
 {/if}
