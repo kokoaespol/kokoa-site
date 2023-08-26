@@ -1,16 +1,18 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="es" class="dark antialiased">
   <head>
     <meta charset="utf-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="%sveltekit.assets%/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="%sveltekit.assets%/favicon-16x16.png" />
     <meta name="viewport" content="width=device-width" />
+    <!-- <link rel="alternate" type="application/rss+xml" href="" />
+    <link rel="alternate" type="application/feed+json" href="" /> -->
+    <!-- <meta name="theme-color" content="#344D99" /> -->
+    <!-- <meta property="og:site_name" content="Kokoa" /> -->
     <link rel="icon" href="%sveltekit.assets%/favicon.png" />
     %sveltekit.head%
   </head>
-  <body data-sveltekit-preload-data="hover">
-    <div
-      class="flex min-h-screen flex-col bg-zinc-900 text-zinc-50 selection:bg-[#99ff99] selection:text-gray-800"
-    >
-      %sveltekit.body%
-    </div>
+  <body data-sveltekit-preload-data="hover" data-theme="kokoa-extra">
+    <div style="display: contents">%sveltekit.body%</div>
   </body>
 </html>
