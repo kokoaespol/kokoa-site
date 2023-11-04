@@ -1,10 +1,10 @@
 <script lang="ts">
-  import chevron_down from "$lib/assets/icons/chevron-down.svg?raw";
+  //   import chevron_down from "$lib/assets/icons/chevron-down.svg?raw";
   import facebook from "$lib/assets/icons/facebook.svg?raw";
   import instagram from "$lib/assets/icons/instagram.svg?raw";
   import twitter from "$lib/assets/icons/twitter.svg?raw";
   import github from "$lib/assets/icons/github.svg?raw";
-  import chocomascot from "$lib/assets/logos/mascota.svg";
+  //   import chocomascot from "$lib/assets/logos/mascota.svg";
 
   import Icon from "../Icon.svelte";
   const navigation = {

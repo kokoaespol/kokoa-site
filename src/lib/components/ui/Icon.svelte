@@ -20,5 +20,6 @@
 </script>
 
 <svg xmlns="http://www.w3.org/2000/svg" {width} {height} {viewBox} {stroke} {fill} {...$$restProps}>
+  <!-- eslint-disable-next-line svelte/no-at-html-tags -->
   {@html elements}
 </svg>
