@@ -15,9 +15,8 @@ const config = {
     alias: {
       $components: "./src/lib/components",
       $lib: "./src/lib",
-     
     },
-    
+
     // TODO: add prerender
     // prerender: {
     //   origin: "",
