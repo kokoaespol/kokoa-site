@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" fill="none" viewBox="0 0 120 120">
-  <path
-    fill="#6dd743"
-    d="M105 10H15C9.5 10 5 14.5 5 20v80c0 5.5 4.5 10 10 10h90c5.5 0 10-4.5 10-10V20c0-5.5-4.5-10-10-10Zm0 90H15V30h90v70ZM30 40v50h20V80H40V50h10V40H30Zm50 40H70v10h20V40H70v10h10v30Z"
-  />
-</svg>

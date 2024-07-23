@@ -1,9 +1,24 @@
 // See https://kit.svelte.dev/docs/types#app
 // for information about these interfaces
-// and what to do when importing types
-declare namespace App {
-  // interface Error {}
-  // interface Locals {}
-  // interface PageData {}
-  // interface Platform {}
+declare global {
+	namespace App {
+		interface Error {
+			status?: string;
+		}
+		// interface Locals {}
+		interface PageData {
+			title: string;
+			description: string;
+		}
+		// interface PageState {}
+		// interface Platform {}
+		namespace Superforms {
+			type Message = {
+				type: "error" | "success";
+				text: string;
+			};
+		}
+	}
 }
+
+export {};
