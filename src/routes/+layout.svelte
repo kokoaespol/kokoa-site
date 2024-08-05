@@ -2,7 +2,8 @@
 	import "../app.postcss";
 	import { Toaster } from "svelte-sonner";
 	import { page } from "$app/stores";
-	import Navbar from "./components/Navbar.svelte";
+	import Navbar from "$lib/components/layout/Navbar.svelte";
+
 	let { children } = $props();
 </script>
 
@@ -12,6 +13,5 @@
 </svelte:head>
 
 <Navbar />
-
-<Toaster richColors closeButton />
 {@render children()}
+<Toaster richColors closeButton />
