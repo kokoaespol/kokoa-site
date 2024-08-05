@@ -1,0 +1,25 @@
+{
+	"projects": [
+		{
+			"term": "2024-1s",
+			"name": "Polipromedios",
+			"category": "web",
+			"description": "Descripción de un proyecto super genial, muy, muy, muy pero muy genial.",
+			"authors": ["Person 1", "Person 2"]
+		},
+		{
+			"term": "2024-1s",
+			"name": "Polipromedios",
+			"category": "web",
+			"description": "Descripción de un proyecto super genial, muy, muy, muy pero muy genial.",
+			"authors": ["Person 1", "Person 2"]
+		},
+		{
+			"term": "2024-1s",
+			"name": "Polipromedios",
+			"category": "web",
+			"description": "Descripción de un proyecto super genial, muy, muy, muy pero muy genial.",
+			"authors": ["Person 1", "Person 2"]
+		}
+	]
+}

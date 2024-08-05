@@ -6,7 +6,11 @@ export default {
 	darkMode: ["class"],
 	content: ["./src/**/*.{html,js,svelte,ts}"],
 	theme: {
-		extend: {},
+		extend: {
+			fontFamily: {
+				fira: ["Fira Code", "mono-space"],
+			},
+		},
 	},
 	plugins: [forms({ strategy: "class" }), typography],
 } satisfies Config;
