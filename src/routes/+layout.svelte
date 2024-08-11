@@ -3,6 +3,7 @@
 	import { Toaster } from "svelte-sonner";
 	import { page } from "$app/stores";
 	import Navbar from "$lib/components/layout/Navbar.svelte";
+	import Footer from "$lib/components/Footer.svelte";
 
 	let { children } = $props();
 </script>
@@ -14,4 +15,5 @@
 
 <Navbar />
 {@render children()}
+<Footer />
 <Toaster richColors closeButton />
