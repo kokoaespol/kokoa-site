@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Heading from "$lib/components/layout/Heading.svelte";
 	import Project from "$lib/components/Project.svelte";
-  
 	let { data } = $props();
 </script>
 
@@ -9,7 +8,7 @@
 	<title>Proyectos | KOKOA</title>
 </svelte:head>
 
-<Heading title="PROYECTOS" />
+<Heading>PROYECTOS</Heading>
 
 <div class="p-8">
 	<p class="font-fira font-medium">

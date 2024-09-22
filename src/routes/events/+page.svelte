@@ -5,8 +5,9 @@
 	let { data } = $props();
 </script>
 
-<Heading title="EVENTOS" />
-<div class="flex flex-col items-center px-8">
+<Heading>EVENTOS</Heading>
+
+<div class="flex flex-col items-center px-8 md:flex-row md:items-start">
 	{#each data.events as event}
 		<Event
 			name={event.name}

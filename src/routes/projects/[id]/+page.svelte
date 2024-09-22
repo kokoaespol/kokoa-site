@@ -2,9 +2,18 @@
 	import MemberAvatar from "$lib/components/MemberAvatar.svelte";
 	import Tag from "$lib/components/Tag.svelte";
 	import { Dot, Github, Smartphone, Globe } from "lucide-svelte";
+	import Heading from "$lib/components/layout/Heading.svelte";
 
 	export let data;
 </script>
+
+<Heading>
+	PROYECTOS
+	<span class="bg-gradient-to-r from-black to-gray-700 bg-clip-text text-[3rem] text-transparent">
+		{">"}
+	</span>
+	{data.project.name}
+</Heading>
 
 <div class="p-8">
 	<div class="mb-10">
