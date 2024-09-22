@@ -1,13 +1,16 @@
 <script lang="ts">
 	import Hero from "./Hero.svelte";
+	import Chocomision from "./Chocomision.svelte";
+
 	import Title from "$lib/components/Title.svelte";
 	import Event from "$lib/components/HomeEvent.svelte";
 
 	let { data } = $props();
 </script>
 
-<main class="px-8">
+<main class="px-8 md:mx-20 lg:mx-20">
 	<Hero />
+	<Chocomision />
 	<section class="my-8">
 		<Title title="Chocoeventos" />
 		<div class="flex flex-col items-center px-8">
