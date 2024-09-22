@@ -1,25 +1,52 @@
 {
 	"projects": [
 		{
+			"id": 1,
 			"term": "2024-1s",
-			"name": "Polipromedios",
-			"category": "web",
-			"description": "Descripción de un proyecto super genial, muy, muy, muy pero muy genial.",
-			"authors": ["Person 1", "Person 2"]
+			"name": "Kokoa Trivia",
+			"categories": ["web", "mobile", "electronic"],
+			"description": "Una app móvil donde puedes responder preguntas acerca de software libre.",
+			"purpose": "El objetivo es promover conocimiento acerca del software libre de una manera didáctica.",
+			"how": "Elaboramos una API REST con .NET que expone operaciones CRUD sobre la base de datos de la trivia. Luego, creamos un panel de administración protegido por el Keycloak del club para poder crear los temas y preguntas. Finalmente, creamos dos clientes: una aplicación móvil y un programa en Arduino para que los usuarios puedan realizar las pruebas.",
+			"github_url": "https://github.com/kokoaespol/Kokoa.Trivia",
+			"apk_url": "/artifacts/trivia.apk",
+			"web_url": null,
+			"authors": [
+				{
+					"name": "Alexander Goussas",
+					"url_image": "https://avatars.githubusercontent.com/u/84427521?v=4"
+				},
+				{
+					"name": "Daniel Cortez",
+					"url_image": "https://avatars.githubusercontent.com/u/98861990?v=4"
+				},
+				{
+					"name": "Michael Estrada",
+					"url_image": "https://avatars.githubusercontent.com/u/98861990?v=4"
+				}
+			]
 		},
 		{
+			"id": 2,
 			"term": "2024-1s",
-			"name": "Polipromedios",
-			"category": "web",
-			"description": "Descripción de un proyecto super genial, muy, muy, muy pero muy genial.",
-			"authors": ["Person 1", "Person 2"]
-		},
-		{
-			"term": "2024-1s",
-			"name": "Polipromedios",
-			"category": "web",
-			"description": "Descripción de un proyecto super genial, muy, muy, muy pero muy genial.",
-			"authors": ["Person 1", "Person 2"]
+			"name": "Amigos con Cola",
+			"categories": ["web", "mobile"],
+			"description": "Un sistema para una fundación de animales que permite a los administradores manejar animales, inventario y donaciones.",
+			"purpose": "El objetivo de este sistema es apoyar las labores administrativas del refugio Amigos con Cola.",
+			"how": "El sistema consta de una API REST escrita en .NET 8, un panel administrativo escrito con Vue.js, y una aplicación móvil para Android.",
+			"github_url": "https://github.com/amigos-con-cola/",
+			"apk_url": null,
+			"web_url": null,
+			"authors": [
+				{
+					"name": "Alexander Goussas",
+					"url_image": "https://avatars.githubusercontent.com/u/84427521?v=4"
+				},
+				{
+					"name": "Alina Carpio",
+					"url_image": "https://avatars.githubusercontent.com/u/72272077?v=4"
+				}
+			]
 		}
 	]
 }
