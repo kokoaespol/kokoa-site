@@ -17,6 +17,9 @@ importers:
       formsnap:
         specifier: ^1.0.1
         version: 1.0.1(svelte@5.0.0-next.228)(sveltekit-superforms@2.17.0(@sveltejs/kit@2.5.24(@sveltejs/vite-plugin-svelte@4.0.0-next.6(svelte@5.0.0-next.228)(vite@5.4.2(@types/node@22.4.1)))(svelte@5.0.0-next.228)(vite@5.4.2(@types/node@22.4.1)))(svelte@5.0.0-next.228))
+      lucide:
+        specifier: ^0.445.0
+        version: 0.445.0
       lucide-svelte:
         specifier: ^0.428.0
         version: 0.428.0(svelte@5.0.0-next.228)
@@ -1529,6 +1532,9 @@ packages:
     resolution: {integrity: sha512-XiwnbKEwPiwbYfhPRASbIuGwF9zqaSbQahpNFNLNpIsZ/Wi8nimpkqq28pb3U6EqBOsFrcRtcrMO5CNN8dGr8Q==}
     peerDependencies:
       svelte: ^3 || ^4 || ^5.0.0-next.42
+
+  lucide@0.445.0:
+    resolution: {integrity: sha512-Xkaf7xwXnx2DQj6dHAAnEsL8LI0iSeqh1ObVr6CTw9eYLpRchfXHzB+VL6qypqAy18jZmCY1bu4U652dCTHC3Q==}
 
   magic-string@0.25.9:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
@@ -3636,6 +3642,8 @@ snapshots:
   lucide-svelte@0.428.0(svelte@5.0.0-next.228):
     dependencies:
       svelte: 5.0.0-next.228
+
+  lucide@0.445.0: {}
 
   magic-string@0.25.9:
     dependencies:

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Hero from "./Hero.svelte";
+	import Chocoareas from "./Chocoareas.svelte";
 	import Chocomision from "./Chocomision.svelte";
 
 	import Title from "$lib/components/Title.svelte";
@@ -11,6 +12,7 @@
 <main class="px-8 md:mx-20 lg:mx-20">
 	<Hero />
 	<Chocomision />
+	<Chocoareas />
 	<section class="my-8">
 		<Title title="Chocoeventos" />
 		<div class="flex flex-col items-center px-8">
