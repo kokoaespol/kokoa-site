@@ -30,5 +30,5 @@
 			</button>
 		</div>
 	</section>
-  <Members_home />
+	<Members_home />
 </main>

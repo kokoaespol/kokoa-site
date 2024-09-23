@@ -1,5 +1,5 @@
 import type { PageLoad } from "./$types";
-import members from "$lib/data/members.json"
+import members from "$lib/data/members.json";
 export const load = (async () => {
 	return {
 		title: "Chocomiembros",
