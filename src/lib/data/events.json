@@ -1,28 +1,12 @@
 {
 	"events": [
 		{
-			"name": "Rust 101",
-			"description": "Un taller de introducción al lenguaje de programación que te convertirá en un gei",
-			"date": "15/08/2024",
-			"time": "11:00 - 12:00",
-			"place": "Lab Fiec 12A, ESPOL",
-			"category": "Taller"
-		},
-		{
-			"name": "Rust 101",
-			"description": "Un taller de introducción al lenguaje de programación que te convertirá en un gei",
-			"date": "15/08/2024",
-			"time": "11:00 - 12:00",
-			"place": "Lab Fiec 12A, ESPOL",
-			"category": "Taller"
-		},
-		{
-			"name": "Rust 101",
-			"description": "Un taller de introducción al lenguaje de programación que te convertirá en un gei",
-			"date": "15/08/2024",
-			"time": "11:00 - 12:00",
-			"place": "Lab Fiec 12A, ESPOL",
-			"category": "Taller"
+			"name": "Hacktoberfest",
+			"description": "Un evento para celebrar el código abierto.",
+			"date": "15/10/2024",
+			"time": "Todo el dia",
+			"place": "Universidad Católica",
+			"category": "Hackathon"
 		}
 	]
 }
