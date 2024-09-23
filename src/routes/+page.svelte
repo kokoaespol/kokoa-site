@@ -1,8 +1,8 @@
 <script lang="ts">
 	import Hero from "./Hero.svelte";
+	import Members_home from "$lib/components/Members_home.svelte";
 	import Chocoareas from "./Chocoareas.svelte";
 	import Chocomision from "./Chocomision.svelte";
-
 	import Title from "$lib/components/Title.svelte";
 	import Event from "$lib/components/HomeEvent.svelte";
 
@@ -30,4 +30,5 @@
 			</button>
 		</div>
 	</section>
+  <Members_home />
 </main>

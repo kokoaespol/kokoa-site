@@ -1,0 +1,84 @@
+[
+    {
+      "name": "Alina Carpio",
+      "role": "Presidente",
+      "photo": "https://avatars.githubusercontent.com/u/72272077?v=4",
+      "directiva": "si",
+      "socialMedia": [
+        { "nombre": "github", "link": "https://github.com/alicarpio" }
+      ]
+    },
+    {
+      "name": "Melissa Ayllon",
+      "role": "Vicepresidente",
+      "photo": "https://avatars.githubusercontent.com/u/116417470?v=4",
+      "directiva": "si",
+      "socialMedia": [
+        { "nombre": "github", "link": "https://github.com/MelissaAyllon" }
+      ]
+    },
+    {
+      "name": "Michael Estrada",
+      "role": "Secretario",
+      "photo": "https://avatars.githubusercontent.com/u/98861990?v=4",
+      "directiva": "si",
+      "socialMedia": [
+        { "nombre": "github", "link": "https://github.com/BryanEstrada003" }
+      ]
+    },
+    {
+      "name": "Adrian Delgado",
+      "role": "Miembro",
+      "photo": "https://avatars.githubusercontent.com/u/11708972?v=4",
+      "directiva": "no",
+      "socialMedia": [
+        { "nombre": "github", "link": "https://github.com/adriandelgado" }
+      ]
+    },
+    {
+      "name": "Braulio Rivas",
+      "role": "Miembro",
+      "photo": "https://avatars.githubusercontent.com/u/61257604?v=4",
+      "directiva": "no",
+      "socialMedia": [
+        { "nombre": "github", "link": "https://github.com/brauliorivas" }
+      ]
+    },
+    {
+      "name": "Daniel Cortez",
+      "role": "Miembro",
+      "photo": "https://avatars.githubusercontent.com/u/112514991?v=4",
+      "directiva": "no",
+      "socialMedia": [
+        { "nombre": "github", "link": "https://github.com/DanRCM" }
+      ]
+    },
+    {
+      "name": "Adair Abrigo",
+      "role": "Miembro",
+      "photo": "https://avatars.githubusercontent.com/u/93391519?v=4",
+      "directiva": "no",
+      "socialMedia": [
+        { "nombre": "github", "link": "https://github.com/adairaxe" }
+      ]
+    },
+    {
+      "name": "Anthony Herrera",
+      "role": "Miembro",
+      "photo": "https://avatars.githubusercontent.com/u/137233273?v=4",
+      "directiva": "no",
+      "socialMedia": [
+        { "nombre": "github", "link": "https://github.com/AnthonyyHL" }
+      ]
+    },
+    {
+      "name": "John Cañarte",
+      "role": "Miembro",
+      "photo": "https://avatars.githubusercontent.com/u/70679514?v=4",
+      "directiva": "no",
+      "socialMedia": [
+        { "nombre": "github", "link": "https://github.com/Jecanart" }
+      ]
+    }
+  ]
+  
