@@ -58,12 +58,14 @@
 		height: 150px;
 		margin-bottom: 2%;
 	}
+
 	.nav-background {
 		background-image: url("$lib/assets/forms/line.svg");
 		background-repeat: no-repeat;
 		top: 20px;
 		background-size: 97% auto;
 	}
+
 	.links {
 		margin-right: 70px;
 	}
@@ -101,6 +103,7 @@
 		nav img {
 			margin-bottom: 5rem;
 		}
+
 		.links.open {
 			display: flex; /* Mostrar el menú cuando esté abierto */
 		}

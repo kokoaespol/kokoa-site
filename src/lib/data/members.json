@@ -4,62 +4,187 @@
 		"role": "Presidente",
 		"photo": "https://avatars.githubusercontent.com/u/72272077?v=4",
 		"directiva": "si",
-		"socialMedia": [{ "nombre": "github", "link": "https://github.com/alicarpio" }]
+		"socialMedia": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/alicarpio"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/alina-carpio/"
+			}
+		]
 	},
 	{
 		"name": "Melissa Ayllon",
 		"role": "Vicepresidente",
 		"photo": "https://avatars.githubusercontent.com/u/116417470?v=4",
 		"directiva": "si",
-		"socialMedia": [{ "nombre": "github", "link": "https://github.com/MelissaAyllon" }]
+		"socialMedia": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/MelissaAyllon"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/melissa-ayllon-193558221/"
+			}
+		]
 	},
 	{
 		"name": "Michael Estrada",
 		"role": "Secretario",
 		"photo": "https://avatars.githubusercontent.com/u/98861990?v=4",
 		"directiva": "si",
-		"socialMedia": [{ "nombre": "github", "link": "https://github.com/BryanEstrada003" }]
+		"socialMedia": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/BryanEstrada003"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/maiestrada/"
+			}
+		]
+	},
+	{
+		"name": "Alexander Goussas",
+		"role": "Miembro",
+		"photo": "https://avatars.githubusercontent.com/u/84427521?v=4",
+		"directiva": "no",
+		"socialMedia": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/aloussase/"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/alexander-goussas/"
+			}
+		]
 	},
 	{
 		"name": "Adrian Delgado",
 		"role": "Miembro",
 		"photo": "https://avatars.githubusercontent.com/u/11708972?v=4",
 		"directiva": "no",
-		"socialMedia": [{ "nombre": "github", "link": "https://github.com/adriandelgado" }]
+		"socialMedia": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/adriandelgado"
+			}
+		]
 	},
 	{
 		"name": "Braulio Rivas",
 		"role": "Miembro",
 		"photo": "https://avatars.githubusercontent.com/u/61257604?v=4",
 		"directiva": "no",
-		"socialMedia": [{ "nombre": "github", "link": "https://github.com/brauliorivas" }]
+		"socialMedia": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/brauliorivas"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/braulio-rivas-abad/"
+			}
+		]
 	},
 	{
 		"name": "Daniel Cortez",
 		"role": "Miembro",
 		"photo": "https://avatars.githubusercontent.com/u/112514991?v=4",
 		"directiva": "no",
-		"socialMedia": [{ "nombre": "github", "link": "https://github.com/DanRCM" }]
+		"socialMedia": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/DanRCM"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/daniel-cortez-manzano-384041253/"
+			}
+		]
 	},
 	{
 		"name": "Adair Abrigo",
 		"role": "Miembro",
 		"photo": "https://avatars.githubusercontent.com/u/93391519?v=4",
 		"directiva": "no",
-		"socialMedia": [{ "nombre": "github", "link": "https://github.com/adairaxe" }]
+		"socialMedia": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/adairaxe"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/adair-abrigo-amay/"
+			}
+		]
 	},
 	{
 		"name": "Anthony Herrera",
 		"role": "Miembro",
 		"photo": "https://avatars.githubusercontent.com/u/137233273?v=4",
 		"directiva": "no",
-		"socialMedia": [{ "nombre": "github", "link": "https://github.com/AnthonyyHL" }]
+		"socialMedia": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/AnthonyyHL"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/anthonyyhl/"
+			}
+		]
 	},
 	{
 		"name": "John Cañarte",
 		"role": "Miembro",
 		"photo": "https://avatars.githubusercontent.com/u/70679514?v=4",
 		"directiva": "no",
-		"socialMedia": [{ "nombre": "github", "link": "https://github.com/Jecanart" }]
+		"socialMedia": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/Jecanart"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/john-ca%C3%B1arte-7728a62b6/"
+			}
+		]
+	},
+	{
+		"name": "Noelia Pasaca",
+		"role": "Miembro",
+		"photo": "https://avatars.githubusercontent.com/u/91957504?v=4",
+		"directiva": "no",
+		"socialMedia": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/noeliapasaca"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/noelia-pasaca-paladines-058a4a221/"
+			}
+		]
+	},
+	{
+		"name": "María Jose Moyano",
+		"role": "Miembro",
+		"photo": "https://avatars.githubusercontent.com/u/93271608?v=4",
+		"directiva": "no",
+		"socialMedia": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/majomoyano"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/mjmoyanotamayo/"
+			}
+		]
 	}
 ]

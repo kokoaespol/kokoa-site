@@ -1,4 +1,6 @@
-<section class="mt-24 flex flex-col items-center justify-between gap-y-12 sm:flex-row lg:flex-row">
+<section
+	class="flex flex-col items-center justify-between gap-y-12 sm:flex-row lg:mt-24 lg:flex-row"
+>
 	<div class="relative">
 		<img
 			src="https://images.unsplash.com/photo-1601933470096-0e34634ffcde?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
