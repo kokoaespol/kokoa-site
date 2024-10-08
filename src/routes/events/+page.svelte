@@ -15,6 +15,7 @@
 			date={event.date}
 			place={event.place}
 			category={event.category}
+			route={event.route}
 		/>
 	{/each}
 </div>

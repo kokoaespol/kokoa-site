@@ -1,12 +1,22 @@
 {
-	"events": [
-		{
-			"name": "HacktoberfestGYE 2024",
-			"description": "Colabora en una variedad de proyectos de código abierto, mejorando tus habilidades y contribuyendo a la comunidad global de desarrolladores.",
-			"date": "10/10/2024",
-			"time": "9 AM - 5 PM",
-			"place": "Universidad Católica Santiago de Guayaquil",
-			"category": "Hackathon"
-		}
-	]
+  "events": [
+    {
+      "name": "HacktoberfestGYE 2024",
+      "description": "Colabora en una variedad de proyectos de código abierto, mejorando tus habilidades y contribuyendo a la comunidad global de desarrolladores.",
+      "date": "10/10/2024",
+      "time": "9 AM - 5 PM",
+      "place": "Universidad Católica Santiago de Guayaquil",
+      "category": "Hackathon",
+      "route": "/events/hacktoberfest"
+    },
+    {
+      "name": "CLI Week 2024",
+      "description": "A week to celebrate the versatility and develop CLI tools with friends. We'll also have workshops and talks!",
+      "date": "11/11/2024 - 15/11/2024",
+      "time": "All day",
+      "place": "Online",
+      "category": "Hackathon/Workshops",
+      "route": "/events/cliweek"
+    }
+  ]
 }

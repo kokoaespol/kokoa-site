@@ -8,9 +8,10 @@
 		date: string;
 		place: string;
 		category: string;
+		route: string;
 	};
 
-	let { name, description, date, place, category }: Props = $props();
+	let { name, description, date, place, category, route }: Props = $props();
 </script>
 
 <div class="m-4 max-w-80 rounded-2xl bg-neutral-800 px-6 py-4">
@@ -27,8 +28,10 @@
 				{place}
 			</span>
 		</div>
-		<button class="rounded-full bg-lime-500 px-2 font-fira text-sm font-semibold text-black">
-			Ver más
-		</button>
+		<a href="{route}">
+			<button class="rounded-full bg-lime-500 px-2 font-fira text-sm font-semibold text-black">
+				Ver más
+			</button>
+		</a>
 	</div>
 </div>
