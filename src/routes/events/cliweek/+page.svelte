@@ -1,6 +1,7 @@
 <script>
 	import Heading from "$lib/components/layout/Heading.svelte";
 	import Tag from "$lib/components/Tag.svelte";
+    import Speaker from "$lib/components/Speaker.svelte";
 </script>
 
 <svelte:head>
@@ -65,11 +66,17 @@
 		</p>
 	</div>
 
-	<div id="speakers">
+	<div id="speakers" class="w-full flex flex-col items-center">
 		<h4 class="text-xl text-lime-600">Speakers</h4>
-		<p>
-			There are no speakers yet! Why don't you become the first one?
-		</p>
+
+        <Speaker 
+            name="Miguel Sánchez"
+            title="Software Developer @ Devsu"
+            image_url="https://media.licdn.com/dms/image/v2/D4E03AQGnBb-gX-aI1w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1694747246966?e=1734566400&v=beta&t=9i7iqBjwH3Qznc_XTUP93_uY8qJ808bqBPQ_mGLzfCE"
+            date="13-11-2024"
+            time="17H00"
+            topic="Del Backend a la Terminal: El Poder de los Django Commands"
+        />
 	</div>
 
 	<div>
