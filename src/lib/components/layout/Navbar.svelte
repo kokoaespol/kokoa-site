@@ -26,7 +26,7 @@
 <nav class="nav-background flex items-center justify-between p-4">
 	<img src={gecko_code} alt="Logo de Kokoa" width="105.8" height="48.8" style="margin-left:5%" />
 	<!-- Botón del menú hamburguesa en pantallas pequeñas -->
-	<button class="hamburger" onclick={toggleMenu}>
+	<button class="hamburger" onclick={toggleMenu} aria-label="Abrir menú">
 		<span class="line"></span>
 		<span class="line"></span>
 		<span class="line"></span>
