@@ -2,6 +2,8 @@
 	import Heading from "$lib/components/layout/Heading.svelte";
 	import Tag from "$lib/components/Tag.svelte";
 	import Speaker from "$lib/components/Speaker.svelte";
+	import gokulSoumya from "$lib/assets/gokul-soumya.jpg";
+	import miguelSanchez from "$lib/assets/miguel-sanchez.jpeg";
 </script>
 
 <svelte:head>
@@ -67,16 +69,25 @@
 		</p>
 	</div>
 
-	<div id="speakers" class="flex w-full flex-col items-center">
-		<h4 class="text-xl text-lime-600">Speakers</h4>
+	<h4 class="text-xl text-lime-600">Speakers</h4>
 
+	<div id="speakers" class="flex w-full flex-wrap gap-4">
 		<Speaker
 			name="Miguel Sánchez"
 			title="Software Developer @ Devsu"
-			image_url="https://media.licdn.com/dms/image/v2/D4E03AQGnBb-gX-aI1w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1694747246966?e=1734566400&v=beta&t=9i7iqBjwH3Qznc_XTUP93_uY8qJ808bqBPQ_mGLzfCE"
+			image_url={miguelSanchez}
 			date="13-11-2024"
 			time="17H00"
 			topic="Del Backend a la Terminal: El Poder de los Django Commands"
+		/>
+
+		<Speaker
+			name="Gokul Soumya"
+			title="System Engineer @ SubCom"
+			image_url={gokulSoumya}
+			date="12-11-2024"
+			time="20H30"
+			topic="CLI Tool Development"
 		/>
 	</div>
 
