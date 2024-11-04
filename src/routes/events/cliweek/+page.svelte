@@ -4,6 +4,7 @@
 	import Speaker from "$lib/components/Speaker.svelte";
 	import gokulSoumya from "$lib/assets/gokul-soumya.jpg";
 	import miguelSanchez from "$lib/assets/miguel-sanchez.jpeg";
+	import adrianDelgadoFerris from "$lib/assets/adrian-delgado.png";
 </script>
 
 <svelte:head>
@@ -88,6 +89,15 @@
 			date="12-11-2024"
 			time="20H30"
 			topic="CLI Tool Development"
+		/>
+
+		<Speaker
+			name="Adrián Delgado"
+			title="Pentester @ Syscloudsec"
+			image_url={adrianDelgadoFerris}
+			date="15-11-2024"
+			time="10H30"
+			topic="Desarrollemos un cracker de contraseñas en Rust"
 		/>
 	</div>
 
