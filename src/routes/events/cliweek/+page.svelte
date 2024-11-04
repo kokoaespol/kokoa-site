@@ -93,7 +93,7 @@
 
 		<Speaker
 			name="Adrián Delgado"
-			title="Pen tester @ Telconet"
+			title="Pentester @ Syscloudsec"
 			image_url={adrianDelgadoFerris}
 			date="15-11-2024"
 			time="10H30"
