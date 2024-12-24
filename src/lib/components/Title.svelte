@@ -7,5 +7,5 @@
 </script>
 
 <h2 class="text-center font-fira text-2xl font-semibold sm:text-left md:text-left lg:text-left">
-	<span class="text-lime-500">></span>{title}
+	<span class="text-lime-500">&gt;</span>{title}
 </h2>

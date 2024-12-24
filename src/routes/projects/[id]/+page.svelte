@@ -4,7 +4,7 @@
 	import { Dot, Github, Smartphone, Globe } from "lucide-svelte";
 	import Heading from "$lib/components/layout/Heading.svelte";
 
-	export let data;
+	let { data } = $props();
 </script>
 
 <Heading>

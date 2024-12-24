@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { page } from "$app/stores";
+	import { page } from "$app/state";
 	import gecko_code from "$lib/assets/logos/gecko-code.svg";
 
-	const current_path = $derived($page.url.pathname);
+	const current_path = $derived(page.url.pathname);
 
 	let menuOpen = $state(false);
 

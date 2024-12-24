@@ -1,3 +1,5 @@
+<svelte:options runes />
+
 <script lang="ts">
 	import facebook_logo from "$lib/assets/icons/facebook.svg";
 	import x_logo from "$lib/assets/icons/x.svg";

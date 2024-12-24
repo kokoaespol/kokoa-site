@@ -1,3 +1,5 @@
+<svelte:options runes />
+
 <script lang="ts">
 	import Heading from "$lib/components/layout/Heading.svelte";
 	import { Facebook, Instagram, Mail, Youtube } from "lucide-svelte";
