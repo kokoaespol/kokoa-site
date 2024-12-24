@@ -1,3 +1,5 @@
+<svelte:options runes />
+
 <script>
 	import Heading from "$lib/components/layout/Heading.svelte";
 	import Tag from "$lib/components/Tag.svelte";

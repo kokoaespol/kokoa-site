@@ -1,3 +1,5 @@
+<svelte:options runes />
+
 <script>
 	import { Bot, Cpu, SquareCode, SquareTerminal } from "lucide-svelte";
 	import Title from "$lib/components/Title.svelte";

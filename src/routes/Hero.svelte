@@ -1,3 +1,5 @@
+<svelte:options runes />
+
 <section
 	class="flex flex-col items-center justify-between gap-y-12 sm:flex-row lg:mt-24 lg:flex-row"
 >

@@ -1,3 +1,5 @@
+<svelte:options runes />
+
 <script>
 	import Title from "$lib/components/Title.svelte";
 	import logoKokoa from "$lib/assets/logos/logo-semib.png";
