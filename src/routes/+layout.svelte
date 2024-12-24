@@ -1,7 +1,7 @@
 <script lang="ts">
 	import "../app.postcss";
 	import { Toaster } from "svelte-sonner";
-	import { page } from "$app/stores";
+	import { page } from "$app/state";
 	import Navbar from "$lib/components/layout/Navbar.svelte";
 	import Footer from "$lib/components/Footer.svelte";
 
@@ -9,8 +9,8 @@
 </script>
 
 <svelte:head>
-	<title>{$page.data.title} - KOKOA</title>
-	<meta name="description" content={$page.data.description} />
+	<title>{page.data.title} - KOKOA</title>
+	<meta name="description" content={page.data.description} />
 </svelte:head>
 
 <Navbar />
