@@ -1,23 +1,18 @@
 <script lang="ts">
-	import "../app.postcss";
-	import { Toaster } from "svelte-sonner";
 	import { page } from "$app/state";
-	import Navbar from "$lib/components/layout/Navbar.svelte";
-	import Footer from "$lib/components/Footer.svelte";
-
+	import Footer from "$lib/components/layout/footer.svelte";
+	import Navbar from "$lib/components/layout/navbar.svelte";
+	import "../app.css";
 	let { children } = $props();
 </script>
 
 <svelte:head>
-	<title>{page.data.title} - KOKOA</title>
+	<title>{page.data.title || page.status} - KOKOA</title>
 	<meta name="description" content={page.data.description} />
 </svelte:head>
 
 <Navbar />
-
-<div class="min-h-screen">
+<main class="flex-1">
 	{@render children()}
-</div>
+</main>
 <Footer />
-
-<Toaster richColors closeButton />

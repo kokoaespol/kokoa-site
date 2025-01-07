@@ -4,7 +4,7 @@
 		"role": "Presidente",
 		"photo": "https://avatars.githubusercontent.com/u/72272077?v=4",
 		"directiva": "si",
-		"socialMedia": [
+		"social_media": [
 			{
 				"nombre": "github",
 				"link": "https://github.com/alicarpio"
@@ -20,7 +20,7 @@
 		"role": "Vicepresidente",
 		"photo": "https://avatars.githubusercontent.com/u/116417470?v=4",
 		"directiva": "si",
-		"socialMedia": [
+		"social_media": [
 			{
 				"nombre": "github",
 				"link": "https://github.com/MelissaAyllon"
@@ -36,7 +36,7 @@
 		"role": "Secretario",
 		"photo": "https://avatars.githubusercontent.com/u/98861990?v=4",
 		"directiva": "si",
-		"socialMedia": [
+		"social_media": [
 			{
 				"nombre": "github",
 				"link": "https://github.com/BryanEstrada003"
@@ -52,7 +52,7 @@
 		"role": "Miembro",
 		"photo": "https://avatars.githubusercontent.com/u/84427521?v=4",
 		"directiva": "no",
-		"socialMedia": [
+		"social_media": [
 			{
 				"nombre": "github",
 				"link": "https://github.com/aloussase/"
@@ -68,10 +68,14 @@
 		"role": "Miembro",
 		"photo": "https://avatars.githubusercontent.com/u/11708972?v=4",
 		"directiva": "no",
-		"socialMedia": [
+		"social_media": [
 			{
 				"nombre": "github",
 				"link": "https://github.com/adriandelgado"
+			},
+			{
+				"nombre": "link",
+				"link": "https://www.adrianjdelgado.com"
 			}
 		]
 	},
@@ -80,7 +84,7 @@
 		"role": "Miembro",
 		"photo": "https://avatars.githubusercontent.com/u/61257604?v=4",
 		"directiva": "no",
-		"socialMedia": [
+		"social_media": [
 			{
 				"nombre": "github",
 				"link": "https://github.com/brauliorivas"
@@ -96,7 +100,7 @@
 		"role": "Miembro",
 		"photo": "https://avatars.githubusercontent.com/u/112514991?v=4",
 		"directiva": "no",
-		"socialMedia": [
+		"social_media": [
 			{
 				"nombre": "github",
 				"link": "https://github.com/DanRCM"
@@ -112,7 +116,7 @@
 		"role": "Miembro",
 		"photo": "https://avatars.githubusercontent.com/u/93391519?v=4",
 		"directiva": "no",
-		"socialMedia": [
+		"social_media": [
 			{
 				"nombre": "github",
 				"link": "https://github.com/adairaxe"
@@ -128,7 +132,7 @@
 		"role": "Miembro",
 		"photo": "https://avatars.githubusercontent.com/u/137233273?v=4",
 		"directiva": "no",
-		"socialMedia": [
+		"social_media": [
 			{
 				"nombre": "github",
 				"link": "https://github.com/AnthonyyHL"
@@ -144,7 +148,7 @@
 		"role": "Miembro",
 		"photo": "https://avatars.githubusercontent.com/u/70679514?v=4",
 		"directiva": "no",
-		"socialMedia": [
+		"social_media": [
 			{
 				"nombre": "github",
 				"link": "https://github.com/Jecanart"
@@ -160,7 +164,7 @@
 		"role": "Miembro",
 		"photo": "https://avatars.githubusercontent.com/u/91957504?v=4",
 		"directiva": "no",
-		"socialMedia": [
+		"social_media": [
 			{
 				"nombre": "github",
 				"link": "https://github.com/noeliapasaca"
@@ -176,7 +180,7 @@
 		"role": "Miembro",
 		"photo": "https://avatars.githubusercontent.com/u/93271608?v=4",
 		"directiva": "no",
-		"socialMedia": [
+		"social_media": [
 			{
 				"nombre": "github",
 				"link": "https://github.com/majomoyano"

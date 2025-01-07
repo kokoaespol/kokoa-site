@@ -31,4 +31,4 @@ You can preview the production build with `pnpm run preview`.
 
 All variables and functions must be in `snake_case`.
 Every piece of code, filename and comment must be in English.
-Components must be in `PascalCase`.
+Components must be in `kebab-case`.
