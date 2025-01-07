@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 import forms from "@tailwindcss/forms";
 import typography from "@tailwindcss/typography";
+import defaultTheme from "tailwindcss/defaultTheme";
 
 export default {
 	darkMode: ["class"],
@@ -8,7 +9,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				fira: ["Fira Code", "mono-space"],
+				fira: ["Fira Code Variable", ...defaultTheme.fontFamily.mono],
 			},
 		},
 	},
