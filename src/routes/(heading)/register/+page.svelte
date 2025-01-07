@@ -1,3 +1,1 @@
-<script lang="ts">
-	let { data } = $props();
-</script>
+<svelte:options runes />

@@ -1,3 +1,5 @@
+<svelte:options runes />
+
 <script lang="ts">
 	import CenterContainer from "$lib/components/center-container.svelte";
 	import {
