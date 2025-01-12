@@ -190,5 +190,21 @@
 				"link": "https://www.linkedin.com/in/mjmoyanotamayo/"
 			}
 		]
+	},
+	{
+		"name": "Juan Pablo Plúas",
+		"role": "Miembro",
+		"photo": "https://avatars.githubusercontent.com/u/107544861?v=4",
+		"directiva": "no",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/jppluas"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/juanppluasm/"
+			}
+		]
 	}
 ]
