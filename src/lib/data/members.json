@@ -206,5 +206,21 @@
 				"link": "https://www.linkedin.com/in/juanppluasm/"
 			}
 		]
+	},
+	{
+		"name": "Dayanara Bone Vasquez",
+		"role": "Miembro",
+		"photo": "https://avatars.githubusercontent.com/u/183567051?v=4",
+		"directiva": "no",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/DayanaraBV"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/dayanara-nayahi-bone-vasquez-95a842209"
+			}
+		]
 	}
 ]
