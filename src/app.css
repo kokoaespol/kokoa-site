@@ -1,6 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@plugin '@tailwindcss/forms' {
+	strategy: "class";
+}
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--font-fira:
+		Fira Code Variable, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+		"Courier New", monospace;
+}
 
 @layer base {
 	@font-face {

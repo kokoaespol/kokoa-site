@@ -9,7 +9,7 @@
 
 {#snippet subtitle(text: string)}
 	<h2 class="mt-4 flex items-center gap-1 text-3xl font-bold">
-		<span aria-hidden="true" class="italic text-lime-400">#</span>
+		<span aria-hidden="true" class="text-lime-400 italic">#</span>
 		{text}
 	</h2>
 {/snippet}
@@ -33,7 +33,7 @@
 		</ul>
 	</section>
 	<section class="mt-8 rounded-2xl bg-gray-800 p-8">
-		<div class="flex flex-wrap items-center gap-1 font-fira">
+		<div class="font-fira flex flex-wrap items-center gap-1">
 			<span class="text-lime-400">{data.project.term}</span>
 			<Dot />
 			{#each data.project.categories as category}
@@ -42,17 +42,17 @@
 		</div>
 
 		{@render subtitle("¿Qué es?")}
-		<p class="mt-2 font-fira">
+		<p class="font-fira mt-2">
 			{data.project.description}
 		</p>
 
 		{@render subtitle("¿Para qué sirve?")}
-		<p class="mt-2 font-fira">
+		<p class="font-fira mt-2">
 			{data.project.purpose}
 		</p>
 
 		{@render subtitle("¿Cómo lo hicimos?")}
-		<p class="mt-2 font-fira">
+		<p class="font-fira mt-2">
 			{data.project.how}
 		</p>
 

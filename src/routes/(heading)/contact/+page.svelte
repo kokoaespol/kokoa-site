@@ -24,7 +24,7 @@
 		<p class="font-fira font-medium">
 			Mantente al día con todas nuestras novedades, proyectos y eventos especiales. Síguenos en:
 		</p>
-		<ul class="mt-7 flex flex-col gap-y-3 font-fira">
+		<ul class="font-fira mt-7 flex flex-col gap-y-3">
 			<li>
 				<a
 					class="grid grid-cols-[36px_minmax(0px,1fr)] items-center gap-x-3"
