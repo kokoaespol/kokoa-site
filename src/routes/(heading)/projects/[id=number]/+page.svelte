@@ -9,7 +9,7 @@
 
 {#snippet subtitle(text: string)}
 	<h2 class="mt-4 flex items-center gap-1 text-3xl font-bold">
-		<span aria-hidden="true" class="italic text-lime-400">#</span>
+		<span aria-hidden="true" class="text-lime-400 italic">#</span>
 		{text}
 	</h2>
 {/snippet}
