@@ -10,7 +10,7 @@
 </script>
 
 {#snippet subtitle(text: string)}
-	<h2 class="font-fira flex-1 text-left text-2xl font-semibold">
+	<h2 class="flex-1 text-left font-fira text-2xl font-semibold">
 		<span class="text-lime-500">&gt;&nbsp;</span>{text}
 	</h2>
 {/snippet}
@@ -48,19 +48,19 @@
 			>
 				<li class="flex items-center gap-3">
 					<Cpu class="size-12 text-lime-500 md:size-16" aria-hidden="true" />
-					<span class="font-fira flex-1 text-lg">Electrónica</span>
+					<span class="flex-1 font-fira text-lg">Electrónica</span>
 				</li>
 				<li class="flex items-center gap-3">
 					<Bot class="size-12 text-lime-500 md:size-16" aria-hidden="true" />
-					<span class="font-fira flex-1 text-lg">Hacking ético</span>
+					<span class="flex-1 font-fira text-lg">Hacking ético</span>
 				</li>
 				<li class="flex items-center gap-3">
 					<SquareCode class="size-12 text-lime-500 md:size-16" aria-hidden="true" />
-					<span class="font-fira flex-1 text-lg">Desarrollo web y móvil</span>
+					<span class="flex-1 font-fira text-lg">Desarrollo web y móvil</span>
 				</li>
 				<li class="flex items-center gap-3">
 					<SquareTerminal class="size-12 text-lime-500 md:size-16" aria-hidden="true" />
-					<span class="font-fira flex-1 text-lg">Programación de sistemas</span>
+					<span class="flex-1 font-fira text-lg">Programación de sistemas</span>
 				</li>
 			</ul>
 		</div>
@@ -78,7 +78,7 @@
 		<div class="mt-6 flex justify-center">
 			<a
 				href="/events"
-				class="font-fira inline-block rounded-full bg-lime-500 px-14 py-2 text-base font-semibold text-gray-900 shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
+				class="inline-block rounded-full bg-lime-500 px-14 py-2 font-fira text-base font-semibold text-gray-900 shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
 			>
 				Ver más
 			</a>
@@ -100,7 +100,7 @@
 		<div class="mt-16 flex justify-center">
 			<a
 				href="/members"
-				class="font-fira inline-block rounded-full bg-lime-500 px-14 py-2 text-base font-semibold text-gray-900 shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
+				class="inline-block rounded-full bg-lime-500 px-14 py-2 font-fira text-base font-semibold text-gray-900 shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
 			>
 				Ver más
 			</a>

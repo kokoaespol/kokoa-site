@@ -86,7 +86,7 @@
 										<a
 											href={link.href}
 											class={[
-												"font-fira -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-100 before:content-['{'] after:content-['}'] hover:bg-gray-900",
+												"-mx-3 block rounded-lg px-3 py-2 font-fira text-base/7 font-semibold text-gray-100 before:content-['{'] after:content-['}'] hover:bg-gray-900",
 												current_path === link.href
 													? "before:text-lime-500  after:text-lime-500"
 													: "before:text-transparent  after:text-transparent",

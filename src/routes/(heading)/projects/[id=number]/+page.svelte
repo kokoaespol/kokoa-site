@@ -33,7 +33,7 @@
 		</ul>
 	</section>
 	<section class="mt-8 rounded-2xl bg-gray-800 p-8">
-		<div class="font-fira flex flex-wrap items-center gap-1">
+		<div class="flex flex-wrap items-center gap-1 font-fira">
 			<span class="text-lime-400">{data.project.term}</span>
 			<Dot />
 			{#each data.project.categories as category}
@@ -42,17 +42,17 @@
 		</div>
 
 		{@render subtitle("¿Qué es?")}
-		<p class="font-fira mt-2">
+		<p class="mt-2 font-fira">
 			{data.project.description}
 		</p>
 
 		{@render subtitle("¿Para qué sirve?")}
-		<p class="font-fira mt-2">
+		<p class="mt-2 font-fira">
 			{data.project.purpose}
 		</p>
 
 		{@render subtitle("¿Cómo lo hicimos?")}
-		<p class="font-fira mt-2">
+		<p class="mt-2 font-fira">
 			{data.project.how}
 		</p>
 
