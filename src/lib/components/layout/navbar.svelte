@@ -47,7 +47,7 @@
 				{/each}
 			</div>
 		</CenterContainer>
-		<!-- class="lg:hidden" -->
+
 		<Dialog.Portal>
 			<Dialog.Overlay forceMount class="fixed inset-0 z-10 bg-gray-900/80">
 				{#snippet child({ props, open })}
