@@ -222,5 +222,21 @@
 				"link": "https://www.linkedin.com/in/dayanara-nayahi-bone-vasquez-95a842209"
 			}
 		]
+	},
+	{
+		"name": "Symond Salazar Silva",
+		"role": "Miembro",
+		"photo": "https://avatars.githubusercontent.com/u/72229717?v=4",
+		"directiva": "no",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/SymondSalazar"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/symond-salazar-b1554a352"
+			}
+		]
 	}
 ]
