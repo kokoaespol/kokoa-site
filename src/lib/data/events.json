@@ -16,5 +16,14 @@
 		"place": "Online",
 		"category": "Hackathon/Workshops",
 		"route": "/events/cliweek"
+	},
+	{
+		"name": "FliSol 2025",
+		"description": "FLISoL is the largest Free Software dissemination event in Latin America and is aimed at all types of audiences. Its goal is to promote the 4 Freedoms of Free Software.",
+		"date": "TBD",
+		"time": "TBD",
+		"place": "TBD",
+		"category": "Workshops",
+		"route": "/events/flisol_2025"
 	}
 ]
