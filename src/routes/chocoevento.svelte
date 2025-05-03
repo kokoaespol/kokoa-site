@@ -11,6 +11,7 @@
 			place: string;
 			route: string;
 			active: string;
+			image: string;
 		};
 	};
 	let { event }: Props = $props();
@@ -20,8 +21,11 @@
 	<div
 		class="grid gap-6 p-6 sm:grid-cols-[minmax(0px,2fr)_minmax(0px,1fr)] md:grid-cols-[minmax(0px,1fr)_minmax(0px,2fr)_minmax(0px,1fr)]"
 	>
-		<!-- TODO: change to image -->
-		<CircleSlash class="hidden size-16 place-self-center md:block" />
+		<img
+			class="h-32 w-full rounded-3xl object-cover object-center sm:col-span-2 md:col-span-1"
+			src={event.image}
+			alt="Imagen de evento"
+		/>
 		<div class="max-w-prose">
 			<h3 class="font-fira text-2xl font-semibold">{event.name}</h3>
 			<p class="mt-2">{event.description}</p>

@@ -3,6 +3,9 @@
 	import CenterContainer from "$lib/components/center-container.svelte";
 
 	let { data } = $props();
+	let sortedEvents = data.events.sort((a, b) => {
+        return (b.active === "true" ? 1 : 0) - (a.active === "true" ? 1 : 0);
+    });
 </script>
 
 <CenterContainer class="py-12">
@@ -10,7 +13,7 @@
 		role="list"
 		class="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
 	>
-		{#each data.events as event}
+		{#each sortedEvents as event}
 			<Card
 				route="/events/{event.id}"
 				date={event.date}

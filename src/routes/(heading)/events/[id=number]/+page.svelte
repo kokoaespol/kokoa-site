@@ -2,7 +2,7 @@
 	import CenterContainer from "$lib/components/center-container.svelte";
 	import Tag from "$lib/components/tag.svelte";
 	import github_green from "$lib/assets/icons/github-green.svg";
-	import { Dot, Globe, Smartphone } from "lucide-svelte";
+	import { Dot, Globe, Smartphone, Instagram } from "lucide-svelte";
 
 	let { data } = $props();
 </script>
@@ -30,6 +30,12 @@
 			{/each}
 		</div>
 
+		<img
+            src={data.event.image}
+            alt={`Imagen del evento ${data.event.name}`}
+            class="mt-4 w-full max-w-md rounded-lg shadow-lg shadow-gray-900"
+		/>
+
 		{@render subtitle("¿De qué trata?")}
 		<p class="mt-2 font-fira">
 			{data.event.description}
@@ -40,32 +46,27 @@
 			{data.event.place}
 		</p>
 
-		<!-- {@render subtitle("¿Cómo lo hicimos?")}
+		{@render subtitle("¿Más información?")}
 		<p class="mt-2 font-fira">
-			{data.project.how}
-		</p>
+			Si quieres saber más sobre el evento, puedes seguir a los organizadores en sus redes sociales.
+			<br /> </p>
 
 		<div class="mt-6 flex flex-col gap-4">
-			{#if data.project.github_url}
-				<a class="flex gap-1 hover:underline" rel="external" href={data.project.github_url}>
-					<img class="size-6" src={github_green} alt="" width="24" height="24" />
-					{data.project.github_url}
-				</a>
-			{/if}
-
-			{#if data.project.apk_url}
-				<a class="flex gap-1 hover:underline" rel="external" href={data.project.apk_url}>
-					<Smartphone class="size-6 text-lime-400" />
-					App Móvil
-				</a>
-			{/if}
-
-			{#if data.project.web_url}
-				<a class="flex gap-1 hover:underline" rel="external" href={data.project.web_url}>
+			{#if data.event.web_url}
+				<a class="flex gap-1 hover:underline font-fira" rel="external" href={data.event.web_url}>
 					<Globe class="size-6 text-lime-400" />
-					Página Web
+					{data.event.web_page}
 				</a>
 			{/if}
-		</div> -->
+
+			{#if data.event.instagram_url}
+				<a class="flex gap-1 hover:underline font-fira" rel="external" href={data.event.instagram_url}>
+					<Instagram class="size-6 text-lime-400" />
+					{data.event.instagram_username}
+				</a>
+			{/if}
+
+			
+		</div>
 	</section>
 </CenterContainer>
