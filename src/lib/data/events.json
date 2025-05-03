@@ -10,7 +10,7 @@
 		"active": "false",
 		"image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8gx1grdsd1hgwuniceee.png",
 		"web_url": "https://hacktoberfest.com/",
-		"web_page": "hacktoberfest.com"		
+		"web_page": "hacktoberfest.com"
 	},
 	{
 		"id": 2,
@@ -26,7 +26,6 @@
 		"web_page": "www.kokoa.club",
 		"instagram_username": "kokoa_espol",
 		"instagram_url": "https://www.instagram.com/kokoa_espol"
-
 	},
 	{
 		"id": 3,
@@ -42,6 +41,5 @@
 		"web_page": "www.flisol.ec",
 		"instagram_url": "https://www.instagram.com/flisol_ec/",
 		"instagram_username": "flisol_ec"
-
 	}
 ]

@@ -4,8 +4,8 @@
 
 	let { data } = $props();
 	let sortedEvents = data.events.sort((a, b) => {
-        return (b.active === "true" ? 1 : 0) - (a.active === "true" ? 1 : 0);
-    });
+		return (b.active === "true" ? 1 : 0) - (a.active === "true" ? 1 : 0);
+	});
 </script>
 
 <CenterContainer class="py-12">

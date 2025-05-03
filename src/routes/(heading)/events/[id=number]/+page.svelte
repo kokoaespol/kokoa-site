@@ -19,7 +19,7 @@
 		<h2 class="font-fira text-xl text-lime-400">Evento</h2>
 		<div class="mt-2 flex flex-wrap gap-8">
 			<span class="font-fira">{data.event.name}</span>
-        </div>
+		</div>
 	</section>
 	<section class="mt-8 rounded-2xl bg-gray-800 p-8">
 		<div class="flex flex-wrap items-center gap-1 font-fira">
@@ -31,9 +31,9 @@
 		</div>
 
 		<img
-            src={data.event.image}
-            alt={`Imagen del evento ${data.event.name}`}
-            class="mt-4 w-full max-w-md rounded-lg shadow-lg shadow-gray-900"
+			src={data.event.image}
+			alt={`Imagen del evento ${data.event.name}`}
+			class="mt-4 w-full max-w-md rounded-lg shadow-lg shadow-gray-900"
 		/>
 
 		{@render subtitle("¿De qué trata?")}
@@ -49,24 +49,27 @@
 		{@render subtitle("¿Más información?")}
 		<p class="mt-2 font-fira">
 			Si quieres saber más sobre el evento, puedes seguir a los organizadores en sus redes sociales.
-			<br /> </p>
+			<br />
+		</p>
 
 		<div class="mt-6 flex flex-col gap-4">
 			{#if data.event.web_url}
-				<a class="flex gap-1 hover:underline font-fira" rel="external" href={data.event.web_url}>
+				<a class="flex gap-1 font-fira hover:underline" rel="external" href={data.event.web_url}>
 					<Globe class="size-6 text-lime-400" />
 					{data.event.web_page}
 				</a>
 			{/if}
 
 			{#if data.event.instagram_url}
-				<a class="flex gap-1 hover:underline font-fira" rel="external" href={data.event.instagram_url}>
+				<a
+					class="flex gap-1 font-fira hover:underline"
+					rel="external"
+					href={data.event.instagram_url}
+				>
 					<Instagram class="size-6 text-lime-400" />
 					{data.event.instagram_username}
 				</a>
 			{/if}
-
-			
 		</div>
 	</section>
 </CenterContainer>
