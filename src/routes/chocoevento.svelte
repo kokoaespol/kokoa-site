@@ -9,7 +9,6 @@
 			date: string;
 			time: string;
 			place: string;
-			route: string;
 			active: string;
 			image: string;
 		};
