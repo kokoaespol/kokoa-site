@@ -3,11 +3,14 @@
 
 	type Props = {
 		event: {
+			id: number;
 			name: string;
 			description: string;
 			date: string;
 			time: string;
 			place: string;
+			route: string;
+			active: string;
 		};
 	};
 	let { event }: Props = $props();
@@ -50,7 +53,9 @@
 	<div class="flex justify-end bg-lime-500 px-6 py-2 font-fira font-semibold text-gray-950">
 		<!-- TODO: change to anchor tag -->
 		<button class="flex items-center gap-2 gap-x-3">
-			<span>Registrarse</span>
+			<a href="/events/{event.id}">
+				<span>Información</span>
+			</a>
 			<MoveRight />
 		</button>
 	</div>

@@ -12,10 +12,10 @@
 	>
 		{#each data.events as event}
 			<Card
-				route={event.route}
+				route="/events/{event.id}"
 				date={event.date}
 				name={event.name}
-				categories={[event.category]}
+				categories={event.categories}
 				description={event.description}
 				place={event.place}
 			/>

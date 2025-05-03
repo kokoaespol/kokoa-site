@@ -1,29 +1,35 @@
 [
 	{
+		"id": 1,
 		"name": "HacktoberfestGYE 2024",
 		"description": "Colabora en una variedad de proyectos de código abierto, mejorando tus habilidades y contribuyendo a la comunidad global de desarrolladores.",
 		"date": "10/10/2024",
 		"time": "9 AM - 5 PM",
 		"place": "Universidad Católica Santiago de Guayaquil",
-		"category": "Hackathon",
-		"route": "/events/hacktoberfest"
+		"categories": ["Hackathon"],
+		"route": "/events/hacktoberfest",
+		"active": "true"
+		
 	},
 	{
+		"id": 2,
 		"name": "CLI Week 2024",
-		"description": "A week to celebrate the versatility and develop CLI tools with friends. We'll also have workshops and talks!",
+		"description": "Una semana dedicada a celebrar la versatilidad y al desarrollo de herramientas de línea de comandos (CLI) junto a amigos. Durante la semana, también habrá talleres y charlas para aprender y compartir conocimientos.",
 		"date": "11/11/2024 - 15/11/2024",
 		"time": "All day",
 		"place": "Online",
-		"category": "Hackathon/Workshops",
-		"route": "/events/cliweek"
+		"categories": ["Hackathon", "Workshops"],
+		"route": "/events/cliweek",
+		"active": "false"
 	},
 	{
+		"id": 3,
 		"name": "FliSol 2025",
-		"description": "FLISoL is the largest Free Software dissemination event in Latin America and is aimed at all types of audiences. Its goal is to promote the 4 Freedoms of Free Software.",
-		"date": "TBD",
+		"description": "FLISoL es el evento más grande de difusión de Software Libre en América Latina y está dirigido a todo tipo de público. Su objetivo es promover las 4 libertades del Software Libre.",
 		"time": "TBD",
 		"place": "TBD",
-		"category": "Workshops",
-		"route": "/events/flisol-2025"
+		"categories": ["Workshops"],
+		"route": "/events/flisol-2025",
+		"active": "false"
 	}
 ]
