@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { CalendarDays, CircleSlash, Clock3, MapPin, MoveRight } from "lucide-svelte";
+	import { CalendarDays, Clock3, MapPin, MoveRight } from "lucide-svelte";
 
 	type Props = {
 		event: {
