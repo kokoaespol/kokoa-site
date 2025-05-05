@@ -1,29 +1,45 @@
 [
 	{
-		"name": "HacktoberfestGYE 2024",
+		"id": 1,
+		"name": "Hacktoberfest GYE 2024",
 		"description": "Colabora en una variedad de proyectos de código abierto, mejorando tus habilidades y contribuyendo a la comunidad global de desarrolladores.",
 		"date": "10/10/2024",
 		"time": "9 AM - 5 PM",
 		"place": "Universidad Católica Santiago de Guayaquil",
-		"category": "Hackathon",
-		"route": "/events/hacktoberfest"
+		"categories": ["hackathon"],
+		"active": "false",
+		"image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8gx1grdsd1hgwuniceee.png",
+		"web_url": "https://hacktoberfest.com/",
+		"web_page": "hacktoberfest.com"
 	},
 	{
+		"id": 2,
 		"name": "CLI Week 2024",
-		"description": "A week to celebrate the versatility and develop CLI tools with friends. We'll also have workshops and talks!",
+		"description": "Una semana dedicada a celebrar la versatilidad y al desarrollo de herramientas de línea de comandos (CLI) junto a amigos. Durante la semana, también habrá talleres y charlas para aprender y compartir conocimientos.",
 		"date": "11/11/2024 - 15/11/2024",
 		"time": "All day",
 		"place": "Online",
-		"category": "Hackathon/Workshops",
-		"route": "/events/cliweek"
+		"categories": ["hackathon", "workshops"],
+		"active": "false",
+		"image": "src/lib/assets/images/cli-week.jpg",
+		"web_url": "https://www.instagram.com/kokoa_espol/p/DBAlrs4RrEW/?img_index=1",
+		"web_page": "www.kokoa.club",
+		"instagram_username": "kokoa_espol",
+		"instagram_url": "https://www.instagram.com/kokoa_espol"
 	},
 	{
+		"id": 3,
 		"name": "FliSol 2025",
-		"description": "FLISoL is the largest Free Software dissemination event in Latin America and is aimed at all types of audiences. Its goal is to promote the 4 Freedoms of Free Software.",
-		"date": "TBD",
-		"time": "TBD",
-		"place": "TBD",
-		"category": "Workshops",
-		"route": "/events/flisol-2025"
+		"description": "FLISoL es el evento más grande de difusión de Software Libre en América Latina y está dirigido a todo tipo de público. Su objetivo es promover las 4 libertades del Software Libre.",
+		"date": "Sábado, 31 de mayo de 2025",
+		"time": "09h00 - 17h00",
+		"place": "Universidad Católica de Santiago de Guayaquil (UCSG)",
+		"categories": ["entrada libre", "conferencias", "talleres"],
+		"active": "true",
+		"image": "https://flisol.info/Logo?action=AttachFile&do=get&target=FLISoL-2015.png",
+		"web_url": "https://www.flisol.ec/",
+		"web_page": "www.flisol.ec",
+		"instagram_url": "https://www.instagram.com/flisol_ec/",
+		"instagram_username": "flisol_ec"
 	}
 ]
