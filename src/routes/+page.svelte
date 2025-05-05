@@ -7,8 +7,7 @@
 	import Member from "$lib/components/member.svelte";
 
 	let { data } = $props();
-	// ✅ Filtramos eventos activos
-	const activeEvents = data.events.filter((event) => event.active === "true");
+	const active_events = data.events.filter((event) => event.active === "true");
 </script>
 
 {#snippet subtitle(text: string)}
@@ -73,24 +72,23 @@
 	<CenterContainer class="py-6 sm:py-10">
 		{@render subtitle("Chocoeventos")}
 
-		{#if activeEvents.length === 0}
+		{#if active_events.length === 0}
 			<p class="mt-6 text-center text-xl text-gray-400">No hay eventos activos en este momento.</p>
 		{:else}
 			<div class="mt-6 flex flex-col gap-y-6">
-				{#each activeEvents as event}
+				{#each active_events as event}
 					<Chocoevento {event} />
 				{/each}
 			</div>
+			<div class="mt-6 flex justify-center">
+				<a
+					href="/events"
+					class="inline-block rounded-full bg-lime-500 px-14 py-2 font-fira text-base font-semibold text-gray-900 shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
+				>
+					Ver más
+				</a>
+			</div>
 		{/if}
-
-		<div class="mt-6 flex justify-center">
-			<a
-				href="/events"
-				class="inline-block rounded-full bg-lime-500 px-14 py-2 font-fira text-base font-semibold text-gray-900 shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
-			>
-				Ver más
-			</a>
-		</div>
 	</CenterContainer>
 </section>
 <section>
