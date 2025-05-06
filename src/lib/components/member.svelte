@@ -17,9 +17,7 @@
 </script>
 
 <li class="text-center">
-	<div
-		class="group relative mx-auto size-56 overflow-hidden rounded-full transition duration-150"
-	>
+	<div class="group relative mx-auto size-56 overflow-hidden rounded-full transition duration-150">
 		<img
 			class="size-56 object-cover transition duration-150 group-hover:brightness-30 group-hover:grayscale"
 			src={member.photo}
