@@ -54,6 +54,20 @@
 		]
 	},
 	{
+		"name": "Ronald Criollo",
+		"role": "Mentor",
+		"photo": "/members/Ronald_Criollo.webp",
+		"directiva": "si",
+		"facultad": "FIEC",
+		"carrera": "Profesor",
+		"social_media": [
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/rrcriollo/"
+			}
+		]
+	},
+	{
 		"name": "Dayanara Bone",
 		"role": "Miembro",
 		"photo": "/members/Dayanara_Bone.webp",
