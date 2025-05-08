@@ -1,5 +1,19 @@
 [
 	{
+		"name": "Ronald Criollo",
+		"role": "Mentor",
+		"photo": "/members/Ronald_Criollo.webp",
+		"directiva": "si",
+		"facultad": "FIEC",
+		"carrera": "Profesor",
+		"social_media": [
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/rrcriollo/"
+			}
+		]
+	},
+	{
 		"name": "Alina Carpio",
 		"role": "Presidente",
 		"photo": "/members/Alina_Carpio.webp",
@@ -50,20 +64,6 @@
 			{
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/maiestrada/"
-			}
-		]
-	},
-	{
-		"name": "Ronald Criollo",
-		"role": "Mentor",
-		"photo": "/members/Ronald_Criollo.webp",
-		"directiva": "si",
-		"facultad": "FIEC",
-		"carrera": "Profesor",
-		"social_media": [
-			{
-				"nombre": "linkedin",
-				"link": "https://www.linkedin.com/in/rrcriollo/"
 			}
 		]
 	},
