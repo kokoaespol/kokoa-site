@@ -42,6 +42,14 @@
 				</li>
 			</ul>
 		</div>
+		<div class="mt-16 flex justify-center">
+			<a
+				href="/projects"
+				class="inline-block rounded-full bg-lime-500 px-14 py-2 font-fira text-base font-semibold text-gray-900 shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
+			>
+				Ver proyectos
+			</a>
+		</div>
 	</CenterContainer>
 </section>
 
@@ -62,7 +70,7 @@
 					href="/events"
 					class="inline-block rounded-full bg-green px-14 py-2 font-fira text-base font-semibold text-gray-900 shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
 				>
-					Ver más
+					Ver eventos anteriores
 				</a>
 			</div>
 		{/if}
@@ -73,7 +81,7 @@
 		{@render subtitle("Chocomiembros")}
 		<ul
 			role="list"
-			class="mx-auto mt-16 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+			class="mx-auto mt-16 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-4"
 		>
 			{#each data.members.filter((m) => m.directiva === "si") as member}
 				<Member {member} />
@@ -84,7 +92,7 @@
 				href="/members"
 				class="inline-block rounded-full bg-lime-500 px-14 py-2 font-fira text-base font-semibold text-gray-900 shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
 			>
-				Ver más
+				Ver miembros
 			</a>
 		</div>
 	</CenterContainer>

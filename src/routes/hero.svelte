@@ -2,6 +2,7 @@
 
 <script lang="ts">
 	import CenterContainer from "$lib/components/center-container.svelte";
+	import feria from "$lib/assets/images/portada.jpg";
 </script>
 
 <CenterContainer
@@ -13,8 +14,8 @@
 			<div class="absolute -top-5 -left-5 size-24 bg-green"></div>
 			<div class="absolute -right-5 -bottom-5 size-24 border border-green"></div>
 			<img
-				src="src/lib/assets/images/portada.jpg"
-				alt="Imagen de amigos programando"
+				src={feria}
+				alt="Feria de Proyectos Kokoa 2024 2S"
 				class="relative aspect-3/2 h-full object-cover"
 				width="378.88"
 				height="252.59"
