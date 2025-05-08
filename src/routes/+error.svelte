@@ -1,7 +1,5 @@
 <script lang="ts">
 	import CenterContainer from "$lib/components/center-container.svelte";
-
-	let { children } = $props();
 </script>
 
 <CenterContainer class="py-6 sm:py-10">
