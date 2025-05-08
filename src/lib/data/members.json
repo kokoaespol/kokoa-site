@@ -213,7 +213,7 @@
 			}
 		]
 	},
-    {
+	{
 		"name": "Daniel Mateo",
 		"role": "Miembro",
 		"photo": "/members/Daniel_Mateo.webp",
@@ -336,8 +336,8 @@
 			{
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/carlos-tingo-8b6088218/"
-            }
-        ]
+			}
+		]
 	},
 	{
 		"name": "Valeria Troya",
@@ -351,10 +351,10 @@
 				"nombre": "github",
 				"link": "https://github.com/Mayliin"
 			},
-            {
+			{
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/valeria-troya-quim%C3%AD-5209a0214/"
-            }
+			}
 		]
 	},
 	{
