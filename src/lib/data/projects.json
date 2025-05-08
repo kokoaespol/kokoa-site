@@ -17,11 +17,15 @@
 			},
 			{
 				"name": "Daniel Cortez",
-				"url_image": "https://avatars.githubusercontent.com/u/98861990?v=4"
+				"url_image": "https://avatars.githubusercontent.com/u/112514991?v=4"
 			},
 			{
 				"name": "Michael Estrada",
 				"url_image": "https://avatars.githubusercontent.com/u/98861990?v=4"
+			},
+			{
+				"name": "Alina Carpio",
+				"url_image": "https://avatars.githubusercontent.com/u/72272077?v=4"
 			}
 		]
 	},
@@ -44,6 +48,46 @@
 			{
 				"name": "Alina Carpio",
 				"url_image": "https://avatars.githubusercontent.com/u/72272077?v=4"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"term": "2025-1s",
+		"name": "Kokoa Arcade",
+		"categories": ["education", "gaming"],
+		"description": "Un área enfocada en el uso de herramientas tecnológicas y Python para enseñar desarrollo de juegos, permitiendo a los estudiantes crear y compartir sus propios juegos como una forma divertida de aprender programación.",
+		"purpose": "Fomentar el aprendizaje de nuevos lenguajes y herramientas mediante la creación de software de entretenimiento y potenciar la lógica de programación divirtiéndose en el proceso.",
+		"how": "Se utiliza Python con librerías como Pygame, Kivy y Pyglet: los estudiantes desarrollan la lógica de sus juegos y la parte visual. Los repositorios alojan las creaciones para que cualquiera pueda descargar, revisar o inspirarse. A futuro planeamos usarlos en concursos y talleres de gaming.",
+		"github_url": "https://github.com/DanRCM/Kokoa_Arcade/tree/main",
+		"apk_url": null,
+		"web_url": null,
+		"authors": [
+			{
+				"name": "Daniel Cortez",
+				"url_image": "https://avatars.githubusercontent.com/u/112514991?v=4"
+			},
+			{
+				"name": "Valeria Troya",
+				"url_image": "https://avatars.githubusercontent.com/u/147886015?v=4"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"term": "2025-1s",
+		"name": "Script de análisis de seguridad para sitios web",
+		"categories": ["security", "python", "web"],
+		"description": "Un script en Python que detecta vulnerabilidades comunes (SQL Injection, XSS, Directory Traversal) en aplicaciones web, usando Requests y BeautifulSoup para analizar el contenido.",
+		"purpose": "Permitir a usuarios y desarrolladores identificar fácilmente fallos de seguridad en sus sitios.",
+		"how": "El script hace peticiones HTTP con Requests, parsea el HTML con BeautifulSoup y busca patrones de inyección. Está en ideación y servirá también de base para talleres de CTF en la comunidad de hacking ético.",
+		"github_url": null,
+		"apk_url": null,
+		"web_url": null,
+		"authors": [
+			{
+				"name": "Noelia Pasaca",
+				"url_image": "https://avatars.githubusercontent.com/u/91957504?v=4"
 			}
 		]
 	}
