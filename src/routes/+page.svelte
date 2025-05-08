@@ -17,28 +17,6 @@
 {/snippet}
 
 <Hero />
-
-<section>
-	<CenterContainer class="py-6 sm:grid sm:grid-cols-3 sm:items-center sm:gap-x-8 sm:py-10">
-		<div class="col-span-2">
-			{@render subtitle("Chocomisión")}
-			<p class="mt-4 max-w-prose pl-7">
-				Compartir, difundir e implementar, conocimiento y herramientas, para el desarrollo académico
-				y tecnológico de la sociedad Ecuatoriana.
-			</p>
-		</div>
-		<div class="mt-6 sm:mt-0">
-			<img
-				class="mx-auto pl-7 sm:mx-0 sm:w-4/5 sm:pl-0 lg:w-3/5"
-				src={gecko_text}
-				width="230.4"
-				height="153.14"
-				alt="Logo de Kokoa"
-			/>
-		</div>
-	</CenterContainer>
-</section>
-
 <section>
 	<CenterContainer class="py-6 sm:py-10">
 		{@render subtitle("Chocoáreas")}

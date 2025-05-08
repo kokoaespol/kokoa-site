@@ -10,10 +10,11 @@
 
 	const LINKS = [
 		{ text: "Inicio", href: "/" },
+		{ text: "Nosotros", href: "/about-us" },
 		{ text: "Eventos", href: "/events" },
 		{ text: "Proyectos", href: "/projects" },
-		{ text: "Contacto", href: "/contact" },
 		{ text: "Miembros", href: "/members" },
+		{ text: "Contacto", href: "/contact" }
 	];
 
 	let menu_open = $state(false);

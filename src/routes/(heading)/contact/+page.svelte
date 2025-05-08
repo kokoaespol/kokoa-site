@@ -29,27 +29,8 @@
 				<a
 					class="grid grid-cols-[36px_minmax(0px,1fr)] items-center gap-x-3"
 					rel="external"
-					href="https://github.com/{GITHUB_HANDLE_KOKOA}"
-				>
-					<img src={github} alt="GitHub" class="size-9" width="24" height="24" />
-					/{GITHUB_HANDLE_KOKOA}
-				</a>
-			</li>
-			<li>
-				<a
-					class="grid grid-cols-[36px_minmax(0px,1fr)] items-center gap-x-3"
-					rel="external"
-					href="https://www.facebook.com/{FACEBOOK_HANDLE_KOKOA}"
-				>
-					<img src={facebook} alt="Facebook" class="size-9" width="24" height="24" />
-					/{FACEBOOK_HANDLE_KOKOA}
-				</a>
-			</li>
-			<li>
-				<a
-					class="grid grid-cols-[36px_minmax(0px,1fr)] items-center gap-x-3"
-					rel="external"
 					href="https://www.instagram.com/{INSTAGRAM_HANDLE_KOKOA}"
+					target="_blank"
 				>
 					<img src={instagram} alt="Instagram" class="size-9" width="24" height="24" />
 					@{INSTAGRAM_HANDLE_KOKOA}
@@ -60,6 +41,7 @@
 					class="grid grid-cols-[36px_minmax(0px,1fr)] items-center gap-x-3"
 					rel="external"
 					href="https://x.com/{TWITTER_HANDLE_KOKOA}"
+					target="_blank"
 				>
 					<img src={x} alt="X" class="size-9" width="24" height="24" />
 					@{TWITTER_HANDLE_KOKOA}
@@ -69,7 +51,29 @@
 				<a
 					class="grid grid-cols-[36px_minmax(0px,1fr)] items-center gap-x-3"
 					rel="external"
+					href="https://github.com/{GITHUB_HANDLE_KOKOA}"
+					target="_blank"
+				>
+					<img src={github} alt="GitHub" class="size-9" width="24" height="24" />
+					/{GITHUB_HANDLE_KOKOA}
+				</a>
+			</li>
+			<!-- <li>
+				<a
+					class="grid grid-cols-[36px_minmax(0px,1fr)] items-center gap-x-3"
+					rel="external"
+					href="https://www.facebook.com/{FACEBOOK_HANDLE_KOKOA}"
+				>
+					<img src={facebook} alt="Facebook" class="size-9" width="24" height="24" />
+					/{FACEBOOK_HANDLE_KOKOA}
+				</a>
+			</li> -->
+			<li>
+				<a
+					class="grid grid-cols-[36px_minmax(0px,1fr)] items-center gap-x-3"
+					rel="external"
 					href="https://youtube.com/@{YOUTUBE_HANDLE_KOKOA}"
+					target="_blank"
 				>
 					<img src={youtube} alt="YouTube" class="size-9" width="24" height="24" />
 					@{YOUTUBE_HANDLE_KOKOA}

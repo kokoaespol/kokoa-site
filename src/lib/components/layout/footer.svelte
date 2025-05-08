@@ -12,6 +12,7 @@
 	import mascota from "$lib/assets/logos/mascota.png";
 
 	import facebook from "$lib/assets/icons/facebook.svg";
+	import gecko_code from "$lib/assets/logos/gecko-code.svg";
 	import x from "$lib/assets/icons/x.svg";
 	import instagram from "$lib/assets/icons/instagram.svg";
 	import github from "$lib/assets/icons/github.svg";
@@ -21,7 +22,7 @@
 
 <footer>
 	<CenterContainer class="py-6">
-		<div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+		<!-- <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
 			<div class="hidden sm:block sm:self-center lg:col-span-2">
 				<img
 					src={mascota}
@@ -58,22 +59,23 @@
 					</div>
 				</form>
 			</div>
-		</div>
+		</div> -->
 		<div
 			class="mt-12 border-t border-white/10 pt-8 sm:mt-14 sm:flex sm:items-center sm:justify-between lg:mt-18"
 		>
-			<div class="flex gap-x-6 sm:order-2">
-				<a
+			<div class="flex gap-x-6 sm:order-3">
+				<!-- <a
 					rel="external"
 					href="https://www.facebook.com/{FACEBOOK_HANDLE_KOKOA}"
 					class="text-gray-400 hover:text-gray-300"
 				>
 					<img src={facebook} alt="Facebook" class="size-6 opacity-60" width="24" height="24" />
-				</a>
+				</a> -->
 				<a
 					rel="external"
 					href="https://www.instagram.com/{INSTAGRAM_HANDLE_KOKOA}"
 					class="text-gray-400 hover:text-gray-300"
+					target="_blank"
 				>
 					<img src={instagram} alt="Instagram" class="size-6 opacity-60" width="24" height="24" />
 				</a>
@@ -81,6 +83,7 @@
 					rel="external"
 					href="https://x.com/{TWITTER_HANDLE_KOKOA}"
 					class="text-gray-400 hover:text-gray-300"
+					target="_blank"
 				>
 					<img src={x} alt="X" class="size-6 opacity-60" width="24" height="24" />
 				</a>
@@ -88,6 +91,7 @@
 					rel="external"
 					href="https://github.com/{GITHUB_HANDLE_KOKOA}"
 					class="text-gray-400 hover:text-gray-300"
+					target="_blank"
 				>
 					<img src={github} alt="GitHub" class="size-6 opacity-60" width="24" height="24" />
 				</a>
@@ -95,13 +99,19 @@
 					rel="external"
 					href="https://www.youtube.com/@{YOUTUBE_HANDLE_KOKOA}"
 					class="text-gray-400 hover:text-gray-300"
+					target="_blank"
 				>
 					<img src={youtube} alt="YouTube" class="size-6 opacity-60" width="24" height="24" />
 				</a>
 			</div>
+			<a href="/" class="-m-1.5 p-1.5 sm:order-2 " >
+				<img src={gecko_code} alt="Logo de Kokoa" width="69.84" height="32" class="h-8 w-auto" />
+			</a>
 			<p class="mt-8 text-sm/6 text-gray-400 sm:order-1 sm:mt-0">
 				&copy; 2025 Kokoa. All rights reserved.
 			</p>
+			
+			
 		</div>
 	</CenterContainer>
 </footer>
