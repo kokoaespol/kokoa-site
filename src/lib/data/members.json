@@ -238,5 +238,36 @@
 				"link": "https://www.linkedin.com/in/symond-salazar-b1554a352"
 			}
 		]
+	},
+	{
+		"name": "Daniel Mateo",
+		"role": "Miembro",
+		"photo": "https://avatars.githubusercontent.com/u/107244270?v=4",
+		"directiva": "no",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/DanielMateoOrellana"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/daniel-mateo-orellana-642ab3284/"
+			}
+		]
+	},{
+		"name": "Carlos Tingo",
+		"role": "Miembro",
+		"photo": "https://avatars.githubusercontent.com/u/107369011?v=4",
+		"directiva": "no",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/TingoCarlos08"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/carlos-tingo-8b6088218/"
+			}
+		]
 	}
 ]
