@@ -25,19 +25,19 @@
 				class="mx-auto mt-6 grid grid-cols-1 gap-y-5 pl-7 sm:grid-cols-2 sm:gap-10 md:col-span-3 md:mx-0 md:mt-0 md:pl-0"
 			>
 				<li class="flex items-center gap-3">
-					<Cpu class="size-12 text-lime-500 md:size-16" aria-hidden="true" />
+					<Cpu class="size-12 text-green md:size-16" aria-hidden="true" />
 					<span class="flex-1 font-fira text-lg">Electrónica</span>
 				</li>
 				<li class="flex items-center gap-3">
-					<Bot class="size-12 text-lime-500 md:size-16" aria-hidden="true" />
+					<Bot class="size-12 text-green md:size-16" aria-hidden="true" />
 					<span class="flex-1 font-fira text-lg">Hacking ético</span>
 				</li>
 				<li class="flex items-center gap-3">
-					<SquareCode class="size-12 text-lime-500 md:size-16" aria-hidden="true" />
+					<SquareCode class="size-12 text-green md:size-16" aria-hidden="true" />
 					<span class="flex-1 font-fira text-lg">Desarrollo web y móvil</span>
 				</li>
 				<li class="flex items-center gap-3">
-					<SquareTerminal class="size-12 text-lime-500 md:size-16" aria-hidden="true" />
+					<SquareTerminal class="size-12 text-green md:size-16" aria-hidden="true" />
 					<span class="flex-1 font-fira text-lg">Programación de sistemas</span>
 				</li>
 			</ul>
@@ -60,7 +60,7 @@
 			<div class="mt-6 flex justify-center">
 				<a
 					href="/events"
-					class="inline-block rounded-full bg-lime-500 px-14 py-2 font-fira text-base font-semibold text-gray-900 shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
+					class="inline-block rounded-full bg-green px-14 py-2 font-fira text-base font-semibold text-gray-900 shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
 				>
 					Ver más
 				</a>
@@ -75,7 +75,7 @@
 			role="list"
 			class="mx-auto mt-16 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
 		>
-			{#each data.members as member}
+			{#each data.members.filter((m) => m.directiva === "si") as member}
 				<Member {member} />
 			{/each}
 		</ul>
