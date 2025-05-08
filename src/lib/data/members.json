@@ -2,8 +2,10 @@
 	{
 		"name": "Alina Carpio",
 		"role": "Presidente",
-		"photo": "https://avatars.githubusercontent.com/u/72272077?v=4",
+		"photo": "/members/Alina_Carpio.webp",
 		"directiva": "si",
+		"facultad": "FIEC",
+		"carrera": "Computación",
 		"social_media": [
 			{
 				"nombre": "github",
@@ -18,8 +20,10 @@
 	{
 		"name": "Melissa Ayllon",
 		"role": "Vicepresidente",
-		"photo": "https://avatars.githubusercontent.com/u/116417470?v=4",
+		"photo": "/members/Melissa_Ayllon.webp",
 		"directiva": "si",
+		"facultad": "FIEC",
+		"carrera": "Computación",
 		"social_media": [
 			{
 				"nombre": "github",
@@ -34,8 +38,10 @@
 	{
 		"name": "Michael Estrada",
 		"role": "Secretario",
-		"photo": "https://avatars.githubusercontent.com/u/98861990?v=4",
+		"photo": "/members/Michael_Estrada.webp",
 		"directiva": "si",
+		"facultad": "FIEC",
+		"carrera": "Computación",
 		"social_media": [
 			{
 				"nombre": "github",
@@ -48,170 +54,26 @@
 		]
 	},
 	{
-		"name": "Alexander Goussas",
-		"role": "Miembro",
-		"photo": "https://avatars.githubusercontent.com/u/84427521?v=4",
-		"directiva": "no",
+		"name": "Ronald Criollo",
+		"role": "Mentor",
+		"photo": "/members/Ronald_Criollo.webp",
+		"directiva": "si",
+		"facultad": "FIEC",
+		"carrera": "Profesor",
 		"social_media": [
-			{
-				"nombre": "github",
-				"link": "https://github.com/aloussase/"
-			},
 			{
 				"nombre": "linkedin",
-				"link": "https://www.linkedin.com/in/alexander-goussas/"
+				"link": "https://www.linkedin.com/in/rrcriollo/"
 			}
 		]
 	},
 	{
-		"name": "Adrian Delgado",
+		"name": "Dayanara Bone",
 		"role": "Miembro",
-		"photo": "https://avatars.githubusercontent.com/u/11708972?v=4",
+		"photo": "/members/Dayanara_Bone.webp",
 		"directiva": "no",
-		"social_media": [
-			{
-				"nombre": "github",
-				"link": "https://github.com/adriandelgado"
-			},
-			{
-				"nombre": "link",
-				"link": "https://www.adrianjdelgado.com"
-			}
-		]
-	},
-	{
-		"name": "Braulio Rivas",
-		"role": "Miembro",
-		"photo": "https://avatars.githubusercontent.com/u/61257604?v=4",
-		"directiva": "no",
-		"social_media": [
-			{
-				"nombre": "github",
-				"link": "https://github.com/brauliorivas"
-			},
-			{
-				"nombre": "linkedin",
-				"link": "https://www.linkedin.com/in/braulio-rivas-abad/"
-			}
-		]
-	},
-	{
-		"name": "Daniel Cortez",
-		"role": "Miembro",
-		"photo": "https://avatars.githubusercontent.com/u/112514991?v=4",
-		"directiva": "no",
-		"social_media": [
-			{
-				"nombre": "github",
-				"link": "https://github.com/DanRCM"
-			},
-			{
-				"nombre": "linkedin",
-				"link": "https://www.linkedin.com/in/daniel-cortez-manzano-384041253/"
-			}
-		]
-	},
-	{
-		"name": "Adair Abrigo",
-		"role": "Miembro",
-		"photo": "https://avatars.githubusercontent.com/u/93391519?v=4",
-		"directiva": "no",
-		"social_media": [
-			{
-				"nombre": "github",
-				"link": "https://github.com/adairaxe"
-			},
-			{
-				"nombre": "linkedin",
-				"link": "https://www.linkedin.com/in/adair-abrigo-amay/"
-			}
-		]
-	},
-	{
-		"name": "Anthony Herrera",
-		"role": "Miembro",
-		"photo": "https://avatars.githubusercontent.com/u/137233273?v=4",
-		"directiva": "no",
-		"social_media": [
-			{
-				"nombre": "github",
-				"link": "https://github.com/AnthonyyHL"
-			},
-			{
-				"nombre": "linkedin",
-				"link": "https://www.linkedin.com/in/anthonyyhl/"
-			}
-		]
-	},
-	{
-		"name": "John Cañarte",
-		"role": "Miembro",
-		"photo": "https://avatars.githubusercontent.com/u/70679514?v=4",
-		"directiva": "no",
-		"social_media": [
-			{
-				"nombre": "github",
-				"link": "https://github.com/Jecanart"
-			},
-			{
-				"nombre": "linkedin",
-				"link": "https://www.linkedin.com/in/john-ca%C3%B1arte-7728a62b6/"
-			}
-		]
-	},
-	{
-		"name": "Noelia Pasaca",
-		"role": "Miembro",
-		"photo": "https://avatars.githubusercontent.com/u/91957504?v=4",
-		"directiva": "no",
-		"social_media": [
-			{
-				"nombre": "github",
-				"link": "https://github.com/noeliapasaca"
-			},
-			{
-				"nombre": "linkedin",
-				"link": "https://www.linkedin.com/in/noelia-pasaca-paladines-058a4a221/"
-			}
-		]
-	},
-	{
-		"name": "María Jose Moyano",
-		"role": "Miembro",
-		"photo": "https://avatars.githubusercontent.com/u/93271608?v=4",
-		"directiva": "no",
-		"social_media": [
-			{
-				"nombre": "github",
-				"link": "https://github.com/majomoyano"
-			},
-			{
-				"nombre": "linkedin",
-				"link": "https://www.linkedin.com/in/mjmoyanotamayo/"
-			}
-		]
-	},
-	{
-		"name": "Juan Pablo Plúas",
-		"role": "Miembro",
-		"photo": "https://avatars.githubusercontent.com/u/107544861?v=4",
-		"directiva": "no",
-		"social_media": [
-			{
-				"nombre": "github",
-				"link": "https://github.com/jppluas"
-			},
-			{
-				"nombre": "linkedin",
-				"link": "https://www.linkedin.com/in/juanppluasm/"
-			}
-		]
-	},
-	{
-		"name": "Dayanara Bone Vasquez",
-		"role": "Miembro",
-		"photo": "https://avatars.githubusercontent.com/u/183567051?v=4",
-		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
 		"social_media": [
 			{
 				"nombre": "github",
@@ -224,10 +86,226 @@
 		]
 	},
 	{
-		"name": "Symond Salazar Silva",
+		"name": "John Cañarte",
 		"role": "Miembro",
-		"photo": "https://avatars.githubusercontent.com/u/72229717?v=4",
+		"photo": "/members/John_Cañarte.webp",
 		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/Jecanart"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/john-ca%C3%B1arte-7728a62b6/"
+			}
+		]
+	},
+	{
+		"name": "Robert Cortez",
+		"role": "Miembro",
+		"photo": "/members/Robert_Cortez.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/DanRCM"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/daniel-cortez-manzano-384041253/"
+			}
+		]
+	},
+	{
+		"name": "Isaac Criollo",
+		"role": "Miembro",
+		"photo": "/members/Isaac_Criollo.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/Izaako04"
+			}
+		]
+	},
+	{
+		"name": "Adrián Delgado",
+		"role": "Miembro",
+		"photo": "/members/Adrián_Delgado.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/adriandelgado"
+			},
+			{
+				"nombre": "link",
+				"link": "https://www.adrianjdelgado.com"
+			}
+		]
+	},
+	{
+		"name": "Joel Guamaní",
+		"role": "Miembro",
+		"photo": "/members/Joel_Guamaní.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/isaiasgh"
+			}
+		]
+	},
+	{
+		"name": "Anthony Herrera",
+		"role": "Miembro",
+		"photo": "/members/Anthony_Herrera.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/AnthonyyHL"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/anthonyyhl/"
+			}
+		]
+	},
+	{
+		"name": "Kevin Maldonado",
+		"role": "Miembro",
+		"photo": "/members/Kevin_Maldonado.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/SirProg"
+			}
+		]
+	},
+	{
+		"name": "Alexa Marin",
+		"role": "Miembro",
+		"photo": "/members/Alexa_Marin.webp",
+		"directiva": "no",
+		"facultad": "FIMCP",
+		"carrera": "Mecatrónica",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/aamarin05"
+			}
+		]
+	},
+	{
+		"name": "Daniel Mateo",
+		"role": "Miembro",
+		"photo": "/members/Daniel_Mateo.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/DanielMateoOrellana"
+			}
+		]
+	},
+	{
+		"name": "María Moyano",
+		"role": "Miembro",
+		"photo": "/members/María_Moyano.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/Majomoyano"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/mjmoyanotamayo/"
+			}
+		]
+	},
+	{
+		"name": "Noelia Pasaca",
+		"role": "Miembro",
+		"photo": "/members/Noelia_Pasaca.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/noeliapasaca"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/noelia-pasaca-paladines-058a4a221/"
+			}
+		]
+	},
+	{
+		"name": "Juan Plúas",
+		"role": "Miembro",
+		"photo": "/members/Juan_Plúas.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/jppluas"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/juanppluasm/"
+			}
+		]
+	},
+	{
+		"name": "Braulio Rivas",
+		"role": "Miembro",
+		"photo": "/members/Braulio_Rivas.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/brauliorivas"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/braulio-rivas-abad/"
+			}
+		]
+	},
+	{
+		"name": "Symond Salazar",
+		"role": "Miembro",
+		"photo": "/members/Symond_Salazar.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
 		"social_media": [
 			{
 				"nombre": "github",
@@ -236,6 +314,62 @@
 			{
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/symond-salazar-b1554a352"
+			}
+		]
+	},
+	{
+		"name": "Carlos Tingo",
+		"role": "Miembro",
+		"photo": "/members/Carlos_Tingo.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/TingoCarlos08"
+			}
+		]
+	},
+	{
+		"name": "Valeria Troya",
+		"role": "Miembro",
+		"photo": "/members/Valeria_Troya.webp",
+		"directiva": "no",
+		"facultad": "FADCOM",
+		"carrera": "Diseño de Productos",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/Mayliin"
+			}
+		]
+	},
+	{
+		"name": "Danny Véliz",
+		"role": "Miembro",
+		"photo": "/members/Danny_Véliz.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/Danny-veliz"
+			}
+		]
+	},
+	{
+		"name": "Daniel Zavala",
+		"role": "Miembro",
+		"photo": "/members/Daniel_Zavala.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/fzavala2003"
 			}
 		]
 	}
