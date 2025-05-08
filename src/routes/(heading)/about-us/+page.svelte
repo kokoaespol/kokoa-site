@@ -1,8 +1,6 @@
 <script lang="ts">
 	import CenterContainer from "$lib/components/center-container.svelte";
 	import gecko_text from "$lib/assets/logos/gecko-text.png";
-	import { Bot, Cpu, SquareCode, SquareTerminal } from "lucide-svelte";
-	import Member from "$lib/components/member.svelte";
 </script>
 
 {#snippet subtitle(text: string)}

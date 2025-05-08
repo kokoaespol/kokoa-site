@@ -2,16 +2,12 @@
 
 <script lang="ts">
 	import {
-		FACEBOOK_HANDLE_KOKOA,
 		GITHUB_HANDLE_KOKOA,
 		INSTAGRAM_HANDLE_KOKOA,
 		TWITTER_HANDLE_KOKOA,
 		YOUTUBE_HANDLE_KOKOA,
 	} from "$lib/constants";
 
-	import mascota from "$lib/assets/logos/mascota.png";
-
-	import facebook from "$lib/assets/icons/facebook.svg";
 	import gecko_code from "$lib/assets/logos/gecko-code.svg";
 	import x from "$lib/assets/icons/x.svg";
 	import instagram from "$lib/assets/icons/instagram.svg";

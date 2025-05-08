@@ -1,6 +1,5 @@
 <script lang="ts">
 	import CenterContainer from "$lib/components/center-container.svelte";
-	import gecko_text from "$lib/assets/logos/gecko-text.png";
 	import Hero from "./hero.svelte";
 	import { Bot, Cpu, SquareCode, SquareTerminal } from "lucide-svelte";
 	import Chocoevento from "./chocoevento.svelte";

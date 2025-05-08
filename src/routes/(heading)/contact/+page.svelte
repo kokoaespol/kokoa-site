@@ -4,14 +4,12 @@
 	import CenterContainer from "$lib/components/center-container.svelte";
 	import {
 		EMAIL_KOKOA,
-		FACEBOOK_HANDLE_KOKOA,
 		GITHUB_HANDLE_KOKOA,
 		INSTAGRAM_HANDLE_KOKOA,
 		TWITTER_HANDLE_KOKOA,
 		YOUTUBE_HANDLE_KOKOA,
 	} from "$lib/constants";
 
-	import facebook from "$lib/assets/icons/facebook-green.svg";
 	import x from "$lib/assets/icons/x-green.svg";
 	import instagram from "$lib/assets/icons/instagram-green.svg";
 	import github from "$lib/assets/icons/github-green.svg";
