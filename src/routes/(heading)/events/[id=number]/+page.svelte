@@ -4,6 +4,23 @@
 	import { Dot, Globe, Instagram } from "lucide-svelte";
 
 	let { data } = $props();
+
+	const images = import.meta.glob("$lib/assets/images/*", {
+		eager: true,
+		import: "default",
+	});
+
+	const get_image = (path: string) => {
+		if (path.startsWith("http")) {
+			return path;
+		}
+		const image = images["/" + path];
+		if (typeof image === "string") {
+			return image;
+		} else {
+			return "";
+		}
+	};
 </script>
 
 {#snippet subtitle(text: string)}
@@ -30,9 +47,9 @@
 		</div>
 
 		<img
-			src={data.event.image}
+			src={get_image(data.event.image)}
 			alt={`Imagen del evento ${data.event.name}`}
-			class="mt-4 w-full max-w-md rounded-lg shadow-lg shadow-gray-900"
+			class="mt-4 max-h-50 rounded-lg shadow-lg shadow-gray-900"
 		/>
 
 		{@render subtitle("¿De qué trata?")}
