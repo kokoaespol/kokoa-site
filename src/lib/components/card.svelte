@@ -16,7 +16,7 @@
 
 <li class="rounded-2xl bg-neutral-800 px-6 py-5">
 	<article class="flex h-full flex-col">
-		<span class="font-fira font-medium text-lime-500">{date}</span>
+		<span class="font-fira font-medium text-green">{date}</span>
 		<h2 class="font-fira text-xl font-medium">{name}</h2>
 		<div class="mt-4 flex flex-wrap gap-2">
 			{#each categories as category}
@@ -37,7 +37,7 @@
 			</div>
 			<a
 				href={route}
-				class="inline-block w-fit justify-self-end rounded-full bg-lime-500 px-3 py-1 text-sm font-semibold text-gray-900 shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
+				class="inline-block w-fit justify-self-end rounded-full bg-green px-3 py-1 text-sm font-semibold text-primary shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green"
 			>
 				Ver más
 			</a>
