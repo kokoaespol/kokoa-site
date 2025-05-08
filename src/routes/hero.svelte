@@ -2,6 +2,7 @@
 
 <script lang="ts">
 	import CenterContainer from "$lib/components/center-container.svelte";
+	import friends_Img from "$lib/assets/images/portada.jpg";
 </script>
 
 <CenterContainer
@@ -13,7 +14,7 @@
 			<div class="absolute -top-5 -left-5 size-24 bg-green"></div>
 			<div class="absolute -right-5 -bottom-5 size-24 border border-green"></div>
 			<img
-				src="src/lib/assets/images/portada.jpg"
+				src={friends_Img}
 				alt="Imagen de amigos programando"
 				class="relative aspect-3/2 h-full object-cover"
 				width="378.88"
