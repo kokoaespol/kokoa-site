@@ -62,16 +62,18 @@
 		"github_url": "https://github.com/DanRCM/Kokoa_Arcade/tree/main",
 		"apk_url": null,
 		"web_url": null,
-		"authors": [{
-			"name": "Daniel Cortez",
-			"url_image": "https://avatars.githubusercontent.com/u/112514991?v=4"
-		},
-		{
-			"name": "Valeria Troya",
-			"url_image": "https://avatars.githubusercontent.com/u/147886015?v=4"
-		}]
-	  },
-	  {
+		"authors": [
+			{
+				"name": "Daniel Cortez",
+				"url_image": "https://avatars.githubusercontent.com/u/112514991?v=4"
+			},
+			{
+				"name": "Valeria Troya",
+				"url_image": "https://avatars.githubusercontent.com/u/147886015?v=4"
+			}
+		]
+	},
+	{
 		"id": 4,
 		"term": "2025-1s",
 		"name": "Script de análisis de seguridad para sitios web",
@@ -82,9 +84,11 @@
 		"github_url": null,
 		"apk_url": null,
 		"web_url": null,
-		"authors": [{
-			"name": "Noelia Pasaca",
-			"url_image": "https://avatars.githubusercontent.com/u/91957504?v=4"
-		}]
-	  }
+		"authors": [
+			{
+				"name": "Noelia Pasaca",
+				"url_image": "https://avatars.githubusercontent.com/u/91957504?v=4"
+			}
+		]
+	}
 ]
