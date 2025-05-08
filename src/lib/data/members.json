@@ -224,11 +224,15 @@
 			{
 				"nombre": "github",
 				"link": "https://github.com/DanielMateoOrellana"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/daniel-mateo-orellana-642ab3284/"
 			}
 		]
 	},
 	{
-		"name": "María Moyano",
+		"name": "María José Moyano",
 		"role": "Miembro",
 		"photo": "/members/María_Moyano.webp",
 		"directiva": "no",
@@ -264,7 +268,7 @@
 		]
 	},
 	{
-		"name": "Juan Plúas",
+		"name": "Juan Pablo Plúas",
 		"role": "Miembro",
 		"photo": "/members/Juan_Plúas.webp",
 		"directiva": "no",
@@ -328,6 +332,10 @@
 			{
 				"nombre": "github",
 				"link": "https://github.com/TingoCarlos08"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/carlos-tingo-8b6088218/"
 			}
 		]
 	},
@@ -342,6 +350,10 @@
 			{
 				"nombre": "github",
 				"link": "https://github.com/Mayliin"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/valeria-troya-quim%C3%AD-5209a0214/"
 			}
 		]
 	},
