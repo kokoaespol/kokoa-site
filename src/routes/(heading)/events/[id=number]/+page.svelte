@@ -25,21 +25,21 @@
 
 {#snippet subtitle(text: string)}
 	<h2 class="mt-4 flex items-center gap-1 text-3xl font-bold">
-		<span aria-hidden="true" class="text-lime-400 italic">#</span>
+		<span aria-hidden="true" class="text-green italic">#</span>
 		{text}
 	</h2>
 {/snippet}
 
 <CenterContainer class="py-12">
 	<section>
-		<h2 class="font-fira text-xl text-lime-400">Evento</h2>
+		<h2 class="font-fira text-xl text-green">Evento</h2>
 		<div class="mt-2 flex flex-wrap gap-8">
 			<span class="font-fira">{data.event.name}</span>
 		</div>
 	</section>
-	<section class="mt-8 rounded-2xl bg-gray-800 p-8">
+	<section class="mt-8 rounded-2xl bg-neutral-800 p-8">
 		<div class="flex flex-wrap items-center gap-1 font-fira">
-			<span class="text-lime-400">{data.event.date}</span>
+			<span class="text-green">{data.event.date}</span>
 			<Dot />
 			{#each data.event.categories as category}
 				<Tag {category} />
@@ -71,7 +71,7 @@
 		<div class="mt-6 flex flex-col gap-4">
 			{#if data.event.web_url}
 				<a class="flex gap-1 font-fira hover:underline" rel="external" href={data.event.web_url}>
-					<Globe class="size-6 text-lime-400" />
+					<Globe class="size-6 text-green" />
 					{data.event.web_page}
 				</a>
 			{/if}
@@ -82,7 +82,7 @@
 					rel="external"
 					href={data.event.instagram_url}
 				>
-					<Instagram class="size-6 text-lime-400" />
+					<Instagram class="size-6 text-green" />
 					{data.event.instagram_username}
 				</a>
 			{/if}

@@ -10,8 +10,8 @@
 >
 	<div class="max-w-xs md:max-w-none md:flex-[2_2_0%]">
 		<div class="relative mx-auto w-4/5">
-			<div class="absolute -top-5 -left-5 size-24 bg-lime-500"></div>
-			<div class="absolute -right-5 -bottom-5 size-24 border border-lime-500"></div>
+			<div class="absolute -top-5 -left-5 size-24 bg-green"></div>
+			<div class="absolute -right-5 -bottom-5 size-24 border border-green"></div>
 			<img
 				src="https://images.unsplash.com/photo-1601933470096-0e34634ffcde?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 				alt="Imagen de amigos programando"
@@ -23,7 +23,7 @@
 	</div>
 	<div class="flex flex-col items-center gap-y-5 text-center md:flex-[3_3_0%]">
 		<h1 class="font-fira text-lg font-bold lg:text-2xl">
-			<span class="text-lime-500">Kokoa</span>
+			<span class="text-green2">Kokoa</span>
 			<span class="text-blue-100">- Vive el software libre</span>
 		</h1>
 		<p class="max-w-prose text-sm text-blue-100 lg:text-base">

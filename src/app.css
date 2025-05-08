@@ -10,6 +10,11 @@
 	--font-fira:
 		Fira Code Variable, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
 		"Courier New", monospace;
+	--color-primary: #181617;
+	--color-green: #6dd743;
+	--color-green2: #8cc63f;
+	--color-green_linear1: #a8e063;
+	--color-green_linear2: #56ab2f;
 }
 
 @layer base {
