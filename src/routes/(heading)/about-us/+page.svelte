@@ -58,8 +58,9 @@
 		<div>
 			{@render subtitle("Chocomisión")}
 			<p class="mt-4 pl-7">
-				Promover y democratizar el uso de tecnologías libres y de código abierto, fomentando el aprendizaje colaborativo, el desarrollo de proyectos innovadores y la implementación de soluciones tecnológicas que beneficien a la comunidad académica y profesional.
-
+				Promover y democratizar el uso de tecnologías libres y de código abierto, fomentando el
+				aprendizaje colaborativo, el desarrollo de proyectos innovadores y la implementación de
+				soluciones tecnológicas que beneficien a la comunidad académica y profesional.
 			</p>
 		</div>
 	</CenterContainer>
@@ -69,8 +70,10 @@
 		<div>
 			{@render subtitle("Chocovisión")}
 			<p class="mt-4 pl-7">
-				Ser un referente nacional en la adopción y desarrollo de software libre, reconocidos por nuestra contribución a la innovación tecnológica, la formación de profesionales comprometidos con el conocimiento libre y el impacto positivo en la sociedad a través de soluciones tecnológicas accesibles y éticas.
-
+				Ser un referente nacional en la adopción y desarrollo de software libre, reconocidos por
+				nuestra contribución a la innovación tecnológica, la formación de profesionales
+				comprometidos con el conocimiento libre y el impacto positivo en la sociedad a través de
+				soluciones tecnológicas accesibles y éticas.
 			</p>
 		</div>
 	</CenterContainer>

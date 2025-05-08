@@ -14,7 +14,7 @@
 		{ text: "Eventos", href: "/events" },
 		{ text: "Proyectos", href: "/projects" },
 		{ text: "Miembros", href: "/members" },
-		{ text: "Contacto", href: "/contact" }
+		{ text: "Contacto", href: "/contact" },
 	];
 
 	let menu_open = $state(false);

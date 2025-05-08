@@ -104,14 +104,12 @@
 					<img src={youtube} alt="YouTube" class="size-6 opacity-60" width="24" height="24" />
 				</a>
 			</div>
-			<a href="/" class="-m-1.5 p-1.5 sm:order-2 " >
+			<a href="/" class="-m-1.5 p-1.5 sm:order-2">
 				<img src={gecko_code} alt="Logo de Kokoa" width="69.84" height="32" class="h-8 w-auto" />
 			</a>
 			<p class="mt-8 text-sm/6 text-gray-400 sm:order-1 sm:mt-0">
 				&copy; 2025 Kokoa. All rights reserved.
 			</p>
-			
-			
 		</div>
 	</CenterContainer>
 </footer>
