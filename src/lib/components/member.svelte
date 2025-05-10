@@ -50,7 +50,7 @@
 	<h3 class="mt-6 text-base/7 font-semibold tracking-tight">{member.name}</h3>
 	<p class="text-sm/6 text-lime-400">{member.role}</p>
 	<ul role="list" class="mt-6 flex justify-center gap-x-6">
-		{#each member.social_media as media}
+		{#each member.social_media as media (media.link)}
 			<li>
 				<a href={media.link}>
 					{#if media.nombre === "github"}

@@ -33,7 +33,7 @@
 				<Menu />
 			</Dialog.Trigger>
 			<div class="hidden md:flex md:gap-x-6">
-				{#each LINKS as link}
+				{#each LINKS as link (link.href)}
 					<a
 						href={link.href}
 						class={[
@@ -83,7 +83,7 @@
 							</div>
 							<div class="mt-6 flow-root">
 								<div class="-my-6 space-y-2 py-6">
-									{#each LINKS as link}
+									{#each LINKS as link (link.href)}
 										<a
 											href={link.href}
 											class={[

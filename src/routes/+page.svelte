@@ -61,7 +61,7 @@
 			<p class="mt-6 text-center text-xl text-gray-400">No hay eventos activos en este momento.</p>
 		{:else}
 			<div class="mt-6 flex flex-col gap-y-6">
-				{#each active_events as event}
+				{#each active_events as event (event.id)}
 					<Chocoevento {event} />
 				{/each}
 			</div>
@@ -83,7 +83,7 @@
 			role="list"
 			class="mx-auto mt-16 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-4"
 		>
-			{#each data.members.filter((m) => m.directiva === "si") as member}
+			{#each data.members.filter((m) => m.directiva === "si") as member (member.photo)}
 				<Member {member} />
 			{/each}
 		</ul>
