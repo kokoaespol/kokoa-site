@@ -19,7 +19,7 @@
 		<span class="font-fira font-medium text-green">{date}</span>
 		<h2 class="font-fira text-xl font-medium">{name}</h2>
 		<div class="mt-4 flex flex-wrap gap-2">
-			{#each categories as category}
+			{#each categories as category (category)}
 				<Tag {category} />
 			{/each}
 		</div>

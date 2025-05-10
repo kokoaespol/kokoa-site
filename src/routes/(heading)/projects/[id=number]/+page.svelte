@@ -18,7 +18,7 @@
 	<section>
 		<h2 class="font-fira text-xl text-green">Autores</h2>
 		<ul class="mt-2 flex flex-wrap gap-8">
-			{#each data.project.authors as author}
+			{#each data.project.authors as author (author.url_image)}
 				<li class="flex items-center gap-1">
 					<img
 						class="size-8 overflow-hidden rounded-full"
@@ -36,7 +36,7 @@
 		<div class="flex flex-wrap items-center gap-1 font-fira">
 			<span class="text-green">{data.project.term}</span>
 			<Dot />
-			{#each data.project.categories as category}
+			{#each data.project.categories as category (category)}
 				<Tag {category} />
 			{/each}
 		</div>
