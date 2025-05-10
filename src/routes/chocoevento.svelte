@@ -9,7 +9,8 @@
 			date: string;
 			time: string;
 			place: string;
-			active: string;
+			// TODO: use this value
+			// active: string;
 			image: string;
 		};
 	};

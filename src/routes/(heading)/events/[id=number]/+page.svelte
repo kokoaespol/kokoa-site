@@ -41,7 +41,7 @@
 		<div class="flex flex-wrap items-center gap-1 font-fira">
 			<span class="text-green">{data.event.date}</span>
 			<Dot />
-			{#each data.event.categories as category}
+			{#each data.event.categories as category (category)}
 				<Tag {category} />
 			{/each}
 		</div>
