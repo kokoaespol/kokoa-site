@@ -9,14 +9,14 @@
 
 {#snippet subtitle(text: string)}
 	<h2 class="mt-4 flex items-center gap-1 text-3xl font-bold">
-		<span aria-hidden="true" class="text-green italic">#</span>
+		<span aria-hidden="true" class="text-kokoa-lime1 italic">#</span>
 		{text}
 	</h2>
 {/snippet}
 
 <CenterContainer class="py-12">
 	<section>
-		<h2 class="font-fira text-xl text-green">Autores</h2>
+		<h2 class="font-fira text-xl text-kokoa-lime1">Autores</h2>
 		<ul class="mt-2 flex flex-wrap gap-8">
 			{#each data.project.authors as author (author.url_image)}
 				<li class="flex items-center gap-1">
@@ -34,7 +34,7 @@
 	</section>
 	<section class="mt-8 rounded-2xl bg-neutral-800 p-8">
 		<div class="flex flex-wrap items-center gap-1 font-fira">
-			<span class="text-green">{data.project.term}</span>
+			<span class="text-kokoa-lime1">{data.project.term}</span>
 			<Dot />
 			{#each data.project.categories as category (category)}
 				<Tag {category} />
@@ -66,14 +66,14 @@
 
 			{#if data.project.apk_url}
 				<a class="flex gap-1 hover:underline" rel="external" href={data.project.apk_url}>
-					<Smartphone class="size-6 text-green" />
+					<Smartphone class="size-6 text-kokoa-lime1" />
 					App Móvil
 				</a>
 			{/if}
 
 			{#if data.project.web_url}
 				<a class="flex gap-1 hover:underline" rel="external" href={data.project.web_url}>
-					<Globe class="size-6 text-green" />
+					<Globe class="size-6 text-kokoa-lime1" />
 					Página Web
 				</a>
 			{/if}

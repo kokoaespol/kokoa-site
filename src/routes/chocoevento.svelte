@@ -17,7 +17,7 @@
 	let { event }: Props = $props();
 </script>
 
-<article class="overflow-hidden rounded-3xl border border-green bg-primary">
+<article class="overflow-hidden rounded-3xl border border-kokoa-lime1 bg-primary">
 	<div
 		class="grid gap-6 p-6 sm:grid-cols-[minmax(0px,2fr)_minmax(0px,1fr)] md:grid-cols-[minmax(0px,1fr)_minmax(0px,2fr)_minmax(0px,1fr)]"
 	>
@@ -31,7 +31,7 @@
 			<p class="mt-2">{event.description}</p>
 		</div>
 		<dl class="flex flex-col gap-y-2">
-			<div class="grid grid-cols-[24px_minmax(0px,1fr)] items-center gap-x-3 text-green">
+			<div class="grid grid-cols-[24px_minmax(0px,1fr)] items-center gap-x-3 text-kokoa-lime1">
 				<dt>
 					<span class="sr-only">Fecha</span>
 					<CalendarDays class="size-6" aria-hidden="true" />
@@ -54,7 +54,7 @@
 			</div>
 		</dl>
 	</div>
-	<div class="flex justify-end bg-green px-6 py-2 font-fira font-semibold text-primary">
+	<div class="flex justify-end bg-kokoa-lime1 px-6 py-2 font-fira font-semibold text-primary">
 		<button class="flex items-center gap-2 gap-x-3">
 			<a href="/events/{event.id}">
 				<span>Información</span>
