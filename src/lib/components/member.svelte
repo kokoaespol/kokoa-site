@@ -19,15 +19,12 @@
 		eager: true,
 		import: "default",
 	});
-	const get_photo = (path: string) => {
-		path = "/src/lib/assets" + path;
-		const photo = photos[path];
-		if (typeof photo === "string") {
-			return photo;
-		} else {
-			return "";
-		}
-	};
+
+	function get_photo(path: string) {
+		const photo = photos["/src/lib/assets" + path];
+		if (typeof photo !== "string") throw new Error("Invalid member photo path");
+		return photo;
+	}
 </script>
 
 <li class="text-center">

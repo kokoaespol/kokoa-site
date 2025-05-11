@@ -21,7 +21,7 @@
 		"place": "Online",
 		"categories": ["hackathon", "workshops"],
 		"active": "false",
-		"image": "src/lib/assets/images/cli-week.jpg",
+		"image": "/events/cli-week.jpg",
 		"web_url": "https://www.instagram.com/kokoa_espol/p/DBAlrs4RrEW/?img_index=1",
 		"web_page": "www.kokoa.club",
 		"instagram_username": "kokoa_espol",
