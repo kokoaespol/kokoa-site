@@ -3,11 +3,11 @@ import events from "$lib/data/events.json";
 import { error } from "@sveltejs/kit";
 
 export const load = (async ({ params }) => {
-	const id = parseInt(params.id, 10);
+	const id = Number.parseInt(params.id, 10);
 	const event = events.find((event) => event.id === id);
 
 	if (!event) {
-		throw error(404, `Evento no encontrado`);
+		throw error(404, "Evento no encontrado");
 	}
 
 	return {

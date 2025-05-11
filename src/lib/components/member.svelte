@@ -21,7 +21,7 @@
 	});
 
 	function get_photo(path: string) {
-		const photo = photos["/src/lib/assets" + path];
+		const photo = photos[`/src/lib/assets${path}`];
 		if (typeof photo !== "string") throw new Error("Invalid member photo path");
 		return photo;
 	}

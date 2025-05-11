@@ -3,11 +3,11 @@ import projects from "$lib/data/projects.json";
 import { error } from "@sveltejs/kit";
 
 export const load = (async ({ params }) => {
-	const id = parseInt(params.id, 10);
+	const id = Number.parseInt(params.id, 10);
 	const project = projects.find((project) => project.id === id);
 
 	if (!project) {
-		throw error(404, `Proyecto no encontrado`);
+		throw error(404, "Proyecto no encontrado");
 	}
 
 	return {
