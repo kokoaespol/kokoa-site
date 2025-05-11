@@ -25,6 +25,16 @@
 		if (typeof photo !== "string") throw new Error("Invalid member photo path");
 		return photo;
 	}
+
+	const colormap = new Map<string, string>();
+	colormap.set("FIEC", "text-[#6d97b0]");
+	colormap.set("FADCOM", "text-[#e3318a]");
+	colormap.set("FCNM", "text-[#5d4394]");
+	colormap.set("FCSH", "text-[#fbc311]");
+	colormap.set("FCV", "text-[#57b24f]");
+	colormap.set("FICT", "text-[#346033]");
+	colormap.set("FIMCM", "text-[#1db5c1]");
+	colormap.set("FIMCP", "text-[#2076b6]");
 </script>
 
 <li class="text-center">
@@ -37,8 +47,9 @@
 			alt={member.name}
 		/>
 		<p
-			class="absolute inset-0 flex items-center justify-center font-black opacity-0 transition duration-150 group-hover:opacity-100"
-			style="color: var(--color-{member.facultad});"
+			class="absolute inset-0 flex items-center justify-center font-black opacity-0 transition duration-150 group-hover:opacity-100 {colormap.get(
+				member.facultad,
+			)}"
 		>
 			{member.facultad} <br />
 			{member.carrera}
@@ -75,16 +86,3 @@
 		{/each}
 	</ul>
 </li>
-
-<style>
-	:global(:root) {
-		--color-FIEC: #6d97b0;
-		--color-FADCOM: #e3318a;
-		--color-FCNM: #5d4394;
-		--color-FCSH: #fbc311;
-		--color-FCV: #57b24f;
-		--color-FICT: #346033;
-		--color-FIMCM: #1db5c1;
-		--color-FIMCP: #2076b6;
-	}
-</style>
