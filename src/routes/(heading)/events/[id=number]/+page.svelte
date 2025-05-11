@@ -6,22 +6,19 @@
 
 	let { data } = $props();
 
-	const images = import.meta.glob("$lib/assets/images/*", {
+	const images = import.meta.glob("$lib/assets/events/*", {
 		eager: true,
 		import: "default",
 	});
 
-	const get_image = (path: string) => {
+	function get_image(path: string) {
 		if (path.startsWith("http")) {
 			return path;
 		}
-		const image = images["/" + path];
-		if (typeof image === "string") {
-			return image;
-		} else {
-			return "";
-		}
-	};
+		const image = images["/src/lib/assets" + path];
+		if (typeof image !== "string") throw new Error("Invalid event image path");
+		return image;
+	}
 </script>
 
 {#snippet subtitle(text: string)}
