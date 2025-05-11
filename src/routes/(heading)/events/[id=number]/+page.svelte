@@ -15,7 +15,7 @@
 		if (path.startsWith("http")) {
 			return path;
 		}
-		const image = images["/src/lib/assets" + path];
+		const image = images[`/src/lib/assets${path}`];
 		if (typeof image !== "string") throw new Error("Invalid event image path");
 		return image;
 	}
