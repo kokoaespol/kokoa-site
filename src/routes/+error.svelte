@@ -1,3 +1,5 @@
+<svelte:options runes />
+
 <script lang="ts">
 	import CenterContainer from "$lib/components/center-container.svelte";
 	import this_is_fine from "$lib/assets/images/this-is-fine-404.gif";
