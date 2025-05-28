@@ -5,7 +5,7 @@
 		"photo": "/members/Ronald_Criollo.webp",
 		"directiva": "si",
 		"facultad": "FIEC",
-		"carrera": "Profesor",
+		"carrera": "Docente - Investigador",
 		"social_media": [
 			{
 				"nombre": "linkedin",
@@ -14,44 +14,8 @@
 		]
 	},
 	{
-		"name": "Alina Carpio",
-		"role": "Presidente",
-		"photo": "/members/Alina_Carpio.webp",
-		"directiva": "si",
-		"facultad": "FIEC",
-		"carrera": "Computación",
-		"social_media": [
-			{
-				"nombre": "github",
-				"link": "https://github.com/alicarpio"
-			},
-			{
-				"nombre": "linkedin",
-				"link": "https://www.linkedin.com/in/alina-carpio/"
-			}
-		]
-	},
-	{
-		"name": "Melissa Ayllon",
-		"role": "Vicepresidente",
-		"photo": "/members/Melissa_Ayllon.webp",
-		"directiva": "si",
-		"facultad": "FIEC",
-		"carrera": "Computación",
-		"social_media": [
-			{
-				"nombre": "github",
-				"link": "https://github.com/MelissaAyllon"
-			},
-			{
-				"nombre": "linkedin",
-				"link": "https://www.linkedin.com/in/melissa-ayllon-193558221/"
-			}
-		]
-	},
-	{
 		"name": "Michael Estrada",
-		"role": "Secretario",
+		"role": "Presidente",
 		"photo": "/members/Michael_Estrada.webp",
 		"directiva": "si",
 		"facultad": "FIEC",
@@ -64,6 +28,60 @@
 			{
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/maiestrada/"
+			}
+		]
+	},
+	{
+		"name": "Juan Pablo Plúas",
+		"role": "Vicepresidente",
+		"photo": "/members/Juan_Plúas.webp",
+		"directiva": "si",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/jppluas"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/juanppluasm/"
+			}
+		]
+	},
+	{
+		"name": "Carlos Tingo",
+		"role": "Secretario",
+		"photo": "/members/Carlos_Tingo.webp",
+		"directiva": "si",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/TingoCarlos08"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/carlos-tingo-8b6088218/"
+			}
+		]
+	},
+	{
+		"name": "Melissa Ayllon",
+		"role": "Miembro",
+		"photo": "/members/Melissa_Ayllon.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/MelissaAyllon"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/melissa-ayllon-193558221/"
 			}
 		]
 	},
@@ -100,6 +118,24 @@
 			{
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/john-ca%C3%B1arte-7728a62b6/"
+			}
+		]
+	},
+	{
+		"name": "Alina Carpio",
+		"role": "Miembro",
+		"photo": "/members/Alina_Carpio.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/alicarpio"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/alina-carpio/"
 			}
 		]
 	},
@@ -268,24 +304,6 @@
 		]
 	},
 	{
-		"name": "Juan Pablo Plúas",
-		"role": "Miembro",
-		"photo": "/members/Juan_Plúas.webp",
-		"directiva": "no",
-		"facultad": "FIEC",
-		"carrera": "Computación",
-		"social_media": [
-			{
-				"nombre": "github",
-				"link": "https://github.com/jppluas"
-			},
-			{
-				"nombre": "linkedin",
-				"link": "https://www.linkedin.com/in/juanppluasm/"
-			}
-		]
-	},
-	{
 		"name": "Braulio Rivas",
 		"role": "Miembro",
 		"photo": "/members/Braulio_Rivas.webp",
@@ -318,24 +336,6 @@
 			{
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/symond-salazar-b1554a352"
-			}
-		]
-	},
-	{
-		"name": "Carlos Tingo",
-		"role": "Miembro",
-		"photo": "/members/Carlos_Tingo.webp",
-		"directiva": "no",
-		"facultad": "FIEC",
-		"carrera": "Computación",
-		"social_media": [
-			{
-				"nombre": "github",
-				"link": "https://github.com/TingoCarlos08"
-			},
-			{
-				"nombre": "linkedin",
-				"link": "https://www.linkedin.com/in/carlos-tingo-8b6088218/"
 			}
 		]
 	},
