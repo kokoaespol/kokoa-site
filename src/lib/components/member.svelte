@@ -26,15 +26,16 @@
 		return photo;
 	}
 
-	const colormap = new Map<string, string>();
-	colormap.set("FIEC", "text-[#6d97b0]");
-	colormap.set("FADCOM", "text-[#e3318a]");
-	colormap.set("FCNM", "text-[#5d4394]");
-	colormap.set("FCSH", "text-[#fbc311]");
-	colormap.set("FCV", "text-[#57b24f]");
-	colormap.set("FICT", "text-[#346033]");
-	colormap.set("FIMCM", "text-[#1db5c1]");
-	colormap.set("FIMCP", "text-[#2076b6]");
+	const colormap = new Map([
+		["FIEC", "text-[#6d97b0]"],
+		["FADCOM", "text-[#e3318a]"],
+		["FCNM", "text-[#5d4394]"],
+		["FCSH", "text-[#fbc311]"],
+		["FCV", "text-[#57b24f]"],
+		["FICT", "text-[#346033]"],
+		["FIMCM", "text-[#1db5c1]"],
+		["FIMCP", "text-[#2076b6]"],
+	]);
 </script>
 
 <li class="text-center">
