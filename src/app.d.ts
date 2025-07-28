@@ -9,7 +9,11 @@ declare global {
 			description: string;
 		}
 		// interface PageState {}
-		// interface Platform {}
+		interface Platform {
+			env: Env;
+			cf: CfProperties;
+			ctx: ExecutionContext;
+		}
 	}
 }
 
