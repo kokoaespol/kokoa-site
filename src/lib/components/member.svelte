@@ -37,8 +37,6 @@
 		["FIMCM", "text-[#1db5c1]"],
 		["FIMCP", "text-[#2076b6]"],
 	]);
-
-
 </script>
 
 <li class="text-center">

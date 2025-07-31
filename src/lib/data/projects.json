@@ -13,7 +13,7 @@
 		"authors": [
 			{
 				"name": "Alexander Goussas",
-				"slug":"none",
+				"slug": "none",
 				"url_image": "https://avatars.githubusercontent.com/u/84427521?v=4"
 			},
 			{
@@ -23,7 +23,7 @@
 			},
 			{
 				"name": "Michael Estrada",
-				"slug":"michael-estrada",
+				"slug": "michael-estrada",
 				"url_image": "https://avatars.githubusercontent.com/u/98861990?v=4"
 			},
 			{
@@ -47,12 +47,12 @@
 		"authors": [
 			{
 				"name": "Alexander Goussas",
-				"slug":"none",
+				"slug": "none",
 				"url_image": "https://avatars.githubusercontent.com/u/84427521?v=4"
 			},
 			{
 				"name": "Alina Carpio",
-				"slug":"alina-carpio",
+				"slug": "alina-carpio",
 				"url_image": "https://avatars.githubusercontent.com/u/72272077?v=4"
 			}
 		]
@@ -71,12 +71,12 @@
 		"authors": [
 			{
 				"name": "Daniel Cortez",
-				"slug":"daniel-cortez",
+				"slug": "daniel-cortez",
 				"url_image": "https://avatars.githubusercontent.com/u/112514991?v=4"
 			},
 			{
 				"name": "Valeria Troya",
-				"slug":"valeria-troya",
+				"slug": "valeria-troya",
 				"url_image": "https://avatars.githubusercontent.com/u/147886015?v=4"
 			}
 		]
@@ -95,7 +95,7 @@
 		"authors": [
 			{
 				"name": "Noelia Pasaca",
-				"slug":"noelia-pasaca",
+				"slug": "noelia-pasaca",
 				"url_image": "https://avatars.githubusercontent.com/u/91957504?v=4"
 			}
 		]

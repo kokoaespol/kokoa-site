@@ -21,13 +21,12 @@
 			{#each data.project.authors as author (author.url_image)}
 				<li class="flex items-center gap-1">
 					<a href={`../members/${author.slug}`}>
-
 						<img
-						class="size-8 overflow-hidden rounded-full"
-						src={author.url_image}
-						alt={author.name}
-						width="32"
-						height="32"
+							class="size-8 overflow-hidden rounded-full"
+							src={author.url_image}
+							alt={author.name}
+							width="32"
+							height="32"
 						/>
 						<span class="font-fira">{author.name}</span>
 					</a>

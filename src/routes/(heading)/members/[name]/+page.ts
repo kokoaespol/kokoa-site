@@ -11,9 +11,8 @@ export const load = (async ({ params }) => {
 	}
 
 	const member_projects = projects.filter((project) => {
-			return project.authors.some((m) => m.slug === member.slug);
+		return project.authors.some((m) => m.slug === member.slug);
 	});
-
 
 	return {
 		title: member.name,
