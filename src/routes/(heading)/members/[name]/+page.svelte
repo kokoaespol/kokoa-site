@@ -4,10 +4,6 @@
 	import Tag from "$lib/components/tag.svelte";
 
 	let { data } = $props();
-	const member = data.member;
-	const interests = member.interests ?? [];
-	const stack = member.stack ?? [];
-	const projects = data.memberProjects;
 	const photos = import.meta.glob("$lib/assets/members/*", {
 		eager: true,
 		import: "default",
@@ -77,47 +73,47 @@
 			<div
 				class="group relative mx-auto aspect-square w-full max-w-[300px] overflow-hidden rounded-full"
 			>
-				<img class="h-full w-full object-cover" src={get_photo(member.photo)} alt={member.name} />
+				<img class="h-full w-full object-cover" src={get_photo(data.member.photo)} alt={data.member.name} />
 			</div>
 		</div>
 
 		<div class="p-4 md:col-span-2">
-			<h2 class="mb-4 font-fira text-xl font-semibold">{member.name}</h2>
-			<p class="whitespace-pre-line">{member.description}</p>
+			<h2 class="mb-4 font-fira text-xl font-semibold">{data.member.name}</h2>
+			<p class="whitespace-pre-line">{data.member.description}</p>
 		</div>
 
+		{#if data.member.stack> 0}
 		<div class="p-4 md:col-span-2">
 			<h3 class="mb-4 font-fira text-xl font-semibold">Stack</h3>
 			<div class="mt-4 flex flex-wrap gap-4">
-				{#if stack.length > 0}
-					{#each stack as tech (tech)}
+					{#each data.member.stack as tech (tech)}
 						<img src={get_stack_icon_url(tech)} alt={tech} class="h-8" />
 					{/each}
-				{/if}
+				</div>
 			</div>
-		</div>
+		{/if}
 
+		{#if data.member.interests.length > 0}
 		<div class="p-4 md:col-span-2">
 			<h3 class="mb-4 font-fira text-xl font-semibold">Áreas de interés</h3>
 			<div class="mt-4 flex flex-wrap gap-2">
-				{#if interests.length > 0}
-					{#each interests as interest (interest)}
+					{#each data.member.interests as interest (interest)}
 						<Tag category={interest} />
 					{/each}
-				{/if}
+				</div>
 			</div>
-		</div>
+		{/if}
 	</div>
 </CenterContainer>
 
-{#if projects.length > 0}
+{#if data.member_projects.length > 0}
 	<CenterContainer class="py-12">
 		<h2 class="mb-4 font-fira text-xl font-semibold">Proyectos</h2>
 		<ul
 			role="list"
 			class="mx-auto mt-12 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
 		>
-			{#each projects as project (project.id)}
+			{#each data.member_projects as project (project.id)}
 				<Card
 					route="/projects/{project.id}"
 					date={project.term}

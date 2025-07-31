@@ -4,30 +4,21 @@ import { error } from "@sveltejs/kit";
 import projects from "$lib/data/projects.json";
 
 export const load = (async ({ params }) => {
-	const slug = compareName(params.name);
-	const member = members.find((member) => compareName(member.name) === slug);
-
-	const memberProjects = projects.filter((project) => {
-		return project.authors.some((m) => compareName(m.name) === slug);
-	});
+	const member = members.find((member) => member.slug === params.name);
 
 	if (!member) {
-		throw error(404, `Miembro no encontrado`);
+		error(404, `Miembro no encontrado`);
 	}
+
+	const member_projects = projects.filter((project) => {
+			return project.authors.some((m) => m.slug === member.slug);
+	});
+
 
 	return {
 		title: member.name,
 		description: `Perfil de ${member.name} - ${member.role}`,
 		member,
-		memberProjects,
+		member_projects,
 	};
 }) satisfies PageLoad;
-
-function compareName(name: string): string {
-	return name
-		.toLowerCase()
-		.replace(/\s+/g, "_")
-		.replace(/-/g, "_")
-		.normalize("NFD")
-		.replace(/[\u0300-\u036f]/g, "");
-}
