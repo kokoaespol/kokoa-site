@@ -35,6 +35,15 @@
 	colormap.set("FICT", "text-[#346033]");
 	colormap.set("FIMCM", "text-[#1db5c1]");
 	colormap.set("FIMCP", "text-[#2076b6]");
+
+	function generateUrl(name: string): string {
+		return name
+			.toLowerCase()
+			.replace(/\s+/g, "_")
+			.replace(/-/g, "_")
+			.normalize("NFD")
+			.replace(/[\u0300-\u036f]/g, "");
+	}
 </script>
 
 <li class="text-center">
@@ -46,14 +55,15 @@
 			height="224"
 			alt={member.name}
 		/>
-		<p
+		<a
+			href={`/members/${generateUrl(member.name)}`}
 			class="absolute inset-0 flex items-center justify-center font-black opacity-0 transition duration-150 group-hover:opacity-100 {colormap.get(
 				member.facultad,
 			)}"
 		>
 			{member.facultad} <br />
 			{member.carrera}
-		</p>
+		</a>
 	</div>
 	<h3 class="mt-6 text-base/7 font-semibold tracking-tight">{member.name}</h3>
 	<p class="text-sm/6 text-lime-400">{member.role}</p>
