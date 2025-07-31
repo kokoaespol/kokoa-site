@@ -10,6 +10,7 @@
 			photo: string;
 			facultad: string;
 			carrera: string;
+			slug: string;
 			social_media: { nombre: string; link: string }[];
 		};
 	};
@@ -37,14 +38,7 @@
 		["FIMCP", "text-[#2076b6]"],
 	]);
 
-	function generateUrl(name: string): string {
-		return name
-			.toLowerCase()
-			.replace(/\s+/g, "_")
-			.replace(/-/g, "_")
-			.normalize("NFD")
-			.replace(/[\u0300-\u036f]/g, "");
-	}
+
 </script>
 
 <li class="text-center">
@@ -57,7 +51,7 @@
 			alt={member.name}
 		/>
 		<a
-			href={`/members/${generateUrl(member.name)}`}
+			href={`/members/${member.slug}`}
 			class="absolute inset-0 flex items-center justify-center font-black opacity-0 transition duration-150 group-hover:opacity-100 {colormap.get(
 				member.facultad,
 			)}"
