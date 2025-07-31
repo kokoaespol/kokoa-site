@@ -89,18 +89,22 @@
 		<div class="p-4 md:col-span-2">
 			<h3 class="mb-4 font-fira text-xl font-semibold">Stack</h3>
 			<div class="mt-4 flex flex-wrap gap-4">
-				{#each stack as tech}
-					<img src={get_stack_icon_url(tech)} alt={tech} class="h-8" />
-				{/each}
+				{#if stack.length > 0}
+					{#each stack as tech (tech)}
+						<img src={get_stack_icon_url(tech)} alt={tech} class="h-8" />
+					{/each}
+				{/if}
 			</div>
 		</div>
 
 		<div class="p-4 md:col-span-2">
 			<h3 class="mb-4 font-fira text-xl font-semibold">Áreas de interés</h3>
 			<div class="mt-4 flex flex-wrap gap-2">
-				{#each interests as interest}
-					<Tag category={interest} />
-				{/each}
+				{#if interests.length > 0}
+					{#each interests as interest (interest)}
+						<Tag category={interest} />
+					{/each}
+				{/if}
 			</div>
 		</div>
 	</div>
