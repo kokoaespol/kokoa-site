@@ -82,7 +82,7 @@
 			<p class="whitespace-pre-line">{data.member.description}</p>
 		</div>
 
-		{#if data.member.stack> 0}
+		{#if data.member.stack.length > 0}
 		<div class="p-4 md:col-span-2">
 			<h3 class="mb-4 font-fira text-xl font-semibold">Stack</h3>
 			<div class="mt-4 flex flex-wrap gap-4">
