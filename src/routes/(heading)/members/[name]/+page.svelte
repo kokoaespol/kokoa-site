@@ -51,7 +51,7 @@
 			plc: "material-symbols:memory",
 		};
 
-		//Si no lo encuentra le pongo el icono de vs code por defecto
+		//En caso de no encontrarse un icono
 		const iconName = iconMapping[tech] || "simple-icons:?";
 
 		// Trate de usar el color verde de kokoa
