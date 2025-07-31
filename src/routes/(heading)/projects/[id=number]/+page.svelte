@@ -20,14 +20,17 @@
 		<ul class="mt-2 flex flex-wrap gap-8">
 			{#each data.project.authors as author (author.url_image)}
 				<li class="flex items-center gap-1">
-					<img
+					<a href={`../members/${author.slug}`}>
+
+						<img
 						class="size-8 overflow-hidden rounded-full"
 						src={author.url_image}
 						alt={author.name}
 						width="32"
 						height="32"
-					/>
-					<span class="font-fira">{author.name}</span>
+						/>
+						<span class="font-fira">{author.name}</span>
+					</a>
 				</li>
 			{/each}
 		</ul>
