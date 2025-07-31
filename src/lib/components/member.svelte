@@ -49,7 +49,7 @@
 			alt={member.name}
 		/>
 		<a
-			href="/members/${member.slug}"
+			href="/members/{member.slug}"
 			class="absolute inset-0 flex items-center justify-center font-black opacity-0 transition duration-150 group-hover:opacity-100 {colormap.get(
 				member.facultad,
 			)}"
