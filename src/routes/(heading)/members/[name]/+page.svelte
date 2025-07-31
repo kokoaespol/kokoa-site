@@ -73,7 +73,11 @@
 			<div
 				class="group relative mx-auto aspect-square w-full max-w-[300px] overflow-hidden rounded-full"
 			>
-				<img class="h-full w-full object-cover" src={get_photo(data.member.photo)} alt={data.member.name} />
+				<img
+					class="h-full w-full object-cover"
+					src={get_photo(data.member.photo)}
+					alt={data.member.name}
+				/>
 			</div>
 		</div>
 
@@ -83,9 +87,9 @@
 		</div>
 
 		{#if data.member.stack.length > 0}
-		<div class="p-4 md:col-span-2">
-			<h3 class="mb-4 font-fira text-xl font-semibold">Stack</h3>
-			<div class="mt-4 flex flex-wrap gap-4">
+			<div class="p-4 md:col-span-2">
+				<h3 class="mb-4 font-fira text-xl font-semibold">Stack</h3>
+				<div class="mt-4 flex flex-wrap gap-4">
 					{#each data.member.stack as tech (tech)}
 						<img src={get_stack_icon_url(tech)} alt={tech} class="h-8" />
 					{/each}
@@ -94,9 +98,9 @@
 		{/if}
 
 		{#if data.member.interests.length > 0}
-		<div class="p-4 md:col-span-2">
-			<h3 class="mb-4 font-fira text-xl font-semibold">Áreas de interés</h3>
-			<div class="mt-4 flex flex-wrap gap-2">
+			<div class="p-4 md:col-span-2">
+				<h3 class="mb-4 font-fira text-xl font-semibold">Áreas de interés</h3>
+				<div class="mt-4 flex flex-wrap gap-2">
 					{#each data.member.interests as interest (interest)}
 						<Tag category={interest} />
 					{/each}
