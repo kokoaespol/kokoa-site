@@ -14,7 +14,8 @@
 		],
 		"description": "Trabajando en esto",
 		"stack": [],
-		"interests": []
+		"interests": [],
+		"slug" : "ronald-criollo"
 	},
 	{
 		"name": "Michael Estrada",
@@ -56,7 +57,8 @@
 			"Análisis de Datos",
 			"Electrónica",
 			"UX/UI Design"
-		]
+		],
+		"slug" : "michael-estrada"
 	},
 	{
 		"name": "Juan Pablo Plúas",
@@ -77,7 +79,8 @@
 		],
 		"description": "Trabajando en esto",
 		"stack": [],
-		"interests": []
+		"interests": [],
+		"slug" : "juan-pablo-pluas"
 	},
 	{
 		"name": "Carlos Tingo",
@@ -98,7 +101,8 @@
 		],
 		"description": "Trabajando en esto",
 		"stack": [],
-		"interests": []
+		"interests": [],
+		"slug" : "carlos-tingo"
 	},
 	{
 		"name": "Melissa Ayllon",
@@ -119,7 +123,8 @@
 		],
 		"description": "Trabajando en esto",
 		"stack": [],
-		"interests": []
+		"interests": [],
+		"slug" : "melissa-ayllon"
 	},
 	{
 		"name": "Dayanara Bone",
@@ -140,7 +145,8 @@
 		],
 		"description": "Trabajando en esto",
 		"stack": [],
-		"interests": []
+		"interests": [],
+		"slug" : "dayanara-bone"
 	},
 	{
 		"name": "John Cañarte",
@@ -161,7 +167,8 @@
 		],
 		"description": "Trabajando en esto",
 		"stack": [],
-		"interests": []
+		"interests": [],
+		"slug":"john-canarte"
 	},
 	{
 		"name": "Alina Carpio",
@@ -182,7 +189,8 @@
 		],
 		"description": "Trabajando en esto",
 		"stack": [],
-		"interests": []
+		"interests": [],
+		"slug":"alina-carpio"
 	},
 	{
 		"name": "Daniel Cortez",
@@ -231,7 +239,8 @@
 			"Pruebas De Seguridad",
 			"Electronica",
 			"Electricidad"
-		]
+		],
+		"slug":"daniel-cortez"
 	},
 	{
 		"name": "Isaac Criollo",
@@ -248,7 +257,8 @@
 		],
 		"description": "Trabajando en esto",
 		"stack": [],
-		"interests": []
+		"interests": [],
+		"slug":"isaac-criollo"
 	},
 	{
 		"name": "Adrián Delgado",
@@ -269,7 +279,8 @@
 		],
 		"description": "Trabajando en esto",
 		"stack": [],
-		"interests": []
+		"interests": [],
+		"slug":"adrian-delgado"
 	},
 	{
 		"name": "Joel Guamaní",
@@ -286,7 +297,8 @@
 		],
 		"description": "Trabajando en esto",
 		"stack": [],
-		"interests": []
+		"interests": [],
+		"slug":"joel-guamani"
 	},
 	{
 		"name": "Anthony Herrera",
@@ -307,7 +319,8 @@
 		],
 		"description": "Trabajando en esto",
 		"stack": [],
-		"interests": []
+		"interests": [],
+		"slug":"anthony-herrera"
 	},
 	{
 		"name": "Kevin Maldonado",
@@ -343,7 +356,8 @@
 			"Inteligencia Artificial",
 			"Diseño de Software",
 			"Ciencias de Datos"
-		]
+		],
+		"slug":"kevin-maldonado"
 	},
 	{
 		"name": "Alexa Marin",
@@ -360,7 +374,8 @@
 		],
 		"description": "Trabajando en esto",
 		"stack": [],
-		"interests": []
+		"interests": [],
+		"slug":"alexa-marin"
 	},
 	{
 		"name": "Daniel Mateo",
@@ -381,7 +396,8 @@
 		],
 		"description": "Trabajando en esto",
 		"stack": [],
-		"interests": []
+		"interests": [],
+		"slug":"daniel-mateo"
 	},
 	{
 		"name": "María José Moyano",
@@ -402,7 +418,8 @@
 		],
 		"description": "Trabajando en esto",
 		"stack": [],
-		"interests": []
+		"interests": [],
+		"slug":"maria-jose-moyano"
 	},
 	{
 		"name": "Noelia Pasaca",
@@ -444,7 +461,8 @@
 			"Inteligencia Artificial",
 			"Liderazgo",
 			"Comunidad"
-		]
+		],
+		"slug":"noelia-pasaca"
 	},
 	{
 		"name": "Braulio Rivas",
@@ -465,7 +483,8 @@
 		],
 		"description": "Trabajando en esto",
 		"stack": [],
-		"interests": []
+		"interests": [],
+		"slug":"braulio-rivas"
 	},
 	{
 		"name": "Symond Salazar",
@@ -500,7 +519,8 @@
 			"Unity",
 			"Blender"
 		],
-		"interests": ["Desarrollo Web", "Inteligencia Artificial", "Desarrollo de Videojuegos"]
+		"interests": ["Desarrollo Web", "Inteligencia Artificial", "Desarrollo de Videojuegos"],
+		"slug":"symond-salazar"
 	},
 	{
 		"name": "Valeria Troya",
@@ -543,7 +563,8 @@
 			"Diseño Generativo",
 			"Tecnología Creativa",
 			"Comunicación Visual"
-		]
+		],
+		"slug":"valeria-troya"
 	},
 	{
 		"name": "Danny Véliz",
@@ -560,7 +581,8 @@
 		],
 		"description": "Trabajando en esto",
 		"stack": [],
-		"interests": []
+		"interests": [],
+		"slug":"danny-veliz"
 	},
 	{
 		"name": "Daniel Zavala",
@@ -577,6 +599,7 @@
 		],
 		"description": "Desde pequeño me gustó la tecnología, me gustaba mirar especificaciones de celulares, computadoras y configurar aplicaciones. Luego entre a la carrera de computación y aprendí a programar que es lo que más me gusta. Actualmente aspiro en hacer un postgrado en seguridad informática.",
 		"stack": ["React", "TypeScript", "JavaScript", "Python", "Java", "CSS", "HTML", "Figma"],
-		"interests": ["Assembly", "Seguridad Informática", "Estructura de Datos"]
+		"interests": ["Assembly", "Seguridad Informática", "Estructura de Datos"],
+		"slug":"daniel-zavala"
 	}
 ]
