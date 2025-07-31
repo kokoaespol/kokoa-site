@@ -10,8 +10,6 @@
 	});
 
 	function get_stack_icon_url(tech: string): string {
-		const techClean = tech.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
-
 		// Mapeo de tecnologías a iconos de iconify (usando el color verde de la página)
 		const iconMapping: Record<string, string> = {
 			// Esta funcion por el momento es ineficiente, pero es la unica manera que encontre
@@ -54,7 +52,7 @@
 		};
 
 		//Si no lo encuentra le pongo el icono de vs code por defecto
-		const iconName = iconMapping[techClean] || "simple-icons:visualstudio";
+		const iconName = iconMapping[tech] || "simple-icons:?";
 
 		// Trate de usar el color verde de kokoa
 		return `https://api.iconify.design/${iconName}.svg?color=%236dd743`;
