@@ -10,6 +10,7 @@
 			photo: string;
 			facultad: string;
 			carrera: string;
+			slug: string;
 			social_media: { nombre: string; link: string }[];
 		};
 	};
@@ -26,6 +27,7 @@
 		return photo;
 	}
 
+<<<<<<< HEAD
 	const colormap = new Map([
 		["FIEC", "text-[#6d97b0]"],
 		["FADCOM", "text-[#e3318a]"],
@@ -36,6 +38,33 @@
 		["FIMCM", "text-[#1db5c1]"],
 		["FIMCP", "text-[#2076b6]"],
 	]);
+<<<<<<< HEAD
+=======
+	const colormap = new Map<string, string>();
+	colormap.set("FIEC", "text-[#6d97b0]");
+	colormap.set("FADCOM", "text-[#e3318a]");
+	colormap.set("FCNM", "text-[#5d4394]");
+	colormap.set("FCSH", "text-[#fbc311]");
+	colormap.set("FCV", "text-[#57b24f]");
+	colormap.set("FICT", "text-[#346033]");
+	colormap.set("FIMCM", "text-[#1db5c1]");
+	colormap.set("FIMCP", "text-[#2076b6]");
+
+<<<<<<< HEAD
+	function generateUrl(name: string): string {
+		return name
+			.toLowerCase()
+			.replace(/\s+/g, "_")
+			.replace(/-/g, "_")
+			.normalize("NFD")
+			.replace(/[\u0300-\u036f]/g, "");
+	}
+>>>>>>> 31b05f0 (feat(members.svelte): Cambie la etiqueta p por a y genera un link para cada miembro)
+=======
+
+>>>>>>> 7153a9c (fix: ahora el slug se recoge de los datos)
+=======
+>>>>>>> 1401da6 (fix: arregle errores de formato)
 </script>
 
 <li class="text-center">
@@ -47,14 +76,15 @@
 			height="224"
 			alt={member.name}
 		/>
-		<p
+		<a
+			href="/members/{member.slug}"
 			class="absolute inset-0 flex items-center justify-center font-black opacity-0 transition duration-150 group-hover:opacity-100 {colormap.get(
 				member.facultad,
 			)}"
 		>
 			{member.facultad} <br />
 			{member.carrera}
-		</p>
+		</a>
 	</div>
 	<h3 class="mt-6 text-base/7 font-semibold tracking-tight">{member.name}</h3>
 	<p class="text-sm/6 text-lime-400">{member.role}</p>
