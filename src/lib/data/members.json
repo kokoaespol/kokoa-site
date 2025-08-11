@@ -598,7 +598,7 @@
 			}
 		],
 		"description": "Desde pequeño me gustó la tecnología, me gustaba mirar especificaciones de celulares, computadoras y configurar aplicaciones. Luego entre a la carrera de computación y aprendí a programar que es lo que más me gusta. Actualmente aspiro en hacer un postgrado en seguridad informática.",
-		"stack": ["React", "TypeScript", "JavaScript", "Python", "Java", "CSS", "HTML", "Figma"],
+		"stack": ["react", "typescript", "javascript", "python", "java", "css", "html", "figma"],
 		"interests": ["Assembly", "Seguridad Informática", "Estructura de Datos"],
 		"slug": "daniel-zavala"
 	}

@@ -2,61 +2,12 @@
 	import Card from "$lib/components/card.svelte";
 	import CenterContainer from "$lib/components/center-container.svelte";
 	import Tag from "$lib/components/tag.svelte";
-
+	import { get_stack_icon } from "./icons.js";
 	let { data } = $props();
 	const photos = import.meta.glob("$lib/assets/members/*", {
 		eager: true,
 		import: "default",
 	});
-
-	function get_stack_icon_url(tech: string): string {
-		// Mapeo de tecnologías a iconos de iconify (usando el color verde de la página)
-		const iconMapping: Record<string, string> = {
-			// Esta funcion por el momento es ineficiente, pero es la unica manera que encontre
-			// de usar todos los iconos que puse en el forms sin tener que instalar dependencias o imagenes
-			svelte: "simple-icons:svelte",
-			vue: "simple-icons:vuedotjs",
-			react: "simple-icons:react",
-			angular: "simple-icons:angular",
-			typescript: "simple-icons:typescript",
-			javascript: "simple-icons:javascript",
-			python: "simple-icons:python",
-			rust: "simple-icons:rust",
-			java: "simple-icons:openjdk",
-			php: "simple-icons:php",
-			c: "simple-icons:c",
-			cpp: "simple-icons:cplusplus",
-			nodejs: "simple-icons:nodedotjs",
-			nextjs: "simple-icons:nextdotjs",
-			flask: "simple-icons:flask",
-			bootstrap: "simple-icons:bootstrap",
-			tailwindcss: "simple-icons:tailwindcss",
-			html: "simple-icons:html5",
-			css: "simple-icons:css3",
-			figma: "simple-icons:figma",
-			canva: "simple-icons:canva",
-			ps: "simple-icons:adobephotoshop",
-			ai: "simple-icons:adobeillustrator",
-			ae: "simple-icons:adobeaftereffects",
-			sketch: "simple-icons:sketch",
-			inkscape: "simple-icons:inkscape",
-			arduino: "simple-icons:arduino",
-			raspberrypi: "simple-icons:raspberrypi",
-			proteus: "simple-icons:proteus",
-			kicad: "simple-icons:kicad",
-			unity: "simple-icons:unity",
-			blender: "simple-icons:blender",
-			solidworks: "simple-icons:solidworks",
-			fusion360: "simple-icons:autodesk",
-			plc: "material-symbols:memory",
-		};
-
-		//En caso de no encontrarse un icono
-		const iconName = iconMapping[tech] || "simple-icons:?";
-
-		// Trate de usar el color verde de kokoa
-		return `https://api.iconify.design/${iconName}.svg?color=%236dd743`;
-	}
 
 	function get_photo(path: string) {
 		const photo = photos[`/src/lib/assets${path}`];
@@ -89,7 +40,7 @@
 				<h3 class="mb-4 font-fira text-xl font-semibold">Stack</h3>
 				<div class="mt-4 flex flex-wrap gap-4">
 					{#each data.member.stack as tech (tech)}
-						<img src={get_stack_icon_url(tech)} alt={tech} class="h-8" />
+						<img src={get_stack_icon(tech)} alt={tech} class="h-8" />
 					{/each}
 				</div>
 			</div>
