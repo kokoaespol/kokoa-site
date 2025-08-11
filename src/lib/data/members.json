@@ -11,7 +11,11 @@
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/rrcriollo/"
 			}
-		]
+		],
+		"description": "Trabajando en esto",
+		"stack": [],
+		"interests": [],
+		"slug": "ronald-criollo"
 	},
 	{
 		"name": "Michael Estrada",
@@ -29,7 +33,32 @@
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/maiestrada/"
 			}
-		]
+		],
+		"description": "Estudio Ciencias de la Computación en la ESPOL y desde 2021 me he enfocado en lo que más me gusta: el análisis de datos, la ingeniería de datos y la visión por computadora.\n\nHe trabajado como pasante en Diseño de Interfaces, aplicando creatividad y conceptos de UI/UX, y también en Business Intelligence, donde automatizaba procesos con Python, manejaba ETL y hacía consultas en Google BigQuery. Ahora soy Asistente de Investigación en Visión por Computadora, desarrollando modelos que aprenden a partir de imágenes.\n\nAdemás, soy miembro activo y actual presidente del Club de Software Libre Kokoa, donde he dado talleres de Linux, hablado en eventos como CLI Week, aprendí a usar supercomputadoras para proyectos de visión artificial y he participado en el Install Fest del FLISOL 2025. Me encanta resolver problemas, trabajar en equipo y explorar nuevas tecnologías. 😊",
+		"stack": [
+			"svelte",
+			"vue",
+			"typescript",
+			"python",
+			"rust",
+			"figma",
+			"inkscape",
+			"arduino",
+			"raspberrypi",
+			"proteus",
+			"kicad"
+		],
+		"interests": [
+			"Machine Learning",
+			"Deep Learning",
+			"Visión por Computadora",
+			"Investigación",
+			"Ingeniería de Datos",
+			"Análisis de Datos",
+			"Electrónica",
+			"UX/UI Design"
+		],
+		"slug": "michael-estrada"
 	},
 	{
 		"name": "Juan Pablo Plúas",
@@ -47,7 +76,11 @@
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/juanppluasm/"
 			}
-		]
+		],
+		"description": "Trabajando en esto",
+		"stack": [],
+		"interests": [],
+		"slug": "juan-pablo-pluas"
 	},
 	{
 		"name": "Carlos Tingo",
@@ -65,7 +98,11 @@
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/carlos-tingo-8b6088218/"
 			}
-		]
+		],
+		"description": "Trabajando en esto",
+		"stack": [],
+		"interests": [],
+		"slug": "carlos-tingo"
 	},
 	{
 		"name": "Melissa Ayllon",
@@ -83,7 +120,11 @@
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/melissa-ayllon-193558221/"
 			}
-		]
+		],
+		"description": "Trabajando en esto",
+		"stack": [],
+		"interests": [],
+		"slug": "melissa-ayllon"
 	},
 	{
 		"name": "Dayanara Bone",
@@ -101,7 +142,11 @@
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/dayanara-nayahi-bone-vasquez-95a842209"
 			}
-		]
+		],
+		"description": "Trabajando en esto",
+		"stack": [],
+		"interests": [],
+		"slug": "dayanara-bone"
 	},
 	{
 		"name": "John Cañarte",
@@ -119,7 +164,11 @@
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/john-ca%C3%B1arte-7728a62b6/"
 			}
-		]
+		],
+		"description": "Trabajando en esto",
+		"stack": [],
+		"interests": [],
+		"slug": "john-canarte"
 	},
 	{
 		"name": "Alina Carpio",
@@ -137,10 +186,14 @@
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/alina-carpio/"
 			}
-		]
+		],
+		"description": "Trabajando en esto",
+		"stack": [],
+		"interests": [],
+		"slug": "alina-carpio"
 	},
 	{
-		"name": "Robert Cortez",
+		"name": "Daniel Cortez",
 		"role": "Miembro",
 		"photo": "/members/Robert_Cortez.webp",
 		"directiva": "no",
@@ -155,7 +208,39 @@
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/daniel-cortez-manzano-384041253/"
 			}
-		]
+		],
+		"description": "Hola, soy Daniel \nDesde el cole me interesó todo lo que tiene que ver con electrónica y electricidad, así que por ahí empezó la cosa. Con el tiempo, me fui metiendo en el mundo del software y ahora disfruto/odio crear/experimentar con programas, probar lo que sea que me parezca curioso (tecnologicamente hablando xD) y escribir código en varios lenguajes, solo por diversión o por aprender algo nuevo.\nActualmente trabajo como ingeniero en pruebas y automatización para Disney 🧪, y sigo aprendiendo de otras áreas porque siempre hay algo nuevo que descubrir. Me gusta compartir lo que sé y seguir mejorando poco a poco.",
+		"stack": [
+			"nodejs",
+			"typescript",
+			"javascript",
+			"python",
+			"java",
+			"php",
+			"bootstrap",
+			"css",
+			"html",
+			"figma",
+			"canva",
+			"arduino",
+			"proteus",
+			"plc",
+			"c",
+			"cpp"
+		],
+		"interests": [
+			"Software",
+			"Inteligencia Artificial",
+			"Diseño Gráfico",
+			"Análisis De Datos",
+			"Bases De Datos",
+			"Pruebas Automatizadas",
+			"Pruebas De Rendimiento",
+			"Pruebas De Seguridad",
+			"Electronica",
+			"Electricidad"
+		],
+		"slug": "daniel-cortez"
 	},
 	{
 		"name": "Isaac Criollo",
@@ -169,7 +254,11 @@
 				"nombre": "github",
 				"link": "https://github.com/Izaako04"
 			}
-		]
+		],
+		"description": "Trabajando en esto",
+		"stack": [],
+		"interests": [],
+		"slug": "isaac-criollo"
 	},
 	{
 		"name": "Adrián Delgado",
@@ -187,7 +276,11 @@
 				"nombre": "link",
 				"link": "https://www.adrianjdelgado.com"
 			}
-		]
+		],
+		"description": "Trabajando en esto",
+		"stack": [],
+		"interests": [],
+		"slug": "adrian-delgado"
 	},
 	{
 		"name": "Joel Guamaní",
@@ -201,7 +294,11 @@
 				"nombre": "github",
 				"link": "https://github.com/isaiasgh"
 			}
-		]
+		],
+		"description": "Trabajando en esto",
+		"stack": [],
+		"interests": [],
+		"slug": "joel-guamani"
 	},
 	{
 		"name": "Anthony Herrera",
@@ -219,7 +316,11 @@
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/anthonyyhl/"
 			}
-		]
+		],
+		"description": "Trabajando en esto",
+		"stack": [],
+		"interests": [],
+		"slug": "anthony-herrera"
 	},
 	{
 		"name": "Kevin Maldonado",
@@ -233,7 +334,30 @@
 				"nombre": "github",
 				"link": "https://github.com/SirProg"
 			}
-		]
+		],
+		"description": "Futuro graduado politécnico con la decisión de hacer salir mis puntos fuertes en las áreas que se me cruzen en mi camino. Empeñado en explorar nuevas tecnologías, aumentar mi conocimiento realizando y participando en proyectos.",
+		"stack": [
+			"svelte",
+			"react",
+			"nodejs",
+			"flask",
+			"javascript",
+			"python",
+			"rust",
+			"java",
+			"php",
+			"tailwindcss",
+			"css",
+			"html"
+		],
+		"interests": [
+			"FullStack",
+			"Desarrollador de Videojuegos",
+			"Inteligencia Artificial",
+			"Diseño de Software",
+			"Ciencias de Datos"
+		],
+		"slug": "kevin-maldonado"
 	},
 	{
 		"name": "Alexa Marin",
@@ -247,7 +371,11 @@
 				"nombre": "github",
 				"link": "https://github.com/aamarin05"
 			}
-		]
+		],
+		"description": "Trabajando en esto",
+		"stack": [],
+		"interests": [],
+		"slug": "alexa-marin"
 	},
 	{
 		"name": "Daniel Mateo",
@@ -265,7 +393,11 @@
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/daniel-mateo-orellana-642ab3284/"
 			}
-		]
+		],
+		"description": "Trabajando en esto",
+		"stack": [],
+		"interests": [],
+		"slug": "daniel-mateo"
 	},
 	{
 		"name": "María José Moyano",
@@ -283,7 +415,11 @@
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/mjmoyanotamayo/"
 			}
-		]
+		],
+		"description": "Trabajando en esto",
+		"stack": [],
+		"interests": [],
+		"slug": "maria-jose-moyano"
 	},
 	{
 		"name": "Noelia Pasaca",
@@ -301,7 +437,32 @@
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/noelia-pasaca-paladines-058a4a221/"
 			}
-		]
+		],
+		"description": "Soy una estudiante guayaquileña de Ingeniería en Computación. Entre mis intereses están el desarrollo de aplicaciones y aprender sobre inteligencia artificial. Me apasiona colaborar en proyectos de alto impacto tanto tecnológico como social. ",
+		"stack": [
+			"svelte",
+			"react",
+			"angular",
+			"nodejs",
+			"typescript",
+			"javascript",
+			"python",
+			"java",
+			"nextjs",
+			"tailwindcss",
+			"css",
+			"html",
+			"figma",
+			"canva"
+		],
+		"interests": [
+			"Desarrollo Web",
+			"Artes Visuales",
+			"Inteligencia Artificial",
+			"Liderazgo",
+			"Comunidad"
+		],
+		"slug": "noelia-pasaca"
 	},
 	{
 		"name": "Braulio Rivas",
@@ -319,7 +480,11 @@
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/braulio-rivas-abad/"
 			}
-		]
+		],
+		"description": "Trabajando en esto",
+		"stack": [],
+		"interests": [],
+		"slug": "braulio-rivas"
 	},
 	{
 		"name": "Symond Salazar",
@@ -337,7 +502,25 @@
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/symond-salazar-b1554a352"
 			}
-		]
+		],
+		"description": "Soy estudiante de primer año de Ingeniería en Computación, con una fuerte pasión por el lado creativo de la programación. Me entusiasma todo lo que implique construir y dar vida a ideas, ya sea a través del desarrollo web o la creación de videojuegos. Tengo una curiosidad constante y una sed de conocimiento que me impulsa a explorar nuevas tecnologías y a perfeccionar mis habilidades día a día.",
+		"stack": [
+			"svelte",
+			"nodejs",
+			"javascript",
+			"python",
+			"java",
+			"css",
+			"html",
+			"figma",
+			"ps",
+			"ai",
+			"ae",
+			"unity",
+			"blender"
+		],
+		"interests": ["Desarrollo Web", "Inteligencia Artificial", "Desarrollo de Videojuegos"],
+		"slug": "symond-salazar"
 	},
 	{
 		"name": "Valeria Troya",
@@ -355,7 +538,33 @@
 				"nombre": "linkedin",
 				"link": "https://www.linkedin.com/in/valeria-troya-quim%C3%AD-5209a0214/"
 			}
-		]
+		],
+		"description": "Apasionada por el diseño, el arte y la tecnología. Me encanta explorar el software libre, el diseño generativo y el pensamiento creativo aplicado a proyectos con impacto. Disfruto aprender, compartir conocimientos y crear espacios donde la colaboración y la curiosidad sean protagonistas.",
+		"stack": [
+			"javascript",
+			"python",
+			"css",
+			"html",
+			"figma",
+			"ps",
+			"ai",
+			"canva",
+			"blender",
+			"inkscape",
+			"sketch",
+			"fusion360"
+		],
+		"interests": [
+			"Inteligencia Artificial",
+			"Diseño Gráfico",
+			"Diseño de Videojuegos",
+			"Arte Digital",
+			"Narrativa Interactiva",
+			"Diseño Generativo",
+			"Tecnología Creativa",
+			"Comunicación Visual"
+		],
+		"slug": "valeria-troya"
 	},
 	{
 		"name": "Danny Véliz",
@@ -369,7 +578,11 @@
 				"nombre": "github",
 				"link": "https://github.com/Danny-veliz"
 			}
-		]
+		],
+		"description": "Trabajando en esto",
+		"stack": [],
+		"interests": [],
+		"slug": "danny-veliz"
 	},
 	{
 		"name": "Daniel Zavala",
@@ -383,6 +596,10 @@
 				"nombre": "github",
 				"link": "https://github.com/fzavala2003"
 			}
-		]
+		],
+		"description": "Desde pequeño me gustó la tecnología, me gustaba mirar especificaciones de celulares, computadoras y configurar aplicaciones. Luego entre a la carrera de computación y aprendí a programar que es lo que más me gusta. Actualmente aspiro en hacer un postgrado en seguridad informática.",
+		"stack": ["react", "typescript", "javascript", "python", "java", "css", "html", "figma"],
+		"interests": ["Assembly", "Seguridad Informática", "Estructura de Datos"],
+		"slug": "daniel-zavala"
 	}
 ]
