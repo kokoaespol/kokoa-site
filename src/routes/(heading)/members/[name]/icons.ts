@@ -2,7 +2,6 @@ const icons = import.meta.glob("$lib/assets/icons/stack/*", {
 	eager: true,
 	import: "default",
 });
-import { error } from "@sveltejs/kit";
 const iconMapping: Record<string, string> = {
 	svelte: "/src/lib/assets/icons/stack/svelte.svg",
 	vue: "/src/lib/assets/icons/stack/vue.svg",
