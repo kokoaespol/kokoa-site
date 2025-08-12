@@ -2,7 +2,7 @@ const icons = import.meta.glob("$lib/assets/icons/stack/*", {
 	eager: true,
 	import: "default",
 });
-
+import { error } from "@sveltejs/kit";
 const iconMapping: Record<string, string> = {
 	svelte: "/src/lib/assets/icons/stack/svelte.svg",
 	vue: "/src/lib/assets/icons/stack/vue.svg",
@@ -72,13 +72,13 @@ export function get_stack_icon(tech: string): string {
 	const iconPath = iconMapping[tech];
 
 	if (!iconPath) {
-		return "";
+		throw new Error(`Icono no encontrado: ${tech}`);
 	}
 
 	const icon = icons[iconPath];
 
 	if (typeof icon !== "string") {
-		return "";
+		throw new Error(`Asset no encontrado: ${tech}`);
 	}
 
 	return icon;
