@@ -14,7 +14,7 @@
 	</div>
 	<div class="w-full max-w-3xl" style="filter: invert(1) hue-rotate(180deg);">
 		<iframe
-			src="https://docs.google.com/forms/d/e/1FAIpQLSfNj5uBerw-coSNefl5C-tRH-W_dStIy8jq2nBIwjja1Zy40A/viewform?embedded=true"
+			src="https://docs.google.com/forms/d/e/1FAIpQLSfzN8pn4GiUL_eVLvxNxlvC8yvabQ2mTsHFepxSj3rEK5fn7w/viewform?embedded=true"
 			height="1585"
 			frameborder="0"
 			marginheight="0"
