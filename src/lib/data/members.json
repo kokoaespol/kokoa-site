@@ -877,28 +877,6 @@
 		"slug": "jairo-rodriguez"
 	},
 	{
-		"name": "Braulio Rivas",
-		"role": "Miembro",
-		"photo": "/members/Braulio_Rivas.webp",
-		"directiva": "no",
-		"facultad": "FIEC",
-		"carrera": "Computación",
-		"social_media": [
-			{
-				"nombre": "github",
-				"link": "https://github.com/brauliorivas"
-			},
-			{
-				"nombre": "linkedin",
-				"link": "https://www.linkedin.com/in/braulio-rivas-abad/"
-			}
-		],
-		"description": "Trabajando en esto",
-		"stack": [],
-		"interests": [],
-		"slug": "braulio-rivas"
-	},
-	{
 		"name": "Symond Salazar",
 		"role": "Miembro",
 		"photo": "/members/Symond_Salazar.webp",
@@ -992,50 +970,6 @@
 		"stack": ["python", "java", "canva"],
 		"interests": ["Ciencia de datos", "desarrollo web", "Machine Learning"],
 		"slug": "jose-tobar"
-	},
-	{
-		"name": "Valeria Troya",
-		"role": "Miembro",
-		"photo": "/members/Valeria_Troya.webp",
-		"directiva": "no",
-		"facultad": "FADCOM",
-		"carrera": "Diseño de Productos",
-		"social_media": [
-			{
-				"nombre": "github",
-				"link": "https://github.com/Mayliin"
-			},
-			{
-				"nombre": "linkedin",
-				"link": "https://www.linkedin.com/in/valeria-troya-quim%C3%AD-5209a0214/"
-			}
-		],
-		"description": "Apasionada por el diseño, el arte y la tecnología. Me encanta explorar el software libre, el diseño generativo y el pensamiento creativo aplicado a proyectos con impacto. Disfruto aprender, compartir conocimientos y crear espacios donde la colaboración y la curiosidad sean protagonistas.",
-		"stack": [
-			"javascript",
-			"python",
-			"css",
-			"html",
-			"figma",
-			"ps",
-			"ai",
-			"canva",
-			"blender",
-			"inkscape",
-			"sketch",
-			"fusion360"
-		],
-		"interests": [
-			"Inteligencia Artificial",
-			"Diseño Gráfico",
-			"Diseño de Videojuegos",
-			"Arte Digital",
-			"Narrativa Interactiva",
-			"Diseño Generativo",
-			"Tecnología Creativa",
-			"Comunicación Visual"
-		],
-		"slug": "valeria-troya"
 	},
 	{
 		"name": "Danny Véliz",
