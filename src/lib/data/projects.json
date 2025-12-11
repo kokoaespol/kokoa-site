@@ -2,7 +2,7 @@
 	{
 		"id": 1,
 		"term": "2024-1s",
-		"name": "Kokoa Trivia",
+		"name": "Kokoa Trivia Electrónica",
 		"categories": ["web", "mobile", "electronic"],
 		"description": "Una app móvil donde puedes responder preguntas acerca de software libre.",
 		"purpose": "El objetivo es promover conocimiento acerca del software libre de una manera didáctica.",
@@ -34,30 +34,6 @@
 		]
 	},
 	{
-		"id": 2,
-		"term": "2024-1s",
-		"name": "Amigos con Cola",
-		"categories": ["web", "mobile"],
-		"description": "Un sistema para una fundación de animales que permite a los administradores manejar animales, inventario y donaciones.",
-		"purpose": "El objetivo de este sistema es apoyar las labores administrativas del refugio Amigos con Cola.",
-		"how": "El sistema consta de una API REST escrita en .NET 8, un panel administrativo escrito con Vue.js, y una aplicación móvil para Android.",
-		"github_url": "https://github.com/amigos-con-cola/",
-		"apk_url": null,
-		"web_url": null,
-		"authors": [
-			{
-				"name": "Alexander Goussas",
-				"slug": null,
-				"url_image": "https://avatars.githubusercontent.com/u/84427521?v=4"
-			},
-			{
-				"name": "Alina Carpio",
-				"slug": "alina-carpio",
-				"url_image": "https://avatars.githubusercontent.com/u/72272077?v=4"
-			}
-		]
-	},
-	{
 		"id": 3,
 		"term": "2025-1s",
 		"name": "Kokoa Arcade",
@@ -73,30 +49,6 @@
 				"name": "Daniel Cortez",
 				"slug": "daniel-cortez",
 				"url_image": "https://avatars.githubusercontent.com/u/112514991?v=4"
-			},
-			{
-				"name": "Valeria Troya",
-				"slug": "valeria-troya",
-				"url_image": "https://avatars.githubusercontent.com/u/147886015?v=4"
-			}
-		]
-	},
-	{
-		"id": 4,
-		"term": "2025-1s",
-		"name": "Script de análisis de seguridad para sitios web",
-		"categories": ["security", "python", "web"],
-		"description": "Un script en Python que detecta vulnerabilidades comunes (SQL Injection, XSS, Directory Traversal) en aplicaciones web, usando Requests y BeautifulSoup para analizar el contenido.",
-		"purpose": "Permitir a usuarios y desarrolladores identificar fácilmente fallos de seguridad en sus sitios.",
-		"how": "El script hace peticiones HTTP con Requests, parsea el HTML con BeautifulSoup y busca patrones de inyección. Está en ideación y servirá también de base para talleres de CTF en la comunidad de hacking ético.",
-		"github_url": null,
-		"apk_url": null,
-		"web_url": null,
-		"authors": [
-			{
-				"name": "Noelia Pasaca",
-				"slug": "noelia-pasaca",
-				"url_image": "https://avatars.githubusercontent.com/u/91957504?v=4"
 			}
 		]
 	}

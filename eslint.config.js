@@ -23,7 +23,10 @@ export default ts.config(
 				...globals.node,
 			},
 		},
-		rules: { "no-undef": "off" },
+		rules: {
+			"no-undef": "off",
+			"svelte/no-navigation-without-resolve": "off",
+		},
 	},
 	{
 		files: ["**/*.svelte", "**/*.svelte.ts", "**/*.svelte.js"],
