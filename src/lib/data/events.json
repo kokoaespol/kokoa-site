@@ -6,9 +6,7 @@
 		"date": "10/10/2024",
 		"time": "9 AM - 5 PM",
 		"place": "Universidad Católica Santiago de Guayaquil",
-		"categories": [
-			"hackathon"
-		],
+		"categories": ["hackathon"],
 		"active": "false",
 		"image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8gx1grdsd1hgwuniceee.png",
 		"web_url": "https://hacktoberfest.com/",
@@ -21,10 +19,7 @@
 		"date": "11/11/2024 - 15/11/2024",
 		"time": "All day",
 		"place": "Online",
-		"categories": [
-			"hackathon",
-			"workshops"
-		],
+		"categories": ["hackathon", "workshops"],
 		"active": "false",
 		"image": "/events/cli-week.jpg",
 		"web_url": "https://www.instagram.com/kokoa_espol/p/DBAlrs4RrEW/?img_index=1",
@@ -39,11 +34,7 @@
 		"date": "31/05/2025",
 		"time": "09h00 - 17h00",
 		"place": "Universidad Católica de Santiago de Guayaquil (UCSG)",
-		"categories": [
-			"hibrido",
-			"conferencias",
-			"talleres"
-		],
+		"categories": ["hibrido", "conferencias", "talleres"],
 		"active": "false",
 		"image": "https://flisol.info/Logo?action=AttachFile&do=get&target=FLISoL-2015.png",
 		"web_url": "https://www.flisol.ec/",
@@ -58,11 +49,7 @@
 		"date": "29/08/2025",
 		"time": "Por definir",
 		"place": "FIEC, ESPOL - Presencial",
-		"categories": [
-			"feria",
-			"proyectos",
-			"presencial"
-		],
+		"categories": ["feria", "proyectos", "presencial"],
 		"active": "false",
 		"image": "/events/feriaespol.jpg",
 		"web_url": "https://www.espol.edu.ec/",
@@ -75,11 +62,7 @@
 		"date": "19/07/2025",
 		"time": "Por definir",
 		"place": "Presencial",
-		"categories": [
-			"blockchain",
-			"charlas",
-			"presencial"
-		],
+		"categories": ["blockchain", "charlas", "presencial"],
 		"active": "false",
 		"image": "/events/polkadot.jpg",
 		"web_url": "https://polkadot.network/",
@@ -92,12 +75,7 @@
 		"date": "05/09/2025",
 		"time": "Por definir",
 		"place": "Presencial",
-		"categories": [
-			"ubuntu",
-			"linux",
-			"charlas",
-			"presencial"
-		],
+		"categories": ["ubuntu", "linux", "charlas", "presencial"],
 		"active": "false",
 		"image": "/events/ubucon.jpg",
 		"web_url": "https://ubuconla.org/",
@@ -110,11 +88,7 @@
 		"date": "08/05/2025",
 		"time": "Por definir",
 		"place": "ESPOL - Presencial",
-		"categories": [
-			"integracion",
-			"estudiantes",
-			"presencial"
-		],
+		"categories": ["integracion", "estudiantes", "presencial"],
 		"active": "false",
 		"image": "/events/novatada.jpg",
 		"web_url": "https://www.espol.edu.ec/",
@@ -127,11 +101,7 @@
 		"date": "01/02/2025",
 		"time": "Por definir",
 		"place": "Virtual",
-		"categories": [
-			"taller",
-			"hpc",
-			"virtual"
-		],
+		"categories": ["taller", "hpc", "virtual"],
 		"active": "false",
 		"image": "/events/supercomputador.jpg",
 		"web_url": "https://www.instagram.com/kokoa_espol/",
@@ -144,11 +114,7 @@
 		"date": "21/06/2025",
 		"time": "Por definir",
 		"place": "Virtual",
-		"categories": [
-			"charla",
-			"open source",
-			"virtual"
-		],
+		"categories": ["charla", "open source", "virtual"],
 		"active": "false",
 		"image": "/events/libre.jpg",
 		"web_url": "https://www.instagram.com/kokoa_espol/",
@@ -161,11 +127,7 @@
 		"date": "05/07/2025",
 		"time": "Por definir",
 		"place": "Virtual",
-		"categories": [
-			"charla",
-			"blockchain",
-			"virtual"
-		],
+		"categories": ["charla", "blockchain", "virtual"],
 		"active": "false",
 		"image": "/events/bits.jpg",
 		"web_url": "https://www.instagram.com/kokoa_espol/",
@@ -178,11 +140,7 @@
 		"date": "12/07/2025",
 		"time": "Por definir",
 		"place": "Virtual",
-		"categories": [
-			"charla",
-			"automatizacion",
-			"virtual"
-		],
+		"categories": ["charla", "automatizacion", "virtual"],
 		"active": "false",
 		"image": "/events/automatizacion.jpg",
 		"web_url": "https://www.instagram.com/kokoa_espol/",
@@ -195,11 +153,7 @@
 		"date": "18/07/2025",
 		"time": "Por definir",
 		"place": "ESPOL - Presencial",
-		"categories": [
-			"feria",
-			"integracion",
-			"presencial"
-		],
+		"categories": ["feria", "integracion", "presencial"],
 		"active": "false",
 		"image": "/events/readysetjoin.jpg",
 		"web_url": "https://www.instagram.com/kokoa_espol/",
@@ -212,11 +166,7 @@
 		"date": "26/07/2025",
 		"time": "Por definir",
 		"place": "Virtual",
-		"categories": [
-			"charla",
-			"devops",
-			"virtual"
-		],
+		"categories": ["charla", "devops", "virtual"],
 		"active": "false",
 		"image": "/events/devops.jpg",
 		"web_url": "https://www.instagram.com/kokoa_espol/",
@@ -229,11 +179,7 @@
 		"date": "02/08/2025 - 09/08/2025",
 		"time": "Por definir",
 		"place": "Presencial",
-		"categories": [
-			"taller",
-			"rust",
-			"presencial"
-		],
+		"categories": ["taller", "rust", "presencial"],
 		"active": "false",
 		"image": "/events/rust.jpg",
 		"web_url": "https://www.instagram.com/kokoa_espol/",
@@ -246,11 +192,7 @@
 		"date": "09/08/2025",
 		"time": "Por definir",
 		"place": "Virtual",
-		"categories": [
-			"charla",
-			"ia",
-			"virtual"
-		],
+		"categories": ["charla", "ia", "virtual"],
 		"active": "false",
 		"image": "/events/ia.jpg",
 		"web_url": "https://www.instagram.com/kokoa_espol/",
@@ -263,11 +205,7 @@
 		"date": "15/08/2025",
 		"time": "Por definir",
 		"place": "Presencial",
-		"categories": [
-			"conversatorio",
-			"privacidad",
-			"presencial"
-		],
+		"categories": ["conversatorio", "privacidad", "presencial"],
 		"active": "false",
 		"image": "/events/privacidad.jpg",
 		"web_url": "https://www.instagram.com/kokoa_espol/",
@@ -280,11 +218,7 @@
 		"date": "22/08/2025",
 		"time": "Por definir",
 		"place": "ESPOL - Presencial",
-		"categories": [
-			"feria",
-			"proyectos",
-			"presencial"
-		],
+		"categories": ["feria", "proyectos", "presencial"],
 		"active": "false",
 		"image": "/events/admisiones.jpg",
 		"web_url": "https://www.instagram.com/kokoa_espol/",
@@ -297,11 +231,7 @@
 		"date": "05/09/2025",
 		"time": "Por definir",
 		"place": "Virtual",
-		"categories": [
-			"taller",
-			"ia",
-			"virtual"
-		],
+		"categories": ["taller", "ia", "virtual"],
 		"active": "false",
 		"image": "/events/vision.jpg",
 		"web_url": "https://www.instagram.com/kokoa_espol/",
@@ -314,11 +244,7 @@
 		"date": "12/09/2025",
 		"time": "Por definir",
 		"place": "Virtual",
-		"categories": [
-			"taller",
-			"web",
-			"virtual"
-		],
+		"categories": ["taller", "web", "virtual"],
 		"active": "false",
 		"image": "/events/django.jpg",
 		"web_url": "https://www.instagram.com/kokoa_espol/",
@@ -331,11 +257,7 @@
 		"date": "13/09/2025 - 21/09/2025",
 		"time": "Por definir",
 		"place": "Virtual",
-		"categories": [
-			"taller",
-			"hpc",
-			"virtual"
-		],
+		"categories": ["taller", "hpc", "virtual"],
 		"active": "false",
 		"image": "/events/supercomputador.jpg",
 		"web_url": "https://www.instagram.com/kokoa_espol/",
@@ -348,11 +270,7 @@
 		"date": "19/09/2025",
 		"time": "Por definir",
 		"place": "Virtual",
-		"categories": [
-			"taller",
-			"hardware",
-			"virtual"
-		],
+		"categories": ["taller", "hardware", "virtual"],
 		"active": "false",
 		"image": "/events/kicad.jpg",
 		"web_url": "https://www.instagram.com/kokoa_espol/",
@@ -365,11 +283,7 @@
 		"date": "26/09/2025",
 		"time": "Por definir",
 		"place": "Online",
-		"categories": [
-			"integracion",
-			"estudiantes",
-			"presencial"
-		],
+		"categories": ["integracion", "estudiantes", "presencial"],
 		"active": "false",
 		"image": "/events/novatada.jpg",
 		"web_url": "https://www.instagram.com/kokoa_espol/",
@@ -382,11 +296,7 @@
 		"date": "26/09/2025",
 		"time": "Por definir",
 		"place": "Virtual",
-		"categories": [
-			"taller",
-			"multimedia",
-			"virtual"
-		],
+		"categories": ["taller", "multimedia", "virtual"],
 		"active": "false",
 		"image": "/events/audacity.jpg",
 		"web_url": "https://www.instagram.com/kokoa_espol/",
@@ -399,11 +309,7 @@
 		"date": "27/09/2025",
 		"time": "Por definir",
 		"place": "Virtual",
-		"categories": [
-			"taller",
-			"hardware",
-			"virtual"
-		],
+		"categories": ["taller", "hardware", "virtual"],
 		"active": "false",
 		"image": "/events/hardware.jpg",
 		"web_url": "https://www.instagram.com/kokoa_espol/",
@@ -416,11 +322,7 @@
 		"date": "28/09/2025",
 		"time": "Por definir",
 		"place": "Virtual",
-		"categories": [
-			"taller",
-			"data science",
-			"virtual"
-		],
+		"categories": ["taller", "data science", "virtual"],
 		"active": "false",
 		"image": "/events/datos.jpg",
 		"web_url": "https://www.instagram.com/kokoa_espol/",
