@@ -1,43 +1,9 @@
 [
 	{
 		"id": 1,
-		"term": "2024-1s",
-		"name": "Kokoa Trivia Electrónica",
-		"categories": ["web", "mobile", "electronic"],
-		"description": "Una app móvil donde puedes responder preguntas acerca de software libre.",
-		"purpose": "El objetivo es promover conocimiento acerca del software libre de una manera didáctica.",
-		"how": "Elaboramos una API REST con .NET que expone operaciones CRUD sobre la base de datos de la trivia. Luego, creamos un panel de administración protegido por el Keycloak del club para poder crear los temas y preguntas. Finalmente, creamos dos clientes: una aplicación móvil y un programa en Arduino para que los usuarios puedan realizar las pruebas.",
-		"github_url": "https://github.com/kokoaespol/Kokoa.Trivia",
-		"apk_url": "/artifacts/trivia.apk",
-		"web_url": null,
-		"authors": [
-			{
-				"name": "Alexander Goussas",
-				"slug": null,
-				"url_image": "https://avatars.githubusercontent.com/u/84427521?v=4"
-			},
-			{
-				"name": "Daniel Cortez",
-				"slug": "daniel-cortez",
-				"url_image": "https://avatars.githubusercontent.com/u/112514991?v=4"
-			},
-			{
-				"name": "Michael Estrada",
-				"slug": "michael-estrada",
-				"url_image": "https://avatars.githubusercontent.com/u/98861990?v=4"
-			},
-			{
-				"name": "Alina Carpio",
-				"slug": "alina-carpio",
-				"url_image": "https://avatars.githubusercontent.com/u/72272077?v=4"
-			}
-		]
-	},
-	{
-		"id": 3,
 		"term": "2025-1s",
 		"name": "Kokoa Arcade",
-		"categories": ["education", "gaming"],
+		"categories": ["educaciòn", "videojuegos"],
 		"description": "Un área enfocada en el uso de herramientas tecnológicas y Python para enseñar desarrollo de juegos, permitiendo a los estudiantes crear y compartir sus propios juegos como una forma divertida de aprender programación.",
 		"purpose": "Fomentar el aprendizaje de nuevos lenguajes y herramientas mediante la creación de software de entretenimiento y potenciar la lógica de programación divirtiéndose en el proceso.",
 		"how": "Se utiliza Python con librerías como Pygame, Kivy y Pyglet: los estudiantes desarrollan la lógica de sus juegos y la parte visual. Los repositorios alojan las creaciones para que cualquiera pueda descargar, revisar o inspirarse. A futuro planeamos usarlos en concursos y talleres de gaming.",
@@ -48,7 +14,177 @@
 			{
 				"name": "Daniel Cortez",
 				"slug": "daniel-cortez",
-				"url_image": "https://avatars.githubusercontent.com/u/112514991?v=4"
+				"url_image": "/members/Robert_Cortez.webp"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"term": "2025-1s",
+		"name": "ArduinoSaurio",
+		"categories": ["electrònica", "videojuegos"],
+		"description": "Juego del dinosaurio de Chrome recreado en Arduino y proyectado en un display OLED. Incluye todas las opciones del juego original.",
+		"purpose": "Proyecto de admisiones para entrar a KOKOA, demostrando habilidades en hardware y lógica de programación.",
+		"how": "Implementado utilizando Arduino para el procesamiento lógico y una pantalla OLED para la visualización gráfica.",
+		"github_url": "https://github.com/gazuacos/arduinoDinosaurio",
+		"apk_url": null,
+		"web_url": null,
+		"authors": [
+			{
+				"name": "Gabriela Zúñiga",
+				"slug": "gabriela-zuniga",
+				"url_image": "/members/Gabriela_Zúñiga.webp"
+			},
+			{
+				"name": "Nahin Espinoza",
+				"slug": "nahin-espinoza",
+				"url_image": "/members/Nahin_Espinoza.webp"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"term": "2024-2s",
+		"name": "KokoaTrivia",
+		"categories": ["electrònica", "educaciòn"],
+		"description": "Un juego de trivia programado en Arduino que realiza preguntas sobre software libre. La interacción se da mediante botones y una pantalla LCD.",
+		"purpose": "Fomentar el conocimiento sobre software libre mediante una interfaz interactiva de hardware.",
+		"how": "Programado en Arduino controlando una pantalla LCD para las preguntas y botones físicos para la selección de respuestas.",
+		"github_url": "https://github.com/kokoaespol/kokoa-electronics-trivia.git",
+		"apk_url": null,
+		"web_url": null,
+		"authors": [
+			{
+				"name": "Michael Estrada",
+				"slug": "michael-estrada",
+				"url_image": "/members/Michael_Estrada.webp"
+			},
+			{
+				"name": "Symond Salazar",
+				"slug": "symond-salazar",
+				"url_image": "/members/Symond_Salazar.webp"
+			},
+			{
+				"name": "Daniel Cortez",
+				"slug": "daniel-cortez",
+				"url_image": "/members/Robert_Cortez.webp"
+			},
+			{
+				"name": "Alexa Marin",
+				"slug": "alexa-marin",
+				"url_image": "/members/Alexa_Marin.webp"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"term": "2024-2s",
+		"name": "Arduino Invaders",
+		"categories": ["electrònica", "videojuegos"],
+		"description": "Juego de nave espacial donde el jugador debe disparar a objetivos que se acercan. Cuenta con sistema de vidas y utiliza el mismo circuito base que KokoaTrivia.",
+		"purpose": "Explorar y profundizar en el conocimiento sobre Arduino y lógica de videojuegos en sistemas embebidos.",
+		"how": "Utiliza Arduino con botones y pantalla LCD. Se planea seguir contribuyendo con más niveles y mejoras de sonido.",
+		"github_url": "https://github.com/SymondSalazar/Arduino-Invaders",
+		"apk_url": null,
+		"web_url": null,
+		"authors": [
+			{
+				"name": "Symond Salazar",
+				"slug": "symond-salazar",
+				"url_image": "/members/Symond_Salazar.webp"
+			}
+		]
+	},
+	{
+		"id": 5,
+		"term": "2025-1s",
+		"name": "READIM",
+		"categories": ["software", "libreria", "python"],
+		"description": "Proyecto de software libre que permite convertir imágenes en formato IM7 a formatos comunes como PNG, facilitando su visualización y análisis.",
+		"purpose": "Facilitar el uso de imágenes científicas formato IM7 en trabajos académicos y de investigación.",
+		"how": "Desarrollado en Python usando la librería ReadIM y la herramienta REAMCLI para conversión desde línea de comandos. El equipo trabajó con metodología de pares.",
+		"github_url": "https://github.com/kokoaespol/COLVIRM_im7conversion",
+		"apk_url": null,
+		"web_url": null,
+		"authors": [
+			{
+				"name": "Melissa Ayllon",
+				"slug": "melissa-ayllon",
+				"url_image": "/members/Melissa_Ayllon.webp"
+			},
+			{
+				"name": "Isaac Criollo",
+				"slug": "isaac-criollo",
+				"url_image": "/members/Isaac_Criollo.webp"
+			},
+			{
+				"name": "Nahin Espinoza",
+				"slug": "nahin-espinoza",
+				"url_image": "/members/Nahin_Espinoza.webp"
+			},
+			{
+				"name": "Adrián Delgado",
+				"slug": "adrian-delgado",
+				"url_image": "/members/Adrián_Delgado.webp"
+			},
+			{
+				"name": "Anthony Herrera",
+				"slug": "anthony-herrera",
+				"url_image": "/members/Anthony_Herrera.webp"
+			},
+			{
+				"name": "Allan Chagerben",
+				"slug": "allan-chagerben",
+				"url_image": "/members/Allan_Chagerben.webp"
+			}
+		]
+	},
+	{
+		"id": 6,
+		"term": "2025-1s",
+		"name": "Página Web Kokoa",
+		"categories": ["desarrollo web"],
+		"description": "Proyecto enfocado en el mantenimiento, actualización y desarrollo de nuevos requerimientos para el sitio web del club.",
+		"purpose": "Mantener actualizada la información del club, incluyendo eventos, proyectos y miembros.",
+		"how": "Desarrollo y refactorización continua liderada por miembros del club. Se ha realizado un trabajo intensivo de refactorización para mejorar la estructura.",
+		"github_url": "https://github.com/kokoaespol/kokoa-site",
+		"apk_url": null,
+		"web_url": "https://kokoa.club",
+		"authors": [
+			{
+				"name": "Adrián Delgado",
+				"slug": "adrian-delgado",
+				"url_image": "/members/Adrián_Delgado.webp"
+			},
+			{
+				"name": "Daniel Mateo",
+				"slug": "daniel-mateo",
+				"url_image": "/members/Daniel_Mateo.webp"
+			},
+			{
+				"name": "Symond Salazar",
+				"slug": "symond-salazar",
+				"url_image": "/members/Symond_Salazar.webp"
+			},
+			{
+				"name": "Noelia Pasaca",
+				"slug": "noelia-pasaca",
+				"url_image": "/members/Noelia_Pasaca.webp"
+			},
+			{
+				"name": "Dayanara Bone",
+				"slug": "dayanara-bone",
+				"url_image": "/members/Dayanara_Bone.webp"
+			},
+			{
+				"name": "Carlos Tingo",
+				"slug": "carlos-tingo",
+				"url_image": "/members/Carlos_Tingo.webp"
+			},
+			{
+				"name": "Juan Pablo Plúas",
+				"slug": "juan-pablo-pluas",
+				"url_image": "/members/Juan_Plúas.webp"
 			}
 		]
 	}
