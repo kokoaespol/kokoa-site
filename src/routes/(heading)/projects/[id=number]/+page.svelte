@@ -5,6 +5,17 @@
 	import { Dot, Globe, Smartphone } from "lucide-svelte";
 
 	let { data } = $props();
+
+	const photos = import.meta.glob("$lib/assets/members/*", {
+		eager: true,
+		import: "default",
+	});
+
+	function get_photo(path: string) {
+		const photo = photos[`/src/lib/assets${path}`];
+		if (typeof photo !== "string") throw new Error("Invalid member photo path");
+		return photo;
+	}
 </script>
 
 {#snippet subtitle(text: string)}
@@ -22,8 +33,8 @@
 				<li class="flex items-center gap-1">
 					<a href="../members/{author.slug}">
 						<img
-							class="size-8 overflow-hidden rounded-full"
-							src={author.url_image}
+							class="size-8 rounded-full object-cover"
+							src={get_photo(author.url_image)}
 							alt={author.name}
 							width="32"
 							height="32"
