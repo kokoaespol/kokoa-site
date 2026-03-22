@@ -3,9 +3,11 @@
 	import CenterContainer from "$lib/components/center-container.svelte";
 
 	let { data } = $props();
-	const sorted_events = data.events.toSorted((a, b) => {
-		return (b.active === "true" ? 1 : 0) - (a.active === "true" ? 1 : 0);
-	});
+	let sorted_events = $derived(
+		data.events.toSorted((a, b) => {
+			return (b.active === "true" ? 1 : 0) - (a.active === "true" ? 1 : 0);
+		}),
+	);
 </script>
 
 <CenterContainer class="py-12">
