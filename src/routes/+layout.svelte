@@ -1,5 +1,5 @@
 <script lang="ts">
-	import "../app.css";
+	import "./layout.css";
 	import { page } from "$app/state";
 	import Footer from "$lib/components/layout/footer.svelte";
 	import Navbar from "$lib/components/layout/navbar.svelte";
