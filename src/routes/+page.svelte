@@ -6,7 +6,7 @@
 	import Member from "$lib/components/member.svelte";
 
 	let { data } = $props();
-	const active_events = data.events.filter((event) => event.active === "true");
+	let active_events = $derived(data.events.filter((event) => event.active === "true"));
 </script>
 
 {#snippet subtitle(text: string)}
