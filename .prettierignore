@@ -5,4 +5,5 @@ yarn.lock
 bun.lock
 bun.lockb
 
-worker-configuration.d.ts
+# Miscellaneous
+/static/

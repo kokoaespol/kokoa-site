@@ -1,16 +1,25 @@
 import adapter from "@sveltejs/adapter-cloudflare";
-import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	preprocess: vitePreprocess(),
-
 	kit: {
 		adapter: adapter(),
+		experimental: {
+			remoteFunctions: true,
+		},
 		// TODO: Uncomment this when ready
 		// prerender: {
 		//     origin: ""
 		// }
+	},
+	compilerOptions: {
+		experimental: {
+			async: true,
+		},
+	},
+	vitePlugin: {
+		dynamicCompileOptions: ({ filename }) =>
+			filename.includes("node_modules") ? undefined : { runes: true },
 	},
 };
 
