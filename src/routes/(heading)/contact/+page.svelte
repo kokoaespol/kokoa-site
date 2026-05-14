@@ -14,7 +14,7 @@
 	import instagram from "$lib/assets/icons/instagram-green.svg";
 	import github from "$lib/assets/icons/github-green.svg";
 	import youtube from "$lib/assets/icons/youtube-green.svg";
-	import { Mail } from "lucide-svelte";
+	import { Mail } from "@lucide/svelte";
 </script>
 
 <CenterContainer class="grid gap-6 py-12 md:grid-cols-2">

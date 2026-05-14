@@ -2,7 +2,7 @@
 	import CenterContainer from "$lib/components/center-container.svelte";
 	import Tag from "$lib/components/tag.svelte";
 	import instagram from "$lib/assets/icons/instagram-green.svg";
-	import { Dot, Globe } from "lucide-svelte";
+	import { Dot, Globe } from "@lucide/svelte";
 
 	let { data } = $props();
 

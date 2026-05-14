@@ -2,7 +2,7 @@
 	import { page } from "$app/state";
 	import gecko_code from "$lib/assets/logos/gecko-code.svg";
 	import { Dialog } from "bits-ui";
-	import { Menu, X } from "lucide-svelte";
+	import { Menu, X } from "@lucide/svelte";
 	import { fade, fly } from "svelte/transition";
 	import CenterContainer from "../center-container.svelte";
 

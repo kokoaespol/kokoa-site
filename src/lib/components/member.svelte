@@ -1,7 +1,7 @@
 <script lang="ts">
 	import github from "$lib/assets/icons/github.svg";
 	import linkedin from "$lib/assets/icons/linkedin.svg";
-	import { Link } from "lucide-svelte";
+	import { Link } from "@lucide/svelte";
 
 	type Props = {
 		member: {

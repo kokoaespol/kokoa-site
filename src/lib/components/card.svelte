@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { MapPin } from "lucide-svelte";
+	import { MapPin } from "@lucide/svelte";
 	import Tag from "./tag.svelte";
 
 	type Props = {

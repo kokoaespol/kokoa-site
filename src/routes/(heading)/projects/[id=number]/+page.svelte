@@ -2,7 +2,7 @@
 	import CenterContainer from "$lib/components/center-container.svelte";
 	import Tag from "$lib/components/tag.svelte";
 	import github_green from "$lib/assets/icons/github-green.svg";
-	import { Dot, Globe, Smartphone } from "lucide-svelte";
+	import { Dot, Globe, Smartphone } from "@lucide/svelte";
 
 	let { data } = $props();
 

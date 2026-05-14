@@ -1,7 +1,7 @@
 <script lang="ts">
 	import CenterContainer from "$lib/components/center-container.svelte";
 	import Hero from "./hero.svelte";
-	import { Bot, Cpu, SquareCode, SquareTerminal } from "lucide-svelte";
+	import { Bot, Cpu, SquareCode, SquareTerminal } from "@lucide/svelte";
 	import Chocoevento from "./chocoevento.svelte";
 	import Member from "$lib/components/member.svelte";
 
