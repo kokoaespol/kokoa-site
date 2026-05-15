@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from "$app/paths";
 	import CenterContainer from "$lib/components/center-container.svelte";
 	import Hero from "./hero.svelte";
 	import { Bot, Cpu, SquareCode, SquareTerminal } from "@lucide/svelte";
@@ -44,7 +45,7 @@
 		</div>
 		<div class="mt-16 flex justify-center">
 			<a
-				href="/projects"
+				href={resolve("/projects")}
 				class="inline-block rounded-full bg-lime-500 px-14 py-2 font-fira text-base font-semibold text-gray-900 shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
 			>
 				Ver proyectos
@@ -67,7 +68,7 @@
 			</div>
 			<div class="mt-6 flex justify-center">
 				<a
-					href="/events"
+					href={resolve("/events")}
 					class="inline-block rounded-full bg-kokoa-lime1 px-14 py-2 font-fira text-base font-semibold text-gray-900 shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
 				>
 					Ver eventos anteriores
@@ -89,7 +90,7 @@
 		</ul>
 		<div class="mt-16 flex justify-center">
 			<a
-				href="/members"
+				href={resolve("/members")}
 				class="inline-block rounded-full bg-lime-500 px-14 py-2 font-fira text-base font-semibold text-gray-900 shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
 			>
 				Ver miembros

@@ -1,6 +1,7 @@
 <svelte:options runes />
 
 <script lang="ts">
+	import { resolve } from "$app/paths";
 	import CenterContainer from "$lib/components/center-container.svelte";
 	import feria from "$lib/assets/images/portada.jpg";
 </script>
@@ -32,7 +33,7 @@
 			software libre
 		</p>
 		<a
-			href="/join"
+			href={resolve("/join")}
 			class="inline-block rounded-full bg-lime-500 px-14 py-2 text-base font-semibold text-gray-900 shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
 		>
 			Unirse

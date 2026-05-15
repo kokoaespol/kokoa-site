@@ -1,5 +1,7 @@
 <script lang="ts">
+	import { resolve } from "$app/paths";
 	import { page } from "$app/state";
+	import type { Pathname } from "$app/types";
 	import gecko_code from "$lib/assets/logos/gecko-code.svg";
 	import { Dialog } from "bits-ui";
 	import { Menu, X } from "@lucide/svelte";
@@ -15,7 +17,7 @@
 		{ text: "Proyectos", href: "/projects" },
 		{ text: "Miembros", href: "/members" },
 		{ text: "Contacto", href: "/contact" },
-	];
+	] satisfies { text: string; href: Pathname }[];
 
 	let menu_open = $state(false);
 </script>
@@ -23,7 +25,7 @@
 <header>
 	<Dialog.Root bind:open={menu_open}>
 		<CenterContainer tag="nav" class="flex items-center justify-between py-6">
-			<a href="/" class="-m-1.5 p-1.5">
+			<a href={resolve("/")} class="-m-1.5 p-1.5">
 				<img src={gecko_code} alt="Logo de Kokoa" width="69.84" height="32" class="h-8 w-auto" />
 			</a>
 			<Dialog.Trigger
@@ -35,7 +37,7 @@
 			<div class="hidden md:flex md:gap-x-6">
 				{#each LINKS as link (link.href)}
 					<a
-						href={link.href}
+						href={resolve(link.href)}
 						class={[
 							"font-fira text-base/6 font-semibold text-gray-100 before:content-['{'] after:content-['}']",
 							current_path === link.href
@@ -67,7 +69,7 @@
 					{#if open}
 						<div {...props} transition:fly={{ x: 100, duration: 150 }}>
 							<div class="flex items-center justify-between">
-								<a href="/" class="-m-1.5 p-1.5" onclick={() => (menu_open = false)}>
+								<a href={resolve("/")} class="-m-1.5 p-1.5" onclick={() => (menu_open = false)}>
 									<img
 										src={gecko_code}
 										alt="Logo de Kokoa"
@@ -85,7 +87,7 @@
 								<div class="-my-6 space-y-2 py-6">
 									{#each LINKS as link (link.href)}
 										<a
-											href={link.href}
+											href={resolve(link.href)}
 											class={[
 												"-mx-3 block rounded-lg px-3 py-2 font-fira text-base/7 font-semibold text-gray-100 before:content-['{'] after:content-['}'] hover:bg-gray-900",
 												current_path === link.href

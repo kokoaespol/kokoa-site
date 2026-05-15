@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from "$app/paths";
 	import github from "$lib/assets/icons/github.svg";
 	import linkedin from "$lib/assets/icons/linkedin.svg";
 	import { Link } from "@lucide/svelte";
@@ -49,7 +50,7 @@
 			alt={member.name}
 		/>
 		<a
-			href="/members/{member.slug}"
+			href={resolve(`/members/${member.slug}`)}
 			class="absolute inset-0 flex items-center justify-center font-black opacity-0 transition duration-150 group-hover:opacity-100 {colormap.get(
 				member.facultad,
 			)}"
@@ -63,7 +64,7 @@
 	<ul role="list" class="mt-6 flex justify-center gap-x-6">
 		{#each member.social_media as media (media.link)}
 			<li>
-				<a href={media.link}>
+				<a href={media.link} rel="external" target="_blank">
 					{#if media.nombre === "github"}
 						<img
 							class="opacity-60 hover:opacity-80"

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from "$app/paths";
 	import { CalendarDays, Clock3, MapPin, MoveRight } from "@lucide/svelte";
 
 	type Props = {
@@ -55,11 +56,9 @@
 		</dl>
 	</div>
 	<div class="flex justify-end bg-kokoa-lime1 px-6 py-2 font-fira font-semibold text-primary">
-		<button class="flex items-center gap-2 gap-x-3">
-			<a href="/events/{event.id}">
-				<span>Información</span>
-			</a>
+		<a href={resolve(`/events/${event.id}`)} class="flex items-center gap-2 gap-x-3">
+			<span>Información</span>
 			<MoveRight />
-		</button>
+		</a>
 	</div>
 </article>

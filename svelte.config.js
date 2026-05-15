@@ -6,6 +6,8 @@ const config = {
 		adapter: adapter(),
 		experimental: {
 			remoteFunctions: true,
+			forkPreloads: true,
+			handleRenderingErrors: true,
 		},
 		// TODO: Uncomment this when ready
 		// prerender: {
@@ -13,13 +15,11 @@ const config = {
 		// }
 	},
 	compilerOptions: {
+		// Force runes mode for the project, except for libraries. Can be removed in svelte 6.
+		runes: ({ filename }) => (filename.split(/[/\\]/).includes("node_modules") ? undefined : true),
 		experimental: {
 			async: true,
 		},
-	},
-	vitePlugin: {
-		dynamicCompileOptions: ({ filename }) =>
-			filename.includes("node_modules") ? undefined : { runes: true },
 	},
 };
 
