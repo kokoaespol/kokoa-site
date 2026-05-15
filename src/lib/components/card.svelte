@@ -1,9 +1,11 @@
 <script lang="ts">
+	import { resolve } from "$app/paths";
+	import type { Pathname } from "$app/types";
 	import { MapPin } from "@lucide/svelte";
 	import Tag from "./tag.svelte";
 
 	type Props = {
-		route: string;
+		route: Pathname;
 		date: string;
 		name: string;
 		categories: string[];
@@ -36,7 +38,7 @@
 				{/if}
 			</div>
 			<a
-				href={route}
+				href={resolve(route)}
 				class="inline-block w-fit justify-self-end rounded-full bg-kokoa-lime1 px-3 py-1 text-sm font-semibold text-primary shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-kokoa-lime1"
 			>
 				Ver más

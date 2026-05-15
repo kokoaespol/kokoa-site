@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from "$app/paths";
 	import CenterContainer from "$lib/components/center-container.svelte";
 	import Tag from "$lib/components/tag.svelte";
 	import github_green from "$lib/assets/icons/github-green.svg";
@@ -31,7 +32,7 @@
 		<ul class="mt-2 flex flex-wrap gap-8">
 			{#each data.project.authors as author (author.url_image)}
 				<li class="flex items-center gap-1">
-					<a href="../members/{author.slug}">
+					<a href={resolve(`/members/${author.slug}`)}>
 						<img
 							class="size-8 rounded-full object-cover"
 							src={get_photo(author.url_image)}
