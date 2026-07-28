@@ -46,6 +46,6 @@
 		"bits-ui": "^2.18.1",
 		"date-fns": "^4.1.0",
 		"tailwind-merge": "^3.6.0",
-		"valibot": "^1.4.0"
+		"valibot": "^1.4.2"
 	}
 }
