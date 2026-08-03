@@ -20,6 +20,57 @@
 	] satisfies { text: string; href: Pathname }[];
 
 	let menu_open = $state(false);
+
+	/** Retraso al salir de un link: evita el parpadeo si el mouse vuelve a entrar enseguida. */
+	const HOVER_LEAVE_DELAY_MS = 300;
+
+	let hovered_href = $state<Pathname | null>(null);
+	let link_els: Partial<Record<Pathname, HTMLAnchorElement>> = $state({});
+	let indicator_left = $state(0);
+	let indicator_width = $state(0);
+	let indicator_animate = $state(false);
+	let has_positioned = false;
+	let leave_timeout: ReturnType<typeof setTimeout> | undefined;
+
+	const active_href = $derived(LINKS.find((l) => l.href === current_path)?.href ?? null);
+	/** Link que debe llevar las llaves: el del hover, o el activo si no hay hover. */
+	const target_href = $derived(hovered_href ?? active_href);
+	const is_hovering_elsewhere = $derived(hovered_href !== null && hovered_href !== active_href);
+
+	function handle_mouseenter(href: Pathname) {
+		clearTimeout(leave_timeout);
+		hovered_href = href;
+	}
+
+	function handle_mouseleave() {
+		clearTimeout(leave_timeout);
+		leave_timeout = setTimeout(() => (hovered_href = null), HOVER_LEAVE_DELAY_MS);
+	}
+
+	function measure_indicator() {
+		const el = target_href ? link_els[target_href] : undefined;
+		if (!el) return false;
+		indicator_left = el.offsetLeft;
+		indicator_width = el.offsetWidth;
+		return true;
+	}
+
+	$effect(() => {
+		// La primera medición debe ser instantánea; recién después se anima el movimiento.
+		if (measure_indicator() && !has_positioned) {
+			has_positioned = true;
+			requestAnimationFrame(() => (indicator_animate = true));
+		}
+	});
+
+	$effect(() => {
+		window.addEventListener("resize", measure_indicator);
+		return () => window.removeEventListener("resize", measure_indicator);
+	});
+
+	$effect(() => {
+		return () => clearTimeout(leave_timeout);
+	});
 </script>
 
 <header>
@@ -34,20 +85,42 @@
 				<span class="sr-only">Abrir menú principal</span>
 				<Menu />
 			</Dialog.Trigger>
-			<div class="hidden md:flex md:gap-x-6">
+			<div class="relative hidden md:flex md:gap-x-6">
 				{#each LINKS as link (link.href)}
 					<a
 						href={resolve(link.href)}
+						bind:this={link_els[link.href]}
+						onmouseenter={() => handle_mouseenter(link.href)}
+						onmouseleave={handle_mouseleave}
 						class={[
-							"font-fira text-base/6 font-semibold text-gray-100 before:content-['{'] after:content-['}']",
-							current_path === link.href
-								? "before:text-lime-500  after:text-lime-500"
-								: "before:text-transparent  after:text-transparent",
+							"font-fira text-base/6 font-semibold text-gray-100",
+							// La activa cede sus llaves al indicador flotante y se queda con corchetes.
+							link.href === active_href && is_hovering_elsewhere
+								? "before:content-['['] after:content-[']']"
+								: "before:content-['{'] after:content-['}']",
+							link.href === active_href
+								? "before:text-lime-500 after:text-lime-500"
+								: "before:text-transparent after:text-transparent",
 						]}
 					>
 						<span class="hover:underline">{link.text}</span>
 					</a>
 				{/each}
+
+				<div
+					aria-hidden="true"
+					class={[
+						"pointer-events-none absolute inset-y-0 flex items-center justify-between font-fira text-base/6 font-semibold text-lime-500",
+						is_hovering_elsewhere ? "opacity-100" : "opacity-0",
+						indicator_animate && "transition-[transform,width,opacity] ease-out",
+						// El regreso a la activa es un poco más lento que la ida al hover.
+						indicator_animate && (is_hovering_elsewhere ? "duration-200" : "duration-[350ms]"),
+					]}
+					style="width: {indicator_width}px; transform: translateX({indicator_left}px)"
+				>
+					<span>&#123;</span>
+					<span>&#125;</span>
+				</div>
 			</div>
 		</CenterContainer>
 
