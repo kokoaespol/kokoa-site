@@ -60,30 +60,29 @@
 			{data.event.place}
 		</p>
 
-		{@render subtitle("¿Más información?")}
-		<p class="mt-2 font-fira">
-			Si quieres saber más sobre el evento, puedes seguir a los organizadores en sus redes sociales.
-			<br />
-		</p>
+		{#if data.event.web_url || data.event.instagram_url}
+			{@render subtitle("¿Más información?")}
+			<p class="mt-2 font-fira">Síguelos en sus redes:</p>
 
-		<div class="mt-6 flex flex-col gap-4">
-			{#if data.event.web_url}
-				<a class="flex gap-1 font-fira hover:underline" rel="external" href={data.event.web_url}>
-					<Globe class="size-6 text-kokoa-lime1" />
-					{data.event.web_page}
-				</a>
-			{/if}
+			<div class="mt-6 flex flex-col gap-4">
+				{#if data.event.web_url}
+					<a class="flex gap-1 font-fira hover:underline" rel="external" href={data.event.web_url}>
+						<Globe class="size-6 text-kokoa-lime1" />
+						{data.event.web_page}
+					</a>
+				{/if}
 
-			{#if data.event.instagram_url}
-				<a
-					class="flex gap-1 font-fira hover:underline"
-					rel="external"
-					href={data.event.instagram_url}
-				>
-					<img src={instagram} alt="Instagram" class="size-6" width="24" height="24" />
-					{data.event.instagram_username}
-				</a>
-			{/if}
-		</div>
+				{#if data.event.instagram_url}
+					<a
+						class="flex gap-1 font-fira hover:underline"
+						rel="external"
+						href={data.event.instagram_url}
+					>
+						<img src={instagram} alt="Instagram" class="size-6" width="24" height="24" />
+						{data.event.instagram_username}
+					</a>
+				{/if}
+			</div>
+		{/if}
 	</section>
 </CenterContainer>
