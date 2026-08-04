@@ -56,16 +56,6 @@
 					/{GITHUB_HANDLE_KOKOA}
 				</a>
 			</li>
-			<!-- <li>
-				<a
-					class="grid grid-cols-[36px_minmax(0px,1fr)] items-center gap-x-3"
-					rel="external"
-					href="https://www.facebook.com/{FACEBOOK_HANDLE_KOKOA}"
-				>
-					<img src={facebook} alt="Facebook" class="size-9" width="24" height="24" />
-					/{FACEBOOK_HANDLE_KOKOA}
-				</a>
-			</li> -->
 			<li>
 				<a
 					class="grid grid-cols-[36px_minmax(0px,1fr)] items-center gap-x-3"

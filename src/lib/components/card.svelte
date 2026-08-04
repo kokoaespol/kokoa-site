@@ -27,10 +27,6 @@
 		</div>
 		<p class="mt-4 flex-1">{description}</p>
 		<div class="mt-4 grid grid-flow-col items-center">
-			<!-- TODO: Implement author's avatars -->
-			<!-- {#each authors as author}
-				<img src="https://via.placeholder.com/150" alt={author} class="h-4 w-4 rounded-full" />
-			{/each} -->
 			<div class="flex items-center gap-2">
 				{#if place}
 					<MapPin class="size-6" />
