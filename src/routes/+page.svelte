@@ -5,6 +5,7 @@
 	import { Bot, Cpu, SquareCode, SquareTerminal } from "@lucide/svelte";
 	import Chocoevento from "./chocoevento.svelte";
 	import Member from "$lib/components/member.svelte";
+	import { reveal, REVEAL_CLASS } from "$lib/actions/reveal.js";
 
 	let { data } = $props();
 	let active_events = $derived(data.events.filter((event) => event.active === "true"));
@@ -17,7 +18,7 @@
 {/snippet}
 
 <Hero />
-<section>
+<section use:reveal class={REVEAL_CLASS}>
 	<CenterContainer class="py-6 sm:py-10">
 		{@render subtitle("Chocoáreas")}
 		<div class="md:grid md:grid-cols-4 md:gap-x-10">
@@ -46,7 +47,7 @@
 		<div class="mt-16 flex justify-center">
 			<a
 				href={resolve("/projects")}
-				class="inline-block rounded-full bg-lime-500 px-14 py-2 font-fira text-base font-semibold text-gray-900 shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
+				class="inline-block rounded-full bg-lime-500 px-14 py-2 font-fira text-base font-semibold text-gray-900 shadow-xs transition-colors duration-150 hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
 			>
 				Ver proyectos
 			</a>
@@ -54,7 +55,7 @@
 	</CenterContainer>
 </section>
 
-<section>
+<section use:reveal class={REVEAL_CLASS}>
 	<CenterContainer class="py-6 sm:py-10">
 		{@render subtitle("Chocoeventos")}
 
@@ -62,14 +63,14 @@
 			<p class="mt-6 text-center text-xl text-gray-400">No hay eventos activos en este momento.</p>
 		{:else}
 			<div class="mt-6 flex flex-col gap-y-6">
-				{#each active_events as event (event.id)}
-					<Chocoevento {event} />
+				{#each active_events as event, i (event.id)}
+					<Chocoevento {event} delay={i * 60} />
 				{/each}
 			</div>
 			<div class="mt-6 flex justify-center">
 				<a
 					href={resolve("/events")}
-					class="inline-block rounded-full bg-kokoa-lime1 px-14 py-2 font-fira text-base font-semibold text-gray-900 shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
+					class="inline-block rounded-full bg-kokoa-lime1 px-14 py-2 font-fira text-base font-semibold text-gray-900 shadow-xs transition-colors duration-150 hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
 				>
 					Ver todos los eventos
 				</a>
@@ -77,21 +78,21 @@
 		{/if}
 	</CenterContainer>
 </section>
-<section>
+<section use:reveal class={REVEAL_CLASS}>
 	<CenterContainer class="py-6 sm:py-10">
 		{@render subtitle("Chocomiembros")}
 		<ul
 			role="list"
 			class="mx-auto mt-16 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-4"
 		>
-			{#each data.members.filter((m) => m.directiva === "si") as member (member.photo)}
-				<Member {member} />
+			{#each data.members.filter((m) => m.directiva === "si") as member, i (member.photo)}
+				<Member {member} delay={i * 60} />
 			{/each}
 		</ul>
 		<div class="mt-16 flex justify-center">
 			<a
 				href={resolve("/members")}
-				class="inline-block rounded-full bg-lime-500 px-14 py-2 font-fira text-base font-semibold text-gray-900 shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
+				class="inline-block rounded-full bg-lime-500 px-14 py-2 font-fira text-base font-semibold text-gray-900 shadow-xs transition-colors duration-150 hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
 			>
 				Ver miembros
 			</a>

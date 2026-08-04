@@ -3,6 +3,7 @@
 <script lang="ts">
 	import CenterContainer from "$lib/components/center-container.svelte";
 	import gecko_text from "$lib/assets/logos/gecko-text.png";
+	import { reveal, REVEAL_CLASS } from "$lib/actions/reveal.js";
 </script>
 
 {#snippet subtitle(text: string)}
@@ -11,7 +12,7 @@
 	</h2>
 {/snippet}
 
-<section>
+<section use:reveal class={REVEAL_CLASS}>
 	<CenterContainer class="py-6 sm:grid sm:grid-cols-3 sm:items-center sm:gap-x-8 sm:py-10">
 		<div class="col-span-2">
 			{@render subtitle("La Comunidad")}
@@ -33,7 +34,7 @@
 		</div>
 	</CenterContainer>
 </section>
-<section>
+<section use:reveal={{ delay: 100 }} class={REVEAL_CLASS}>
 	<CenterContainer class="py-6">
 		<div>
 			{@render subtitle("Historia")}
@@ -46,7 +47,7 @@
 		</div>
 	</CenterContainer>
 </section>
-<section>
+<section use:reveal={{ delay: 200 }} class={REVEAL_CLASS}>
 	<CenterContainer class="py-6">
 		<div>
 			{@render subtitle("Chocomisión")}
@@ -58,7 +59,7 @@
 		</div>
 	</CenterContainer>
 </section>
-<section>
+<section use:reveal={{ delay: 300 }} class={REVEAL_CLASS}>
 	<CenterContainer class="py-6">
 		<div>
 			{@render subtitle("Chocovisión")}

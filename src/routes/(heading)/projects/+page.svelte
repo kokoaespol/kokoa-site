@@ -14,13 +14,14 @@
 		role="list"
 		class="mx-auto mt-12 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
 	>
-		{#each data.projects as project (project.id)}
+		{#each data.projects as project, i (project.id)}
 			<Card
 				route="/projects/{project.id}"
 				date={project.term}
 				name={project.name}
 				categories={project.categories}
 				description={project.description}
+				delay={i * 60}
 			/>
 		{/each}
 	</ul>
