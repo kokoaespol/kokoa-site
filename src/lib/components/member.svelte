@@ -3,6 +3,7 @@
 	import github from "$lib/assets/icons/github.svg";
 	import linkedin from "$lib/assets/icons/linkedin.svg";
 	import { Link } from "@lucide/svelte";
+	import { reveal, REVEAL_CLASS } from "$lib/actions/reveal.js";
 
 	type Props = {
 		member: {
@@ -14,8 +15,9 @@
 			slug: string;
 			social_media: { nombre: string; link: string }[];
 		};
+		delay?: number;
 	};
-	let { member }: Props = $props();
+	let { member, delay = 0 }: Props = $props();
 
 	const photos = import.meta.glob("$lib/assets/members/*", {
 		eager: true,
@@ -40,10 +42,10 @@
 	]);
 </script>
 
-<li class="text-center">
+<li use:reveal={{ delay }} class="text-center {REVEAL_CLASS}">
 	<div class="group relative mx-auto size-56 overflow-hidden rounded-full transition duration-150">
 		<img
-			class="size-56 object-cover transition duration-150 group-hover:brightness-30 group-hover:grayscale"
+			class="size-56 object-cover transition duration-150 group-hover:scale-105 group-hover:brightness-30 group-hover:grayscale"
 			src={get_photo(member.photo)}
 			width="224"
 			height="224"

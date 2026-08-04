@@ -15,7 +15,7 @@
 		role="list"
 		class="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
 	>
-		{#each sorted_events as event (event.id)}
+		{#each sorted_events as event, i (event.id)}
 			<Card
 				route="/events/{event.id}"
 				date={event.date}
@@ -23,6 +23,7 @@
 				categories={event.categories}
 				description={event.description}
 				place={event.place}
+				delay={i * 60}
 			/>
 		{/each}
 	</ul>
