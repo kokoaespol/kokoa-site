@@ -55,7 +55,7 @@
 			{data.event.description}
 		</p>
 
-		{@render subtitle("¿Dondé es?")}
+		{@render subtitle("¿Dónde es?")}
 		<p class="mt-2 font-fira">
 			{data.event.place}
 		</p>

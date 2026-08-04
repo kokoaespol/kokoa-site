@@ -71,7 +71,7 @@
 					href={resolve("/events")}
 					class="inline-block rounded-full bg-kokoa-lime1 px-14 py-2 font-fira text-base font-semibold text-gray-900 shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
 				>
-					Ver eventos anteriores
+					Ver todos los eventos
 				</a>
 			</div>
 		{/if}
