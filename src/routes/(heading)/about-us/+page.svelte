@@ -16,12 +16,10 @@
 		<div class="col-span-2">
 			{@render subtitle("La Comunidad")}
 			<p class="mt-4 max-w-prose pl-7">
-				KOKOA es un club de software libre de ESPOL que fomenta la equidad, la colaboración y el
-				aprendizaje de software y tecnologías libres. Realizamos y colaboramos con múltiples
-				departamentos dentro y fuera de la ESPOL para desarrollar proyectos de índole académico y
-				profesional. Participamos en diferentes eventos a nivel local y nacional para la innovación
-				de tecnologías, elaboramos talleres y capacitaciones para ayudar a la comunidad en múltiples
-				necesidades académicas.
+				KOKOA es el club de software libre de ESPOL: fomentamos la equidad, la colaboración y el
+				aprendizaje de tecnologías libres. Junto a distintos departamentos dentro y fuera de la
+				ESPOL, desarrollamos proyectos, organizamos eventos y dictamos talleres para la comunidad
+				académica.
 			</p>
 		</div>
 		<div class="mt-6 sm:mt-0">
@@ -40,15 +38,10 @@
 		<div>
 			{@render subtitle("Historia")}
 			<p class="mt-4 pl-7">
-				Esta comunidad nació en el año de 1996, gracias a la ideología que tenían en común algunas
-				mentes politécnicas, que hasta la actualidad se desempeñan en áreas donde promueven el uso
-				de tecnologías libres. El club se ha consolidado como un espacio donde los miembros más
-				experimentados guían a los nuevos integrantes, compartiendo conocimientos sobre GNU/Linux,
-				distribuciones y desarrollo de software. No se requieren habilidades previas debido a que se
-				valora la curiosidad, la autodisciplina y el compromiso con el aprendizaje continuo. KOKOA
-				es una experiencia formativa, que comienza como un espacio de aprendizaje y se convierte en
-				una red de apoyo mutuo, donde cada miembro tiene la oportunidad de crecer, aprender y ser
-				parte de una comunidad inclusiva que trasciende los límites de ESPOL y se proyecta al mundo.
+				KOKOA nació en 1996 de la mano de un grupo de politécnicos que compartían una misma pasión
+				por el software libre. Hoy es un espacio donde los miembros con más experiencia guían a los
+				nuevos en GNU/Linux y desarrollo de software — no se requiere experiencia previa, solo
+				curiosidad y ganas de aprender.
 			</p>
 		</div>
 	</CenterContainer>

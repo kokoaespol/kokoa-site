@@ -7,11 +7,8 @@
 
 <CenterContainer class="py-12">
 	<p class="font-fira font-medium">
-		Estos son algunos de los proyectos que hemos realizado en conjunto.
-	</p>
-	<p class="font-fira font-medium">
-		Nuestra meta es utlizar nuestras habilidades digitales para crear un impacto positivo en la
-		sociedad.
+		Estos son algunos de los proyectos que hemos realizado en conjunto, con la meta de usar nuestras
+		habilidades digitales para crear un impacto positivo en la sociedad.
 	</p>
 	<ul
 		role="list"

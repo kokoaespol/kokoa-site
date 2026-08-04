@@ -8,8 +8,8 @@
 	<!-- Texto encima del formulario -->
 	<div class="mb-6 text-center">
 		<p class="font-fira font-medium text-wrap">
-			Te estás inscribiendo al proceso de admisión correspondiente al 1PAO 2025, nos comunicaremos
-			contigo para darte a conocer las fechas y los siguientes pasos.
+			Te estás inscribiendo a nuestro proceso de admisión vigente. Te contactaremos pronto con las
+			fechas y los siguientes pasos.
 		</p>
 	</div>
 	<div class="w-full max-w-3xl" style="filter: invert(1) hue-rotate(180deg);">
