@@ -59,8 +59,9 @@
 				member.facultad,
 			)}"
 		>
+			<!-- La facultad es una sigla propia de la ESPOL: no se traduce. -->
 			{member.facultad} <br />
-			{member.carrera}
+			{t(`carrera.${member.carrera}`, { default: member.carrera })}
 		</a>
 	</div>
 	<h3 class="mt-6 text-base/7 font-semibold tracking-tight">{member.name}</h3>

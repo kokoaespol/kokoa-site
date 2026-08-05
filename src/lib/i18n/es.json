@@ -150,6 +150,15 @@
 		"Secretario": "Secretario",
 		"Miembro": "Miembro"
 	},
+	"carrera": {
+		"Computación": "Computación",
+		"Ciencia de Datos e Inteligencia Artificial": "Ciencia de Datos e Inteligencia Artificial",
+		"Mecatrónica": "Mecatrónica",
+		"Electricidad": "Electricidad",
+		"Economía": "Economía",
+		"Diseño Gráfico": "Diseño Gráfico",
+		"Docente - Investigador": "Docente - Investigador"
+	},
 	"category": {
 		"automatizacion": "automatización",
 		"blockchain": "blockchain",

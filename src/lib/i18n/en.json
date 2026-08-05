@@ -150,6 +150,15 @@
 		"Secretario": "Secretary",
 		"Miembro": "Member"
 	},
+	"carrera": {
+		"Computación": "Computer Science",
+		"Ciencia de Datos e Inteligencia Artificial": "Data Science and Artificial Intelligence",
+		"Mecatrónica": "Mechatronics",
+		"Electricidad": "Electrical Engineering",
+		"Economía": "Economics",
+		"Diseño Gráfico": "Graphic Design",
+		"Docente - Investigador": "Lecturer - Researcher"
+	},
 	"category": {
 		"automatizacion": "automation",
 		"blockchain": "blockchain",
