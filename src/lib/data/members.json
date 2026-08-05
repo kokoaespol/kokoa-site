@@ -12,7 +12,10 @@
 				"link": "https://www.linkedin.com/in/rrcriollo/"
 			}
 		],
-		"description": "Trabajando en esto",
+		"description": {
+			"es": "Trabajando en esto",
+			"en": "Working on it"
+		},
 		"stack": [],
 		"interests": [],
 		"slug": "ronald-criollo"
@@ -34,7 +37,10 @@
 				"link": "https://www.linkedin.com/in/maiestrada/"
 			}
 		],
-		"description": "Estudio Ciencias de la Computación en la ESPOL y desde 2021 me he enfocado en lo que más me gusta: el análisis de datos, la ingeniería de datos y la visión por computadora.\n\nHe trabajado como pasante en Diseño de Interfaces, aplicando creatividad y conceptos de UI/UX, y también en Business Intelligence, donde automatizaba procesos con Python, manejaba ETL y hacía consultas en Google BigQuery. Ahora soy Asistente de Investigación en Visión por Computadora, desarrollando modelos que aprenden a partir de imágenes.\n\nAdemás, soy miembro activo y actual presidente del Club de Software Libre Kokoa, donde he dado talleres de Linux, hablado en eventos como CLI Week, aprendí a usar supercomputadoras para proyectos de visión artificial y he participado en el Install Fest del FLISOL 2025. Me encanta resolver problemas, trabajar en equipo y explorar nuevas tecnologías. 😊",
+		"description": {
+			"es": "Estudio Ciencias de la Computación en la ESPOL y desde 2021 me he enfocado en lo que más me gusta: el análisis de datos, la ingeniería de datos y la visión por computadora.\n\nHe trabajado como pasante en Diseño de Interfaces, aplicando creatividad y conceptos de UI/UX, y también en Business Intelligence, donde automatizaba procesos con Python, manejaba ETL y hacía consultas en Google BigQuery. Ahora soy Asistente de Investigación en Visión por Computadora, desarrollando modelos que aprenden a partir de imágenes.\n\nAdemás, soy miembro activo y actual presidente del Club de Software Libre Kokoa, donde he dado talleres de Linux, hablado en eventos como CLI Week, aprendí a usar supercomputadoras para proyectos de visión artificial y he participado en el Install Fest del FLISOL 2025. Me encanta resolver problemas, trabajar en equipo y explorar nuevas tecnologías. 😊",
+			"en": "I study Computer Science at ESPOL and since 2021 I have focused on what I enjoy most: data analysis, data engineering and computer vision.\n\nI have interned in Interface Design, applying creativity and UI/UX concepts, and in Business Intelligence, where I automated processes with Python, handled ETL and ran queries on Google BigQuery. I am now a Research Assistant in Computer Vision, building models that learn from images.\n\nI am also an active member and the current president of the Kokoa Free Software Club, where I have run Linux workshops, spoken at events such as CLI Week, learned to use supercomputers for computer vision projects and taken part in the FLISOL 2025 Install Fest. I love solving problems, working as a team and exploring new technologies. 😊"
+		},
 		"stack": [
 			"svelte",
 			"vue",
@@ -77,7 +83,10 @@
 				"link": "https://www.linkedin.com/in/juanppluasm/"
 			}
 		],
-		"description": "Apasionado del desarrollo web y aprendizaje autónomo, entusiasta de la ingeniería de datos y la música. ",
+		"description": {
+			"es": "Apasionado del desarrollo web y aprendizaje autónomo, entusiasta de la ingeniería de datos y la música. ",
+			"en": "Passionate about web development and self-directed learning, and an enthusiast of data engineering and music. "
+		},
 		"stack": [
 			"svelte",
 			"react",
@@ -121,7 +130,10 @@
 				"link": "https://www.linkedin.com/in/carlos-tingo-8b6088218/"
 			}
 		],
-		"description": "Soy estudiante de Ingeniería en Computación en la Escuela Superior Politécnica del Litoral (ESPOL), con experiencia en programación, gestión de bases de datos y Business Intelligence. Mi formación incluye Power BI, SQL, y Python, que he aplicado en proyectos tanto académicos como profesionales, donde he optimizado procesos de análisis y visualización de datos. Me apasiona el desarrollo de soluciones tecnológicas que mejoren la toma de decisiones y optimicen procesos. Además, soy miembro activo de Club Kokoa, donde promuevo el uso de software libre y participo en hackathons, lo que refuerza mi interés por la tecnología y mi compromiso con el trabajo colaborativo y la innovación.",
+		"description": {
+			"es": "Soy estudiante de Ingeniería en Computación en la Escuela Superior Politécnica del Litoral (ESPOL), con experiencia en programación, gestión de bases de datos y Business Intelligence. Mi formación incluye Power BI, SQL, y Python, que he aplicado en proyectos tanto académicos como profesionales, donde he optimizado procesos de análisis y visualización de datos. Me apasiona el desarrollo de soluciones tecnológicas que mejoren la toma de decisiones y optimicen procesos. Además, soy miembro activo de Club Kokoa, donde promuevo el uso de software libre y participo en hackathons, lo que refuerza mi interés por la tecnología y mi compromiso con el trabajo colaborativo y la innovación.",
+			"en": "I am a Computer Engineering student at Escuela Superior Politécnica del Litoral (ESPOL), with experience in programming, database management and Business Intelligence. My background includes Power BI, SQL and Python, which I have applied in both academic and professional projects, optimising data analysis and visualisation processes. I am passionate about building technical solutions that improve decision making and streamline processes. I am also an active member of Club Kokoa, where I promote the use of free software and take part in hackathons, which reinforces my interest in technology and my commitment to collaborative work and innovation."
+		},
 		"stack": [
 			"react",
 			"angular",
@@ -157,7 +169,10 @@
 				"link": "https://github.com/mfalvarezd"
 			}
 		],
-		"description": "Full stack, ux/ui, leer, cine, basket",
+		"description": {
+			"es": "Full stack, ux/ui, leer, cine, basket",
+			"en": "Full stack, ux/ui, reading, film, basketball"
+		},
 		"stack": [
 			"react",
 			"angular",
@@ -195,7 +210,10 @@
 				"link": "https://www.linkedin.com/in/melissa-ayllon-193558221/"
 			}
 		],
-		"description": "Computer Science student at ESPOL with experience in developing data-driven products, gathering client requirements, and improving user interaction through research. Focused on data engineering and the application of machine learning in engineering contexts.",
+		"description": {
+			"es": "Estudiante de Ciencias de la Computación en la ESPOL, con experiencia en el desarrollo de productos basados en datos, levantamiento de requerimientos con clientes y mejora de la interacción del usuario mediante investigación. Enfocada en la ingeniería de datos y en aplicar machine learning a contextos de ingeniería.",
+			"en": "Computer Science student at ESPOL with experience in developing data-driven products, gathering client requirements, and improving user interaction through research. Focused on data engineering and the application of machine learning in engineering contexts."
+		},
 		"stack": [
 			"react",
 			"laravel",
@@ -226,7 +244,10 @@
 				"link": "https://www.linkedin.com/in/dayanara-nayahi-bone-vasquez-95a842209"
 			}
 		],
-		"description": "Me gusta el desarrollo web.",
+		"description": {
+			"es": "Me gusta el desarrollo web.",
+			"en": "I like web development."
+		},
 		"stack": [
 			"react",
 			"nodejs",
@@ -257,7 +278,10 @@
 				"link": "https://www.linkedin.com/in/john-ca%C3%B1arte-7728a62b6/"
 			}
 		],
-		"description": "Alumni, interesado en el desarrollo de videojuegos, desarrollo web y ciencia de datos",
+		"description": {
+			"es": "Alumni, interesado en el desarrollo de videojuegos, desarrollo web y ciencia de datos",
+			"en": "Alumni, interested in game development, web development and data science"
+		},
 		"stack": [
 			"svelte",
 			"react",
@@ -306,7 +330,10 @@
 				"link": "https://www.linkedin.com/in/alina-carpio/"
 			}
 		],
-		"description": "Soy Alina Carpio estudiante de Ingeniería en Computación en la ESPOL y actualmente trabajo como desarrolladora Java en Globant. Tengo experiencia en proyectos con Java, PHP y Vue.js aplicando metodologías ágiles como Scrum. He sido ayudante de docencia en Fundamentos de Programación por más de un año. Me apasionan los sistemas distribuidos y la arquitectura de software con interés en seguir creciendo en el área de backend y frontend.",
+		"description": {
+			"es": "Soy Alina Carpio estudiante de Ingeniería en Computación en la ESPOL y actualmente trabajo como desarrolladora Java en Globant. Tengo experiencia en proyectos con Java, PHP y Vue.js aplicando metodologías ágiles como Scrum. He sido ayudante de docencia en Fundamentos de Programación por más de un año. Me apasionan los sistemas distribuidos y la arquitectura de software con interés en seguir creciendo en el área de backend y frontend.",
+			"en": "I am Alina Carpio, a Computer Engineering student at ESPOL, and I currently work as a Java developer at Globant. I have experience on projects using Java, PHP and Vue.js, applying agile methodologies such as Scrum. I was a teaching assistant for Programming Fundamentals for over a year. I am passionate about distributed systems and software architecture, and I want to keep growing in both backend and frontend."
+		},
 		"stack": [
 			"react",
 			"vue",
@@ -338,7 +365,10 @@
 				"link": "https://github.com/axelallan"
 			}
 		],
-		"description": "Mi nombre es Allan Chagerben. Soy estudiante de Ingeniería Eléctrica en la Universidad ESPOL, donde he desarrollado una sólida capacidad para el análisis técnico y la resolución de problemas.Disfruto de los desafíos que combinan la lógica técnica con la colaboración en equipo y busco oportunidades donde pueda aplicar ambas facetas para contribuir en un entorno dinámico.",
+		"description": {
+			"es": "Mi nombre es Allan Chagerben. Soy estudiante de Ingeniería Eléctrica en la Universidad ESPOL, donde he desarrollado una sólida capacidad para el análisis técnico y la resolución de problemas.Disfruto de los desafíos que combinan la lógica técnica con la colaboración en equipo y busco oportunidades donde pueda aplicar ambas facetas para contribuir en un entorno dinámico.",
+			"en": "My name is Allan Chagerben. I am an Electrical Engineering student at ESPOL, where I have built a solid capacity for technical analysis and problem solving. I enjoy challenges that combine technical reasoning with teamwork, and I look for opportunities where I can bring both to a fast-moving environment."
+		},
 		"stack": ["python", "html", "autocad", "proteus"],
 		"interests": ["Inteligencia Artificial", "Ciencia de datos", "Desarrollo de Aplicaciones"],
 		"slug": "allan-chagerben"
@@ -360,7 +390,10 @@
 				"link": "https://www.linkedin.com/in/daniel-cortez-manzano-384041253/"
 			}
 		],
-		"description": "Hola, soy Daniel \nDesde el cole me interesó todo lo que tiene que ver con electrónica y electricidad, así que por ahí empezó la cosa. Con el tiempo, me fui metiendo en el mundo del software y ahora disfruto/odio crear/experimentar con programas, probar lo que sea que me parezca curioso (tecnologicamente hablando xD) y escribir código en varios lenguajes, solo por diversión o por aprender algo nuevo.\nActualmente trabajo como ingeniero en pruebas y automatización para Disney 🧪, y sigo aprendiendo de otras áreas porque siempre hay algo nuevo que descubrir. Me gusta compartir lo que sé y seguir mejorando poco a poco.",
+		"description": {
+			"es": "Hola, soy Daniel \nDesde el cole me interesó todo lo que tiene que ver con electrónica y electricidad, así que por ahí empezó la cosa. Con el tiempo, me fui metiendo en el mundo del software y ahora disfruto/odio crear/experimentar con programas, probar lo que sea que me parezca curioso (tecnologicamente hablando xD) y escribir código en varios lenguajes, solo por diversión o por aprender algo nuevo.\nActualmente trabajo como ingeniero en pruebas y automatización para Disney 🧪, y sigo aprendiendo de otras áreas porque siempre hay algo nuevo que descubrir. Me gusta compartir lo que sé y seguir mejorando poco a poco.",
+			"en": "Hi, I am Daniel\nBack in school I got interested in everything to do with electronics and electricity, so that is where it started. Over time I moved into software, and now I enjoy/hate building and experimenting with programs, trying out whatever looks curious (technologically speaking xD) and writing code in several languages, just for fun or to learn something new.\nI currently work as a test and automation engineer for Disney 🧪, and I keep learning about other areas because there is always something new to discover. I like sharing what I know and getting a little better every day."
+		},
 		"stack": [
 			"nodejs",
 			"typescript",
@@ -406,7 +439,10 @@
 				"link": "https://github.com/Izaako04"
 			}
 		],
-		"description": "Soy Isaac Criollo, estudiante de computación; desde que tengo memoria me ha gustado trastear con la tecnología y modificar/crear/usar varios tipos de software y hardware. Empecé realizando mods para mis juegos favoritos y modificando el hardware de mis consolas para añadirle nuevas funcionalidades; disfruto de programar y modificar hardware.",
+		"description": {
+			"es": "Soy Isaac Criollo, estudiante de computación; desde que tengo memoria me ha gustado trastear con la tecnología y modificar/crear/usar varios tipos de software y hardware. Empecé realizando mods para mis juegos favoritos y modificando el hardware de mis consolas para añadirle nuevas funcionalidades; disfruto de programar y modificar hardware.",
+			"en": "I am Isaac Criollo, a computer science student. For as long as I can remember I have loved tinkering with technology and modifying, building and using all kinds of software and hardware. I started out making mods for my favourite games and modifying my consoles to add new features. I enjoy programming and modding hardware."
+		},
 		"stack": [
 			"react",
 			"laravel",
@@ -448,7 +484,10 @@
 				"link": "https://www.adrianjdelgado.com"
 			}
 		],
-		"description": "Trabajando en esto",
+		"description": {
+			"es": "Trabajando en esto",
+			"en": "Working on it"
+		},
 		"stack": [
 			"svelte",
 			"react",
@@ -482,7 +521,10 @@
 				"link": "https://github.com/nahinespinoza"
 			}
 		],
-		"description": "Soy estudiante de Ingeniería en Computación en ESPOL, apasionado por el desarrollo de software, la inteligencia artificial y la ciencia de datos. Me motiva enfrentar desafíos que me permitan transformar ideas en proyectos concretos, impulsando el cambio a través de la tecnología y contribuyendo al desarrollo de un futuro más conectado y eficiente.",
+		"description": {
+			"es": "Soy estudiante de Ingeniería en Computación en ESPOL, apasionado por el desarrollo de software, la inteligencia artificial y la ciencia de datos. Me motiva enfrentar desafíos que me permitan transformar ideas en proyectos concretos, impulsando el cambio a través de la tecnología y contribuyendo al desarrollo de un futuro más conectado y eficiente.",
+			"en": "I am a Computer Engineering student at ESPOL, passionate about software development, artificial intelligence and data science. I am driven by challenges that let me turn ideas into real projects, driving change through technology and contributing to a more connected and efficient future."
+		},
 		"stack": [
 			"react",
 			"django",
@@ -512,7 +554,10 @@
 				"link": "https://github.com/Jorge2033"
 			}
 		],
-		"description": "Actualmente soy un estudiante de computación en ESPOL, me visualizo como una persona creativa que le gusta constantemente estar colaborando con los demás en diferentes proyectos. Me gusta la tecnología, el arte, el cine y la comedia. ",
+		"description": {
+			"es": "Actualmente soy un estudiante de computación en ESPOL, me visualizo como una persona creativa que le gusta constantemente estar colaborando con los demás en diferentes proyectos. Me gusta la tecnología, el arte, el cine y la comedia. ",
+			"en": "I am currently a computer science student at ESPOL. I see myself as a creative person who likes to constantly collaborate with others on different projects. I am into technology, art, film and comedy. "
+		},
 		"stack": [
 			"react",
 			"angular",
@@ -544,7 +589,10 @@
 				"link": "https://github.com/isaiasgh"
 			}
 		],
-		"description": "Estudio Ingeniería en Ciencias de la Computación y me interesa el desarrollo de software, la ingeniería de datos y la inteligencia artificial. Me gusta aprender cómo aplicar la tecnología para resolver problemas y crear soluciones que sean útiles en la práctica. He trabajado en equipo desarrollando proyectos con tecnologías como Spring Boot, Python y C, lo que me ha permitido ganar experiencia en programación, manejo de bases de datos y buenas prácticas de desarrollo colaborativo.",
+		"description": {
+			"es": "Estudio Ingeniería en Ciencias de la Computación y me interesa el desarrollo de software, la ingeniería de datos y la inteligencia artificial. Me gusta aprender cómo aplicar la tecnología para resolver problemas y crear soluciones que sean útiles en la práctica. He trabajado en equipo desarrollando proyectos con tecnologías como Spring Boot, Python y C, lo que me ha permitido ganar experiencia en programación, manejo de bases de datos y buenas prácticas de desarrollo colaborativo.",
+			"en": "I study Computer Science and I am interested in software development, data engineering and artificial intelligence. I like learning how to apply technology to solve problems and build solutions that are useful in practice. I have worked in teams on projects using technologies such as Spring Boot, Python and C, which has given me experience in programming, database management and good collaborative development practices."
+		},
 		"stack": [
 			"react",
 			"vue",
@@ -579,7 +627,10 @@
 				"link": "https://www.linkedin.com/in/anthonyyhl/"
 			}
 		],
-		"description": "Estudio Ingeniería de Computación y me apasiona el testing y desarrollo backend. He trabajado con automatización de pruebas usando Selenium, Playwright, Cypress, TestNG, Postman, etc., y es súper satisfactorio ese momento cuando todo funciona como debería, al ejecutar un test. Disfruto trabajar en equipo, aprender cosas nuevas y siempre busco hacer las cosas bien, con buenas prácticas y pensando en la calidad del producto final",
+		"description": {
+			"es": "Estudio Ingeniería de Computación y me apasiona el testing y desarrollo backend. He trabajado con automatización de pruebas usando Selenium, Playwright, Cypress, TestNG, Postman, etc., y es súper satisfactorio ese momento cuando todo funciona como debería, al ejecutar un test. Disfruto trabajar en equipo, aprender cosas nuevas y siempre busco hacer las cosas bien, con buenas prácticas y pensando en la calidad del producto final",
+			"en": "I study Computer Engineering and I am passionate about testing and backend development. I have worked on test automation with Selenium, Playwright, Cypress, TestNG, Postman and others, and that moment when everything works as it should on a test run is deeply satisfying. I enjoy working in a team, learning new things, and I always aim to do things properly, with good practices and an eye on the quality of the final product"
+		},
 		"stack": [
 			"react",
 			"nodejs",
@@ -616,7 +667,10 @@
 				"link": "https://github.com/DominiqueHerreraG"
 			}
 		],
-		"description": "Estudiante de Economía, con interés en Análisis de datos e Inteligencia artificial.",
+		"description": {
+			"es": "Estudiante de Economía, con interés en Análisis de datos e Inteligencia artificial.",
+			"en": "Economics student, interested in data analysis and artificial intelligence."
+		},
 		"stack": ["python", "canva"],
 		"interests": ["Inteligencia Artificial", "Análisis de datos", "Ilustración"],
 		"slug": "dominique-herrera"
@@ -634,7 +688,10 @@
 				"link": "https://github.com/SirProg"
 			}
 		],
-		"description": "Futuro graduado politécnico con la decisión de hacer salir mis puntos fuertes en las áreas que se me cruzen en mi camino. Empeñado en explorar nuevas tecnologías, aumentar mi conocimiento realizando y participando en proyectos.",
+		"description": {
+			"es": "Futuro graduado politécnico con la decisión de hacer salir mis puntos fuertes en las áreas que se me cruzen en mi camino. Empeñado en explorar nuevas tecnologías, aumentar mi conocimiento realizando y participando en proyectos.",
+			"en": "A soon-to-be ESPOL graduate determined to bring out my strengths in whatever areas come my way. Set on exploring new technologies and growing my knowledge by building and taking part in projects."
+		},
 		"stack": [
 			"svelte",
 			"react",
@@ -671,7 +728,10 @@
 				"link": "https://github.com/aamarin05"
 			}
 		],
-		"description": "Estudiante de ingeniería en mecatrónica, apasionada por aprender todos los ámbitos tecnológicos. Enfocada en realizar proyectos que combinen hardware y software.",
+		"description": {
+			"es": "Estudiante de ingeniería en mecatrónica, apasionada por aprender todos los ámbitos tecnológicos. Enfocada en realizar proyectos que combinen hardware y software.",
+			"en": "Mechatronics Engineering student, passionate about learning every corner of technology. Focused on projects that combine hardware and software."
+		},
 		"stack": [
 			"python",
 			"java",
@@ -703,7 +763,10 @@
 				"link": "https://www.linkedin.com/in/daniel-mateo-orellana-642ab3284/"
 			}
 		],
-		"description": "Desarrollador .NET. Fan de Alvaro Diaz y ChatGPT",
+		"description": {
+			"es": "Desarrollador .NET. Fan de Alvaro Diaz y ChatGPT",
+			"en": "A .NET developer. Fan of Alvaro Diaz and ChatGPT"
+		},
 		"stack": [
 			"react",
 			"nodejs",
@@ -742,7 +805,10 @@
 				"link": "https://www.linkedin.com/in/mjmoyanotamayo/"
 			}
 		],
-		"description": "Soy una persona positiva, perseverante y responsable, con una notable facilidad para adaptarme a nuevos desafíos. Ingeniera en Ciencias Computacionales en la Escuela Superior Politécnica del Litoral (ESPOL). Mi verdadera pasión se encuentra en el mundo de la tecnología, y he estado cultivando habilidades en áreas que incluyen Desarrollo de Software, Diseño de Experiencia de Usuario (UX/UI), web y Ciencia de Datos.",
+		"description": {
+			"es": "Soy una persona positiva, perseverante y responsable, con una notable facilidad para adaptarme a nuevos desafíos. Ingeniera en Ciencias Computacionales en la Escuela Superior Politécnica del Litoral (ESPOL). Mi verdadera pasión se encuentra en el mundo de la tecnología, y he estado cultivando habilidades en áreas que incluyen Desarrollo de Software, Diseño de Experiencia de Usuario (UX/UI), web y Ciencia de Datos.",
+			"en": "I am a positive, persistent and responsible person, with a real knack for adapting to new challenges. Computer Science engineer from Escuela Superior Politécnica del Litoral (ESPOL). My true passion lies in technology, and I have been building skills in areas including Software Development, User Experience Design (UX/UI), web and Data Science."
+		},
 		"stack": [
 			"react",
 			"nodejs",
@@ -770,7 +836,10 @@
 				"link": "https://github.com/AlexitoSnow"
 			}
 		],
-		"description": "Entusiasta del desarrollo multiplataforma, enfocado en Flutter y trabajo como desarrollador backend en Java",
+		"description": {
+			"es": "Entusiasta del desarrollo multiplataforma, enfocado en Flutter y trabajo como desarrollador backend en Java",
+			"en": "An enthusiast of cross-platform development, focused on Flutter, and working as a backend developer in Java"
+		},
 		"stack": ["angular", "springboot", "typescript", "python", "java", "tailwindcss", "figma"],
 		"interests": ["Prototipado UI/UX", "Desarrollo Movil", "Desarrollo Backend"],
 		"slug": "alexander-nieves"
@@ -792,7 +861,10 @@
 				"link": "https://www.linkedin.com/in/noelia-pasaca-paladines-058a4a221/"
 			}
 		],
-		"description": "Soy una estudiante guayaquileña de Ingeniería en Computación. Entre mis intereses están el desarrollo de aplicaciones y aprender sobre inteligencia artificial. Me apasiona colaborar en proyectos de alto impacto tanto tecnológico como social. ",
+		"description": {
+			"es": "Soy una estudiante guayaquileña de Ingeniería en Computación. Entre mis intereses están el desarrollo de aplicaciones y aprender sobre inteligencia artificial. Me apasiona colaborar en proyectos de alto impacto tanto tecnológico como social. ",
+			"en": "I am a Computer Engineering student from Guayaquil. My interests include application development and learning about artificial intelligence. I am passionate about collaborating on projects with real technical and social impact. "
+		},
 		"stack": [
 			"svelte",
 			"react",
@@ -831,7 +903,10 @@
 				"link": "https://github.com/melpgala"
 			}
 		],
-		"description": "Me considero una persona creativa. Me gusta lo relacionado al diseño visual. Me interesa combinar la parte de diseño gráfico con la programación. Creo que la mejor manera de aprender algo es explicándolo a alguien mas. No tengo mucha experiencia por lo que quisiera participar en proyectos para poder mejorar mis habilidades.",
+		"description": {
+			"es": "Me considero una persona creativa. Me gusta lo relacionado al diseño visual. Me interesa combinar la parte de diseño gráfico con la programación. Creo que la mejor manera de aprender algo es explicándolo a alguien mas. No tengo mucha experiencia por lo que quisiera participar en proyectos para poder mejorar mis habilidades.",
+			"en": "I consider myself a creative person. I like anything to do with visual design. I am interested in combining graphic design with programming. I believe the best way to learn something is by explaining it to someone else. I do not have much experience yet, so I would like to take part in projects to improve my skills."
+		},
 		"stack": ["vue", "nodejs", "javascript", "python", "java", "css", "html", "canva", "krita"],
 		"interests": ["Diseño gráfico", "Prototipado UI/UX"],
 		"slug": "melanie-penaherrera"
@@ -849,7 +924,10 @@
 				"link": "https://github.com/jairordtgz"
 			}
 		],
-		"description": "Hello there!, soy estudiante de Computación en ESPOL, descubrí que nací para esta profesión desde el colegio cuando me llamó la atención la programación, lo que evolucionó a interés de participar en proyectos y solución de problemas enfocados en UX. ",
+		"description": {
+			"es": "Hello there!, soy estudiante de Computación en ESPOL, descubrí que nací para esta profesión desde el colegio cuando me llamó la atención la programación, lo que evolucionó a interés de participar en proyectos y solución de problemas enfocados en UX. ",
+			"en": "Hello there! I am a computer science student at ESPOL. I found out I was born for this profession back in school, when programming caught my attention, and that grew into an interest in joining projects and solving problems with a focus on UX. "
+		},
 		"stack": [
 			"react",
 			"nodejs",
@@ -893,7 +971,10 @@
 				"link": "https://www.linkedin.com/in/symond-salazar-b1554a352"
 			}
 		],
-		"description": "Soy estudiante de primer año de Ingeniería en Computación, con una fuerte pasión por el lado creativo de la programación. Me entusiasma todo lo que implique construir y dar vida a ideas, ya sea a través del desarrollo web o la creación de videojuegos. Tengo una curiosidad constante y una sed de conocimiento que me impulsa a explorar nuevas tecnologías y a perfeccionar mis habilidades día a día.",
+		"description": {
+			"es": "Soy estudiante de primer año de Ingeniería en Computación, con una fuerte pasión por el lado creativo de la programación. Me entusiasma todo lo que implique construir y dar vida a ideas, ya sea a través del desarrollo web o la creación de videojuegos. Tengo una curiosidad constante y una sed de conocimiento que me impulsa a explorar nuevas tecnologías y a perfeccionar mis habilidades día a día.",
+			"en": "I am a first-year Computer Engineering student with a strong passion for the creative side of programming. I get excited about anything that involves building ideas and bringing them to life, whether through web development or making video games. I have a constant curiosity and a thirst for knowledge that pushes me to explore new technologies and sharpen my skills every day."
+		},
 		"stack": [
 			"svelte",
 			"nodejs",
@@ -925,7 +1006,10 @@
 				"link": "https://github.com/jordansalinasp10"
 			}
 		],
-		"description": "Estoy en lo último de mi carrera, soy más del lado backend interesado en las LLM. Me apasionan los videojuegos y peliculas. ",
+		"description": {
+			"es": "Estoy en lo último de mi carrera, soy más del lado backend interesado en las LLM. Me apasionan los videojuegos y peliculas. ",
+			"en": "I am in the final stretch of my degree. I lean towards the backend and I am interested in LLMs. I am passionate about video games and films. "
+		},
 		"stack": [
 			"angular",
 			"nodejs",
@@ -948,7 +1032,10 @@
 		"facultad": "FCSH",
 		"carrera": "Economía",
 		"social_media": [],
-		"description": "Carmen Serrano, estudiante de economía en Espol, tengo gran interés en el analisis de datos y como implementar soluciones o mejoras en base a ellos.",
+		"description": {
+			"es": "Carmen Serrano, estudiante de economía en Espol, tengo gran interés en el analisis de datos y como implementar soluciones o mejoras en base a ellos.",
+			"en": "Carmen Serrano, an economics student at ESPOL. I have a strong interest in data analysis and in how to build solutions and improvements based on it."
+		},
 		"stack": ["python", "canva"],
 		"interests": ["Diseño Gráfico", "Análisis De Datos"],
 		"slug": "carmen-serrano"
@@ -966,7 +1053,10 @@
 				"link": "https://github.com/JoseCar2007"
 			}
 		],
-		"description": "¡Hola! Soy estudiante de ciencia de datos. La programación me apasiona bastante y con mi interés por el manejo de datos me gustaría aportar a otras ciencias las cuáles trabajen con millones de datos.",
+		"description": {
+			"es": "¡Hola! Soy estudiante de ciencia de datos. La programación me apasiona bastante y con mi interés por el manejo de datos me gustaría aportar a otras ciencias las cuáles trabajen con millones de datos.",
+			"en": "Hi! I am a data science student. I am quite passionate about programming, and with my interest in handling data I would like to contribute to other sciences that work with millions of records."
+		},
 		"stack": ["python", "java", "canva"],
 		"interests": ["Ciencia de datos", "desarrollo web", "Machine Learning"],
 		"slug": "jose-tobar"
@@ -984,7 +1074,10 @@
 				"link": "https://github.com/Danny-veliz"
 			}
 		],
-		"description": "Entusiasta al desarrollo de nuevas competencias y conocimientos.",
+		"description": {
+			"es": "Entusiasta al desarrollo de nuevas competencias y conocimientos.",
+			"en": "An enthusiast for building new skills and knowledge."
+		},
 		"stack": [
 			"react",
 			"django",
@@ -1012,7 +1105,10 @@
 				"link": "https://github.com/misaelzb"
 			}
 		],
-		"description": "Soy Misael Zambrano, un entusiasta del desarrollo tecnológico orientado a crear soluciones innovadoras que generen valor para la sociedad. Me interesa especialmente el desarrollo web y la creación de APIs y servicios backend, áreas en las que busco crecer y aportar con proyectos de impacto.",
+		"description": {
+			"es": "Soy Misael Zambrano, un entusiasta del desarrollo tecnológico orientado a crear soluciones innovadoras que generen valor para la sociedad. Me interesa especialmente el desarrollo web y la creación de APIs y servicios backend, áreas en las que busco crecer y aportar con proyectos de impacto.",
+			"en": "I am Misael Zambrano, an enthusiast of building technology aimed at innovative solutions that create value for society. I am especially interested in web development and in building APIs and backend services, areas where I want to grow and contribute with projects that make an impact."
+		},
 		"stack": [
 			"react",
 			"nodejs",
@@ -1048,7 +1144,10 @@
 				"link": "https://github.com/fzavala2003"
 			}
 		],
-		"description": "Hola, mi nombre es Daniel Zavala, soy estudiante de Ingeniería en Computación. Me interesa el desarrollo web y el procesamiento de imagenes. Tengo conocimientos en python y javascript y busco seguir aprendiendo para aplicar mis habilidades en proyectos prácticos e innovadores.",
+		"description": {
+			"es": "Hola, mi nombre es Daniel Zavala, soy estudiante de Ingeniería en Computación. Me interesa el desarrollo web y el procesamiento de imagenes. Tengo conocimientos en python y javascript y busco seguir aprendiendo para aplicar mis habilidades en proyectos prácticos e innovadores.",
+			"en": "Hi, my name is Daniel Zavala and I am a Computer Engineering student. I am interested in web development and image processing. I have experience with Python and JavaScript and I want to keep learning so I can apply my skills to practical, innovative projects."
+		},
 		"stack": [
 			"react",
 			"nodejs",
@@ -1082,7 +1181,10 @@
 				"link": "https://github.com/gazuacos"
 			}
 		],
-		"description": "Estudiante de mecatrónica en la Espol con entusiasmo de aprender cosas nuevas. Mis intereses principales son los videojuegos, música (en especial subgéneros de electrónica), programación, electrónica, Linux(Actualmente adaptándome al sistema operativo, por ahora usando PopOS)Motivado por alcanzar nuevos objetivos y mejorar mi comunicación :).",
+		"description": {
+			"es": "Estudiante de mecatrónica en la Espol con entusiasmo de aprender cosas nuevas. Mis intereses principales son los videojuegos, música (en especial subgéneros de electrónica), programación, electrónica, Linux(Actualmente adaptándome al sistema operativo, por ahora usando PopOS)Motivado por alcanzar nuevos objetivos y mejorar mi comunicación :).",
+			"en": "A mechatronics student at ESPOL, keen to learn new things. My main interests are video games, music (especially electronic subgenres), programming, electronics and Linux (currently getting used to the operating system, using PopOS for now). Driven to reach new goals and improve my communication :)."
+		},
 		"stack": [
 			"react",
 			"nodejs",

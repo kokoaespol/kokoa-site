@@ -143,6 +143,13 @@
 		"meme_alt": "Meme de This is fine",
 		"back_home": "Regresar a la página principal"
 	},
+	"role": {
+		"Mentor": "Mentor",
+		"Presidente": "Presidente",
+		"Vicepresidente": "Vicepresidente",
+		"Secretario": "Secretario",
+		"Miembro": "Miembro"
+	},
 	"category": {
 		"automatizacion": "automatización",
 		"blockchain": "blockchain",

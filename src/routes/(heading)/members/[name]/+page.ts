@@ -17,12 +17,14 @@ export const load = (({ params, url }) => {
 		.filter((project) => project.authors.some((m) => m.slug === member.slug))
 		.map((project) => ({ ...project, description: localized(project.description, locale) }));
 
+	const role = t(locale, `role.${member.role}`, { default: member.role });
+
 	return {
 		title: member.name,
 		description: t(locale, "page.member.description", {
-			values: { name: member.name, role: member.role },
+			values: { name: member.name, role },
 		}),
-		member,
+		member: { ...member, description: localized(member.description, locale) },
 		member_projects,
 	};
 }) satisfies PageLoad;
