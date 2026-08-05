@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { resolve } from "$app/paths";
+	import { use_i18n } from "$lib/i18n/use.js";
 	import github from "$lib/assets/icons/github.svg";
 	import linkedin from "$lib/assets/icons/linkedin.svg";
 	import { Link } from "@lucide/svelte";
@@ -18,6 +18,8 @@
 		delay?: number;
 	};
 	let { member, delay = 0 }: Props = $props();
+
+	const { href } = use_i18n();
 
 	const photos = import.meta.glob("$lib/assets/members/*", {
 		eager: true,
@@ -52,7 +54,7 @@
 			alt={member.name}
 		/>
 		<a
-			href={resolve(`/members/${member.slug}`)}
+			href={href(`/members/${member.slug}`)}
 			class="absolute inset-0 flex items-center justify-center font-black opacity-0 transition duration-150 group-hover:opacity-100 {colormap.get(
 				member.facultad,
 			)}"

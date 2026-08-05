@@ -1,9 +1,11 @@
 <script lang="ts">
-	import { resolve } from "$app/paths";
 	import CenterContainer from "$lib/components/center-container.svelte";
 	import Tag from "$lib/components/tag.svelte";
 	import github_green from "$lib/assets/icons/github-green.svg";
 	import { Dot, Globe, Smartphone } from "@lucide/svelte";
+	import { use_i18n } from "$lib/i18n/use.js";
+
+	const { t, href } = use_i18n();
 
 	let { data } = $props();
 
@@ -28,11 +30,11 @@
 
 <CenterContainer class="py-12">
 	<section>
-		<h2 class="font-fira text-xl text-kokoa-lime1">Autores</h2>
+		<h2 class="font-fira text-xl text-kokoa-lime1">{t("projects.authors")}</h2>
 		<ul class="mt-2 flex flex-wrap gap-8">
 			{#each data.project.authors as author (author.url_image)}
 				<li class="flex items-center gap-1">
-					<a href={resolve(`/members/${author.slug}`)}>
+					<a href={href(`/members/${author.slug}`)}>
 						<img
 							class="size-8 rounded-full object-cover"
 							src={get_photo(author.url_image)}
@@ -55,17 +57,17 @@
 			{/each}
 		</div>
 
-		{@render subtitle("¿Qué es?")}
+		{@render subtitle(t("projects.what"))}
 		<p class="mt-2 font-fira">
 			{data.project.description}
 		</p>
 
-		{@render subtitle("¿Para qué sirve?")}
+		{@render subtitle(t("projects.purpose"))}
 		<p class="mt-2 font-fira">
 			{data.project.purpose}
 		</p>
 
-		{@render subtitle("¿Cómo lo hicimos?")}
+		{@render subtitle(t("projects.how"))}
 		<p class="mt-2 font-fira">
 			{data.project.how}
 		</p>
@@ -81,14 +83,14 @@
 			{#if data.project.apk_url}
 				<a class="flex gap-1 hover:underline" rel="external" href={data.project.apk_url}>
 					<Smartphone class="size-6 text-kokoa-lime1" />
-					App Móvil
+					{t("projects.mobile_app")}
 				</a>
 			{/if}
 
 			{#if data.project.web_url}
 				<a class="flex gap-1 hover:underline" rel="external" href={data.project.web_url}>
 					<Globe class="size-6 text-kokoa-lime1" />
-					Página Web
+					{t("projects.website")}
 				</a>
 			{/if}
 		</div>

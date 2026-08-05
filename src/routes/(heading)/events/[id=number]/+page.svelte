@@ -3,6 +3,9 @@
 	import Tag from "$lib/components/tag.svelte";
 	import instagram from "$lib/assets/icons/instagram-green.svg";
 	import { Dot, Globe } from "@lucide/svelte";
+	import { use_i18n } from "$lib/i18n/use.js";
+
+	const { t } = use_i18n();
 
 	let { data } = $props();
 
@@ -30,7 +33,7 @@
 
 <CenterContainer class="py-12">
 	<section>
-		<h2 class="font-fira text-xl text-kokoa-lime1">Evento</h2>
+		<h2 class="font-fira text-xl text-kokoa-lime1">{t("events.kicker")}</h2>
 		<div class="mt-2 flex flex-wrap gap-8">
 			<span class="font-fira">{data.event.name}</span>
 		</div>
@@ -46,23 +49,23 @@
 
 		<img
 			src={get_image(data.event.image)}
-			alt={`Imagen del evento ${data.event.name}`}
+			alt={t("events.image_alt", { values: { name: data.event.name } })}
 			class="mt-4 max-h-50 rounded-lg shadow-lg shadow-gray-900"
 		/>
 
-		{@render subtitle("¿De qué trata?")}
+		{@render subtitle(t("events.about"))}
 		<p class="mt-2 font-fira">
 			{data.event.description}
 		</p>
 
-		{@render subtitle("¿Dónde es?")}
+		{@render subtitle(t("events.where"))}
 		<p class="mt-2 font-fira">
 			{data.event.place}
 		</p>
 
 		{#if data.event.web_url || data.event.instagram_url}
-			{@render subtitle("¿Más información?")}
-			<p class="mt-2 font-fira">Síguelos en sus redes:</p>
+			{@render subtitle(t("events.more_info"))}
+			<p class="mt-2 font-fira">{t("events.follow")}</p>
 
 			<div class="mt-6 flex flex-col gap-4">
 				{#if data.event.web_url}

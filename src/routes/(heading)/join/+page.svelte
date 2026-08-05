@@ -1,16 +1,16 @@
 <svelte:options runes />
 
-<script>
+<script lang="ts">
 	import CenterContainer from "$lib/components/center-container.svelte";
+	import { use_i18n } from "$lib/i18n/use.js";
+
+	const { t } = use_i18n();
 </script>
 
 <CenterContainer class="flex flex-wrap justify-center py-6 sm:py-10">
 	<!-- Texto encima del formulario -->
 	<div class="mb-6 text-center">
-		<p class="font-fira font-medium text-wrap">
-			Te estás inscribiendo a nuestro proceso de admisión vigente. Te contactaremos pronto con las
-			fechas y los siguientes pasos.
-		</p>
+		<p class="font-fira font-medium text-wrap">{t("join.lead")}</p>
 	</div>
 	<div class="w-full max-w-3xl" style="filter: invert(1) hue-rotate(180deg);">
 		<iframe
@@ -19,10 +19,10 @@
 			frameborder="0"
 			marginheight="0"
 			marginwidth="0"
-			title="Google Form for Join Kokoa"
+			title={t("join.form_title")}
 			class="w-full"
 		>
-			Cargando…
+			{t("join.loading")}
 		</iframe>
 	</div>
 </CenterContainer>

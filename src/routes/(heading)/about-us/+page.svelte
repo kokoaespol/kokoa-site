@@ -4,6 +4,9 @@
 	import CenterContainer from "$lib/components/center-container.svelte";
 	import gecko_text from "$lib/assets/logos/gecko-text.png";
 	import { reveal, REVEAL_CLASS } from "$lib/actions/reveal.js";
+	import { use_i18n } from "$lib/i18n/use.js";
+
+	const { t } = use_i18n();
 </script>
 
 {#snippet subtitle(text: string)}
@@ -15,13 +18,8 @@
 <section use:reveal class={REVEAL_CLASS}>
 	<CenterContainer class="py-6 sm:grid sm:grid-cols-3 sm:items-center sm:gap-x-8 sm:py-10">
 		<div class="col-span-2">
-			{@render subtitle("La Comunidad")}
-			<p class="mt-4 max-w-prose pl-7">
-				KOKOA es el club de software libre de ESPOL: fomentamos la equidad, la colaboración y el
-				aprendizaje de tecnologías libres. Junto a distintos departamentos dentro y fuera de la
-				ESPOL, desarrollamos proyectos, organizamos eventos y dictamos talleres para la comunidad
-				académica.
-			</p>
+			{@render subtitle(t("about.community.title"))}
+			<p class="mt-4 max-w-prose pl-7">{t("about.community.body")}</p>
 		</div>
 		<div class="mt-6 sm:mt-0">
 			<img
@@ -29,7 +27,7 @@
 				src={gecko_text}
 				width="230.4"
 				height="153.14"
-				alt="Logo de Kokoa"
+				alt={t("common.logo_alt")}
 			/>
 		</div>
 	</CenterContainer>
@@ -37,38 +35,24 @@
 <section use:reveal={{ delay: 100 }} class={REVEAL_CLASS}>
 	<CenterContainer class="py-6">
 		<div>
-			{@render subtitle("Historia")}
-			<p class="mt-4 pl-7">
-				KOKOA nació en 1996 de la mano de un grupo de politécnicos que compartían una misma pasión
-				por el software libre. Hoy es un espacio donde los miembros con más experiencia guían a los
-				nuevos en GNU/Linux y desarrollo de software — no se requiere experiencia previa, solo
-				curiosidad y ganas de aprender.
-			</p>
+			{@render subtitle(t("about.history.title"))}
+			<p class="mt-4 pl-7">{t("about.history.body")}</p>
 		</div>
 	</CenterContainer>
 </section>
 <section use:reveal={{ delay: 200 }} class={REVEAL_CLASS}>
 	<CenterContainer class="py-6">
 		<div>
-			{@render subtitle("Chocomisión")}
-			<p class="mt-4 pl-7">
-				Promover y democratizar el uso de tecnologías libres y de código abierto, fomentando el
-				aprendizaje colaborativo, el desarrollo de proyectos innovadores y la implementación de
-				soluciones tecnológicas que beneficien a la comunidad académica y profesional.
-			</p>
+			{@render subtitle(t("about.mission.title"))}
+			<p class="mt-4 pl-7">{t("about.mission.body")}</p>
 		</div>
 	</CenterContainer>
 </section>
 <section use:reveal={{ delay: 300 }} class={REVEAL_CLASS}>
 	<CenterContainer class="py-6">
 		<div>
-			{@render subtitle("Chocovisión")}
-			<p class="mt-4 pl-7">
-				Ser un referente nacional en la adopción y desarrollo de software libre, reconocidos por
-				nuestra contribución a la innovación tecnológica, la formación de profesionales
-				comprometidos con el conocimiento libre y el impacto positivo en la sociedad a través de
-				soluciones tecnológicas accesibles y éticas.
-			</p>
+			{@render subtitle(t("about.vision.title"))}
+			<p class="mt-4 pl-7">{t("about.vision.body")}</p>
 		</div>
 	</CenterContainer>
 </section>

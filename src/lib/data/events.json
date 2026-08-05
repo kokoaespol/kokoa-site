@@ -2,7 +2,10 @@
 	{
 		"id": 1,
 		"name": "Hacktoberfest GYE 2024",
-		"description": "Colabora en una variedad de proyectos de código abierto, mejorando tus habilidades y contribuyendo a la comunidad global de desarrolladores.",
+		"description": {
+			"es": "Colabora en una variedad de proyectos de código abierto, mejorando tus habilidades y contribuyendo a la comunidad global de desarrolladores.",
+			"en": "Contribute to a range of open source projects, sharpening your skills while giving back to the global developer community."
+		},
 		"date": "10/10/2024",
 		"time": "9 AM - 5 PM",
 		"place": "Universidad Católica Santiago de Guayaquil",
@@ -15,7 +18,10 @@
 	{
 		"id": 2,
 		"name": "CLI Week 2024",
-		"description": "Una semana dedicada a celebrar la versatilidad y al desarrollo de herramientas de línea de comandos (CLI) junto a amigos. Durante la semana, también habrá talleres y charlas para aprender y compartir conocimientos.",
+		"description": {
+			"es": "Una semana dedicada a celebrar la versatilidad y al desarrollo de herramientas de línea de comandos (CLI) junto a amigos. Durante la semana, también habrá talleres y charlas para aprender y compartir conocimientos.",
+			"en": "A week devoted to celebrating the versatility of command line tools (CLI) and building them together with friends. The week also features workshops and talks to learn and share knowledge."
+		},
 		"date": "11/11/2024 - 15/11/2024",
 		"time": "All day",
 		"place": "Online",
@@ -30,7 +36,10 @@
 	{
 		"id": 3,
 		"name": "FliSol 2025",
-		"description": "FLISoL es el evento más grande de difusión de Software Libre en América Latina. Su objetivo es promover las 4 libertades del Software Libre.",
+		"description": {
+			"es": "FLISoL es el evento más grande de difusión de Software Libre en América Latina. Su objetivo es promover las 4 libertades del Software Libre.",
+			"en": "FLISoL is the largest free software outreach event in Latin America. Its goal is to promote the 4 freedoms of free software."
+		},
 		"date": "31/05/2025",
 		"time": "09h00 - 17h00",
 		"place": "Universidad Católica de Santiago de Guayaquil (UCSG)",
@@ -45,7 +54,10 @@
 	{
 		"id": 4,
 		"name": "Feria Vive ESPOL",
-		"description": "Evento para mostrar proyectos y compartir con la comunidad de FIEC en la feria Vive ESPOL.",
+		"description": {
+			"es": "Evento para mostrar proyectos y compartir con la comunidad de FIEC en la feria Vive ESPOL.",
+			"en": "An event to show our projects and meet the FIEC community at the Vive ESPOL fair."
+		},
 		"date": "29/08/2025",
 		"time": "Por definir",
 		"place": "FIEC, ESPOL - Presencial",
@@ -58,7 +70,10 @@
 	{
 		"id": 5,
 		"name": "Polkadot Day",
-		"description": "Evento dedicado al ecosistema de Polkadot con charlas y networking.",
+		"description": {
+			"es": "Evento dedicado al ecosistema de Polkadot con charlas y networking.",
+			"en": "An event devoted to the Polkadot ecosystem, with talks and networking."
+		},
 		"date": "19/07/2025",
 		"time": "Por definir",
 		"place": "Presencial",
@@ -71,7 +86,10 @@
 	{
 		"id": 6,
 		"name": "Pre-Ubucon 2025",
-		"description": "Evento previo a la UbuCon Latinoamérica 2025.",
+		"description": {
+			"es": "Evento previo a la UbuCon Latinoamérica 2025.",
+			"en": "A warm-up event ahead of UbuCon Latin America 2025."
+		},
 		"date": "05/09/2025",
 		"time": "Por definir",
 		"place": "Presencial",
@@ -84,7 +102,10 @@
 	{
 		"id": 7,
 		"name": "Novatada 2025 (I Término)",
-		"description": "Bienvenida a los nuevos estudiantes de ESPOL.",
+		"description": {
+			"es": "Bienvenida a los nuevos estudiantes de ESPOL.",
+			"en": "Welcome event for new ESPOL students."
+		},
 		"date": "08/05/2025",
 		"time": "Por definir",
 		"place": "ESPOL - Presencial",
@@ -97,7 +118,10 @@
 	{
 		"id": 8,
 		"name": "Introducción al Supercomputador",
-		"description": "Taller introductorio sobre el uso y capacidades del supercomputador de ESPOL.",
+		"description": {
+			"es": "Taller introductorio sobre el uso y capacidades del supercomputador de ESPOL.",
+			"en": "An introductory workshop on the use and capabilities of the ESPOL supercomputer."
+		},
 		"date": "01/02/2025",
 		"time": "Por definir",
 		"place": "Virtual",
@@ -110,7 +134,10 @@
 	{
 		"id": 9,
 		"name": "Charla Software Libre",
-		"description": "Charla sobre la importancia y filosofía del software libre.",
+		"description": {
+			"es": "Charla sobre la importancia y filosofía del software libre.",
+			"en": "A talk on the philosophy of free software and why it matters."
+		},
 		"date": "21/06/2025",
 		"time": "Por definir",
 		"place": "Virtual",
@@ -123,7 +150,10 @@
 	{
 		"id": 10,
 		"name": "Charla Bits y Bloques",
-		"description": "Explorando conceptos fundamentales de computación y blockchain.",
+		"description": {
+			"es": "Explorando conceptos fundamentales de computación y blockchain.",
+			"en": "Exploring the core concepts of computing and blockchain."
+		},
 		"date": "05/07/2025",
 		"time": "Por definir",
 		"place": "Virtual",
@@ -136,7 +166,10 @@
 	{
 		"id": 11,
 		"name": "Charla Automatización",
-		"description": "Aprende sobre herramientas y técnicas para automatizar tareas.",
+		"description": {
+			"es": "Aprende sobre herramientas y técnicas para automatizar tareas.",
+			"en": "Learn about the tools and techniques for automating everyday tasks."
+		},
 		"date": "12/07/2025",
 		"time": "Por definir",
 		"place": "Virtual",
@@ -149,7 +182,10 @@
 	{
 		"id": 12,
 		"name": "Feria Ready Set Join",
-		"description": "Participación en la feria de clubes de ESPOL para reclutamiento de nuevos miembros.",
+		"description": {
+			"es": "Participación en la feria de clubes de ESPOL para reclutamiento de nuevos miembros.",
+			"en": "We joined the ESPOL club fair to welcome new members."
+		},
 		"date": "18/07/2025",
 		"time": "Por definir",
 		"place": "ESPOL - Presencial",
@@ -162,7 +198,10 @@
 	{
 		"id": 13,
 		"name": "Charla DevOps",
-		"description": "Introducción a la cultura y prácticas de DevOps.",
+		"description": {
+			"es": "Introducción a la cultura y prácticas de DevOps.",
+			"en": "An introduction to DevOps culture and practices."
+		},
 		"date": "26/07/2025",
 		"time": "Por definir",
 		"place": "Virtual",
@@ -175,7 +214,10 @@
 	{
 		"id": 14,
 		"name": "Rust Bridge",
-		"description": "Taller intensivo para aprender el lenguaje de programación Rust.",
+		"description": {
+			"es": "Taller intensivo para aprender el lenguaje de programación Rust.",
+			"en": "An intensive workshop to get started with the Rust programming language."
+		},
 		"date": "02/08/2025 - 09/08/2025",
 		"time": "Por definir",
 		"place": "Presencial",
@@ -188,7 +230,10 @@
 	{
 		"id": 15,
 		"name": "Charla Chatbots IA",
-		"description": "Desarrollo y funcionamiento de Chatbots con Inteligencia Artificial.",
+		"description": {
+			"es": "Desarrollo y funcionamiento de Chatbots con Inteligencia Artificial.",
+			"en": "How AI-powered chatbots are built and how they work."
+		},
 		"date": "09/08/2025",
 		"time": "Por definir",
 		"place": "Virtual",
@@ -201,7 +246,10 @@
 	{
 		"id": 16,
 		"name": "Conversatorio Privacidad",
-		"description": "Discusión sobre la importancia de la privacidad en la era digital.",
+		"description": {
+			"es": "Discusión sobre la importancia de la privacidad en la era digital.",
+			"en": "A panel on why privacy matters in the digital age."
+		},
 		"date": "15/08/2025",
 		"time": "Por definir",
 		"place": "Presencial",
@@ -214,7 +262,10 @@
 	{
 		"id": 17,
 		"name": "Feria Proyectos Admisiones",
-		"description": "Exhibición de proyectos para aspirantes a la universidad.",
+		"description": {
+			"es": "Exhibición de proyectos para aspirantes a la universidad.",
+			"en": "A project showcase for prospective university students."
+		},
 		"date": "22/08/2025",
 		"time": "Por definir",
 		"place": "ESPOL - Presencial",
@@ -227,7 +278,10 @@
 	{
 		"id": 18,
 		"name": "Taller Visión Computadora",
-		"description": "Conceptos básicos y aplicaciones de visión por computadora.",
+		"description": {
+			"es": "Conceptos básicos y aplicaciones de visión por computadora.",
+			"en": "The basics of computer vision and what it is used for."
+		},
 		"date": "05/09/2025",
 		"time": "Por definir",
 		"place": "Virtual",
@@ -240,7 +294,10 @@
 	{
 		"id": 19,
 		"name": "Taller Django",
-		"description": "Desarrollo web backend con el framework Django.",
+		"description": {
+			"es": "Desarrollo web backend con el framework Django.",
+			"en": "Backend web development with the Django framework."
+		},
 		"date": "12/09/2025",
 		"time": "Por definir",
 		"place": "Virtual",
@@ -253,7 +310,10 @@
 	{
 		"id": 20,
 		"name": "Supercomputador Paralelización",
-		"description": "Taller avanzado sobre programación paralela y supercomputación.",
+		"description": {
+			"es": "Taller avanzado sobre programación paralela y supercomputación.",
+			"en": "An advanced workshop on parallel programming and supercomputing."
+		},
 		"date": "13/09/2025 - 21/09/2025",
 		"time": "Por definir",
 		"place": "Virtual",
@@ -266,7 +326,10 @@
 	{
 		"id": 21,
 		"name": "Taller KiCAD",
-		"description": "Diseño de circuitos electrónicos impresos (PCB) con software libre KiCAD.",
+		"description": {
+			"es": "Diseño de circuitos electrónicos impresos (PCB) con software libre KiCAD.",
+			"en": "Designing printed circuit boards (PCB) with KiCAD, a free software tool."
+		},
 		"date": "19/09/2025",
 		"time": "Por definir",
 		"place": "Virtual",
@@ -279,7 +342,10 @@
 	{
 		"id": 22,
 		"name": "Novatada 2PAO 2025",
-		"description": "Bienvenida a los estudiantes del segundo término académico.",
+		"description": {
+			"es": "Bienvenida a los estudiantes del segundo término académico.",
+			"en": "Welcome event for students starting the second academic term."
+		},
 		"date": "26/09/2025",
 		"time": "Por definir",
 		"place": "Online",
@@ -292,7 +358,10 @@
 	{
 		"id": 23,
 		"name": "Taller Audacity",
-		"description": "Edición de audio digital con software libre Audacity.",
+		"description": {
+			"es": "Edición de audio digital con software libre Audacity.",
+			"en": "Digital audio editing with Audacity, a free software tool."
+		},
 		"date": "26/09/2025",
 		"time": "Por definir",
 		"place": "Virtual",
@@ -305,7 +374,10 @@
 	{
 		"id": 24,
 		"name": "Taller Open Hardware",
-		"description": "Introducción al hardware libre y sus aplicaciones.",
+		"description": {
+			"es": "Introducción al hardware libre y sus aplicaciones.",
+			"en": "An introduction to open hardware and what you can build with it."
+		},
 		"date": "27/09/2025",
 		"time": "Por definir",
 		"place": "Virtual",
@@ -318,7 +390,10 @@
 	{
 		"id": 25,
 		"name": "Análisis de Datos",
-		"description": "Fundamentos de análisis y ciencia de datos.",
+		"description": {
+			"es": "Fundamentos de análisis y ciencia de datos.",
+			"en": "The fundamentals of data analysis and data science."
+		},
 		"date": "28/09/2025",
 		"time": "Por definir",
 		"place": "Virtual",

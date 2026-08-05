@@ -1,10 +1,10 @@
 import type { PageLoad } from "./$types";
 import members from "$lib/data/members.json";
 
-export const load = (async () => {
+export const load = (() => {
 	return {
-		title: "Miembros",
-		description: "Miembros del club Kokoa",
+		title_key: "page.members.title",
+		description_key: "page.members.description",
 		members,
 	};
 }) satisfies PageLoad;

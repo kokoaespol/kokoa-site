@@ -15,13 +15,14 @@
 	import github from "$lib/assets/icons/github-green.svg";
 	import youtube from "$lib/assets/icons/youtube-green.svg";
 	import { Mail } from "@lucide/svelte";
+	import { use_i18n } from "$lib/i18n/use.js";
+
+	const { t } = use_i18n();
 </script>
 
 <CenterContainer class="grid gap-6 py-12 md:grid-cols-2">
 	<div>
-		<p class="font-fira font-medium">
-			Mantente al día con todas nuestras novedades, proyectos y eventos especiales. Síguenos en:
-		</p>
+		<p class="font-fira font-medium">{t("contact.lead")}</p>
 		<ul class="mt-7 flex flex-col gap-y-3 font-fira">
 			<li>
 				<a
@@ -80,7 +81,7 @@
 	</div>
 	<iframe
 		class="min-h-96 w-full"
-		title="Ubicacion de KOKOA Espol"
+		title={t("contact.map_title")}
 		src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d996.7554770772733!2d-79.9661!3d-2.145295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d73023a73d1ff%3A0x53f531c1d0d9d78b!2sKOKOA%20Espol!5e0!3m2!1ses!2sec!4v1736260097351!5m2!1ses!2sec"
 		allowfullscreen
 		loading="lazy"

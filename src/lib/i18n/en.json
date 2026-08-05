@@ -1,0 +1,184 @@
+{
+	"common": {
+		"logo_alt": "Kokoa logo"
+	},
+	"nav": {
+		"home": "Home",
+		"about": "About us",
+		"events": "Events",
+		"projects": "Projects",
+		"members": "Members",
+		"contact": "Contact",
+		"open_menu": "Open main menu",
+		"close_menu": "Close menu",
+		"language": "Language"
+	},
+	"page": {
+		"home": {
+			"title": "Home",
+			"description": "Kokoa is a student club at ESPOL."
+		},
+		"about": {
+			"title": "About us",
+			"description": "About the Kokoa club"
+		},
+		"events": {
+			"title": "Events",
+			"description": "Events by the Kokoa club"
+		},
+		"projects": {
+			"title": "Projects",
+			"description": "Projects by the Kokoa club"
+		},
+		"members": {
+			"title": "Members",
+			"description": "Members of the Kokoa club"
+		},
+		"contact": {
+			"title": "Contact",
+			"description": "How to reach the Kokoa club"
+		},
+		"join": {
+			"title": "Join",
+			"description": "Join the Kokoa club"
+		},
+		"member": {
+			"description": "{name} profile - {role}"
+		}
+	},
+	"hero": {
+		"image_alt": "Kokoa Project Fair 2024 2S",
+		"tagline": "- Live free software",
+		"lead": "A student club at ESPOL promoting the use, modification, distribution and study of free software",
+		"cta": "Join us"
+	},
+	"home": {
+		"areas": {
+			"title": "Our areas",
+			"lead": "Get to know what we work on",
+			"electronics": "Electronics",
+			"hacking": "Ethical hacking",
+			"web_mobile": "Web and mobile development",
+			"systems": "Systems programming"
+		},
+		"events": {
+			"title": "Events",
+			"empty": "There are no active events right now."
+		},
+		"members": {
+			"title": "Members"
+		},
+		"cta": {
+			"projects": "See projects",
+			"events": "See all events",
+			"members": "See members"
+		}
+	},
+	"about": {
+		"community": {
+			"title": "The community",
+			"body": "KOKOA is the free software club at ESPOL: we foster equity, collaboration and hands-on learning of free technologies. Together with departments inside and outside ESPOL, we build projects, organise events and run workshops for the academic community."
+		},
+		"history": {
+			"title": "History",
+			"body": "KOKOA was born in 1996 out of a group of ESPOL students who shared a passion for free software. Today it is a place where more experienced members guide newcomers through GNU/Linux and software development — no prior experience needed, just curiosity and the will to learn."
+		},
+		"mission": {
+			"title": "Our mission",
+			"body": "To promote and democratise the use of free and open source technologies, encouraging collaborative learning, the development of innovative projects and the delivery of technical solutions that benefit the academic and professional community."
+		},
+		"vision": {
+			"title": "Our vision",
+			"body": "To be a national reference in the adoption and development of free software, recognised for our contribution to technological innovation, for training professionals committed to free knowledge, and for a positive impact on society through accessible and ethical technology."
+		}
+	},
+	"events": {
+		"kicker": "Event",
+		"about": "What is it about?",
+		"where": "Where is it?",
+		"more_info": "More information",
+		"follow": "Follow them online:",
+		"image_alt": "Picture of the event {name}",
+		"card": {
+			"image_alt": "Event picture",
+			"date": "Date",
+			"time": "Time",
+			"place": "Place",
+			"info": "Details"
+		},
+		"not_found": "Event not found"
+	},
+	"projects": {
+		"lead": "These are some of the projects we have built together, aiming to use our digital skills to create a positive impact on society.",
+		"authors": "Authors",
+		"what": "What is it?",
+		"purpose": "What is it for?",
+		"how": "How did we build it?",
+		"mobile_app": "Mobile app",
+		"website": "Website",
+		"not_found": "Project not found"
+	},
+	"members": {
+		"board": "Board",
+		"list": "Members",
+		"stack": "Stack",
+		"interests": "Areas of interest",
+		"projects": "Projects",
+		"not_found": "Member not found"
+	},
+	"contact": {
+		"lead": "Keep up with our news, projects and special events. Follow us on:",
+		"map_title": "KOKOA ESPOL location"
+	},
+	"join": {
+		"lead": "You are signing up for our current admissions round. We will contact you soon with the dates and next steps.",
+		"form_title": "Kokoa sign-up form",
+		"loading": "Loading…"
+	},
+	"footer": {
+		"rights": "© {year} Kokoa. All rights reserved."
+	},
+	"error": {
+		"title": "Oops",
+		"meme_alt": "This is fine meme",
+		"back_home": "Back to the home page"
+	},
+	"category": {
+		"automatizacion": "automation",
+		"blockchain": "blockchain",
+		"charla": "talk",
+		"charlas": "talks",
+		"conferencias": "conferences",
+		"conversatorio": "panel",
+		"data science": "data science",
+		"desarrollo web": "web development",
+		"devops": "devops",
+		"educaciòn": "education",
+		"electrònica": "electronics",
+		"estudiantes": "students",
+		"feria": "fair",
+		"hackathon": "hackathon",
+		"hardware": "hardware",
+		"hibrido": "hybrid",
+		"hpc": "hpc",
+		"ia": "ai",
+		"integracion": "integration",
+		"libreria": "library",
+		"linux": "linux",
+		"multimedia": "multimedia",
+		"open source": "open source",
+		"presencial": "in person",
+		"privacidad": "privacy",
+		"proyectos": "projects",
+		"python": "python",
+		"rust": "rust",
+		"software": "software",
+		"taller": "workshop",
+		"talleres": "workshops",
+		"ubuntu": "ubuntu",
+		"videojuegos": "video games",
+		"virtual": "online",
+		"web": "web",
+		"workshops": "workshops"
+	}
+}

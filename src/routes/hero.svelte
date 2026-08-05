@@ -1,10 +1,12 @@
 <svelte:options runes />
 
 <script lang="ts">
-	import { resolve } from "$app/paths";
 	import CenterContainer from "$lib/components/center-container.svelte";
 	import feria from "$lib/assets/images/portada.jpg";
 	import { reveal, REVEAL_CLASS } from "$lib/actions/reveal.js";
+	import { use_i18n } from "$lib/i18n/use.js";
+
+	const { t, href } = use_i18n();
 </script>
 
 <CenterContainer
@@ -17,7 +19,7 @@
 			<div class="absolute -right-5 -bottom-5 size-24 border border-kokoa-lime1"></div>
 			<img
 				src={feria}
-				alt="Feria de Proyectos Kokoa 2024 2S"
+				alt={t("hero.image_alt")}
 				class="relative aspect-3/2 h-full object-cover"
 				width="378.88"
 				height="252.59"
@@ -30,17 +32,16 @@
 	>
 		<h1 class="font-fira text-lg font-bold lg:text-2xl">
 			<span class="text-kokoa-lime2">Kokoa</span>
-			<span class="text-blue-100">- Vive el software libre</span>
+			<span class="text-blue-100">{t("hero.tagline")}</span>
 		</h1>
 		<p class="max-w-prose text-sm text-blue-100 lg:text-base">
-			Club estudiantil politécnico promotor del uso, modificación, distribución y aprendizaje de
-			software libre
+			{t("hero.lead")}
 		</p>
 		<a
-			href={resolve("/join")}
+			href={href("/join")}
 			class="inline-block rounded-full bg-lime-500 px-14 py-2 text-base font-semibold text-gray-900 shadow-xs transition-colors duration-150 hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
 		>
-			Unirse
+			{t("hero.cta")}
 		</a>
 	</div>
 </CenterContainer>

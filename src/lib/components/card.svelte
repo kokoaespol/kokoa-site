@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { resolve } from "$app/paths";
 	import type { Pathname } from "$app/types";
 	import { MapPin } from "@lucide/svelte";
 	import { reveal, REVEAL_CLASS } from "$lib/actions/reveal.js";
+	import { use_i18n } from "$lib/i18n/use.js";
 	import { CARD_LIFT_CLASS } from "$lib/styles.js";
 	import Tag from "./tag.svelte";
 
@@ -17,13 +17,12 @@
 	};
 
 	let { route, date, name, categories, description, place, delay = 0 }: Props = $props();
+
+	const { href } = use_i18n();
 </script>
 
 <li use:reveal={{ delay }} class={REVEAL_CLASS}>
-	<a
-		href={resolve(route)}
-		class="block h-full rounded-2xl bg-neutral-800 px-6 py-5 {CARD_LIFT_CLASS}"
-	>
+	<a href={href(route)} class="block h-full rounded-2xl bg-neutral-800 px-6 py-5 {CARD_LIFT_CLASS}">
 		<article class="flex h-full flex-col">
 			<span class="font-fira font-medium text-kokoa-lime1">{date}</span>
 			<h2 class="font-fira text-xl font-medium">{name}</h2>

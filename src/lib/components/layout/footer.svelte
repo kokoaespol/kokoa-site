@@ -1,13 +1,13 @@
 <svelte:options runes />
 
 <script lang="ts">
-	import { resolve } from "$app/paths";
 	import {
 		GITHUB_HANDLE_KOKOA,
 		INSTAGRAM_HANDLE_KOKOA,
 		TWITTER_HANDLE_KOKOA,
 		YOUTUBE_HANDLE_KOKOA,
 	} from "$lib/constants";
+	import { use_i18n } from "$lib/i18n/use.js";
 
 	import gecko_code from "$lib/assets/logos/gecko-code.svg";
 	import x from "$lib/assets/icons/x.svg";
@@ -15,6 +15,8 @@
 	import github from "$lib/assets/icons/github.svg";
 	import youtube from "$lib/assets/icons/youtube.svg";
 	import CenterContainer from "$lib/components/center-container.svelte";
+
+	const { t, href } = use_i18n();
 </script>
 
 <footer>
@@ -56,11 +58,17 @@
 					<img src={youtube} alt="YouTube" class="size-6 opacity-60" width="24" height="24" />
 				</a>
 			</div>
-			<a href={resolve("/")} class="-m-1.5 p-1.5 sm:order-2">
-				<img src={gecko_code} alt="Logo de Kokoa" width="69.84" height="32" class="h-8 w-auto" />
+			<a href={href("/")} class="-m-1.5 p-1.5 sm:order-2">
+				<img
+					src={gecko_code}
+					alt={t("common.logo_alt")}
+					width="69.84"
+					height="32"
+					class="h-8 w-auto"
+				/>
 			</a>
 			<p class="mt-8 text-sm/6 text-gray-400 sm:order-1 sm:mt-0">
-				&copy; {new Date().getFullYear()} Kokoa. Todos los derechos reservados.
+				{t("footer.rights", { values: { year: String(new Date().getFullYear()) } })}
 			</p>
 		</div>
 	</CenterContainer>

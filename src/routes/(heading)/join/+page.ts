@@ -1,8 +1,8 @@
 import type { PageLoad } from "./$types";
 
-export const load = (async () => {
+export const load = (() => {
 	return {
-		title: "Unirse",
-		description: "Unete al club Kokoa",
+		title_key: "page.join.title",
+		description_key: "page.join.description",
 	};
 }) satisfies PageLoad;

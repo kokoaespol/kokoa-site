@@ -1,15 +1,15 @@
 <script lang="ts">
 	import Card from "$lib/components/card.svelte";
 	import CenterContainer from "$lib/components/center-container.svelte";
+	import { use_i18n } from "$lib/i18n/use.js";
+
+	const { t } = use_i18n();
 
 	let { data } = $props();
 </script>
 
 <CenterContainer class="py-12">
-	<p class="font-fira font-medium">
-		Estos son algunos de los proyectos que hemos realizado en conjunto, con la meta de usar nuestras
-		habilidades digitales para crear un impacto positivo en la sociedad.
-	</p>
+	<p class="font-fira font-medium">{t("projects.lead")}</p>
 	<ul
 		role="list"
 		class="mx-auto mt-12 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"

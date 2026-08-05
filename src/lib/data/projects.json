@@ -4,9 +4,18 @@
 		"term": "2025-1s",
 		"name": "Kokoa Arcade",
 		"categories": ["educaciòn", "videojuegos"],
-		"description": "Un área enfocada en el uso de herramientas tecnológicas y Python para enseñar desarrollo de juegos, permitiendo a los estudiantes crear y compartir sus propios juegos como una forma divertida de aprender programación.",
-		"purpose": "Fomentar el aprendizaje de nuevos lenguajes y herramientas mediante la creación de software de entretenimiento y potenciar la lógica de programación divirtiéndose en el proceso.",
-		"how": "Se utiliza Python con librerías como Pygame, Kivy y Pyglet: los estudiantes desarrollan la lógica de sus juegos y la parte visual. Los repositorios alojan las creaciones para que cualquiera pueda descargar, revisar o inspirarse. A futuro planeamos usarlos en concursos y talleres de gaming.",
+		"description": {
+			"es": "Un área enfocada en el uso de herramientas tecnológicas y Python para enseñar desarrollo de juegos, permitiendo a los estudiantes crear y compartir sus propios juegos como una forma divertida de aprender programación.",
+			"en": "An area focused on using Python and other tools to teach game development, letting students build and share their own games as a fun way into programming."
+		},
+		"purpose": {
+			"es": "Fomentar el aprendizaje de nuevos lenguajes y herramientas mediante la creación de software de entretenimiento y potenciar la lógica de programación divirtiéndose en el proceso.",
+			"en": "To encourage learning new languages and tools by building entertainment software, and to sharpen programming logic while having fun doing it."
+		},
+		"how": {
+			"es": "Se utiliza Python con librerías como Pygame, Kivy y Pyglet: los estudiantes desarrollan la lógica de sus juegos y la parte visual. Los repositorios alojan las creaciones para que cualquiera pueda descargar, revisar o inspirarse. A futuro planeamos usarlos en concursos y talleres de gaming.",
+			"en": "We use Python with libraries such as Pygame, Kivy and Pyglet: students build both the game logic and the visuals. The repositories host their creations so anyone can download them, read the code or take inspiration. We plan to use them in gaming contests and workshops."
+		},
 		"github_url": "https://github.com/DanRCM/Kokoa_Arcade/tree/main",
 		"apk_url": null,
 		"web_url": null,
@@ -23,9 +32,18 @@
 		"term": "2025-1s",
 		"name": "ArduinoSaurio",
 		"categories": ["electrònica", "videojuegos"],
-		"description": "Juego del dinosaurio de Chrome recreado en Arduino y proyectado en un display OLED. Incluye todas las opciones del juego original.",
-		"purpose": "Proyecto de admisiones para entrar a KOKOA, demostrando habilidades en hardware y lógica de programación.",
-		"how": "Implementado utilizando Arduino para el procesamiento lógico y una pantalla OLED para la visualización gráfica.",
+		"description": {
+			"es": "Juego del dinosaurio de Chrome recreado en Arduino y proyectado en un display OLED. Incluye todas las opciones del juego original.",
+			"en": "The Chrome dinosaur game rebuilt on Arduino and drawn on an OLED display. It includes every feature of the original game."
+		},
+		"purpose": {
+			"es": "Proyecto de admisiones para entrar a KOKOA, demostrando habilidades en hardware y lógica de programación.",
+			"en": "An admissions project to join KOKOA, showing off hardware and programming skills."
+		},
+		"how": {
+			"es": "Implementado utilizando Arduino para el procesamiento lógico y una pantalla OLED para la visualización gráfica.",
+			"en": "Built with an Arduino handling the game logic and an OLED screen for the graphics."
+		},
 		"github_url": "https://github.com/gazuacos/arduinoDinosaurio",
 		"apk_url": null,
 		"web_url": null,
@@ -47,9 +65,18 @@
 		"term": "2024-2s",
 		"name": "KokoaTrivia",
 		"categories": ["electrònica", "educaciòn"],
-		"description": "Un juego de trivia programado en Arduino que realiza preguntas sobre software libre. La interacción se da mediante botones y una pantalla LCD.",
-		"purpose": "Fomentar el conocimiento sobre software libre mediante una interfaz interactiva de hardware.",
-		"how": "Programado en Arduino controlando una pantalla LCD para las preguntas y botones físicos para la selección de respuestas.",
+		"description": {
+			"es": "Un juego de trivia programado en Arduino que realiza preguntas sobre software libre. La interacción se da mediante botones y una pantalla LCD.",
+			"en": "A trivia game written for Arduino that asks questions about free software. Players answer using buttons and an LCD screen."
+		},
+		"purpose": {
+			"es": "Fomentar el conocimiento sobre software libre mediante una interfaz interactiva de hardware.",
+			"en": "To spread knowledge about free software through an interactive hardware interface."
+		},
+		"how": {
+			"es": "Programado en Arduino controlando una pantalla LCD para las preguntas y botones físicos para la selección de respuestas.",
+			"en": "Written for Arduino, driving an LCD screen for the questions and physical buttons for picking answers."
+		},
 		"github_url": "https://github.com/kokoaespol/kokoa-electronics-trivia.git",
 		"apk_url": null,
 		"web_url": null,
@@ -81,9 +108,18 @@
 		"term": "2024-2s",
 		"name": "Arduino Invaders",
 		"categories": ["electrònica", "videojuegos"],
-		"description": "Juego de nave espacial donde el jugador debe disparar a objetivos que se acercan. Cuenta con sistema de vidas y utiliza el mismo circuito base que KokoaTrivia.",
-		"purpose": "Explorar y profundizar en el conocimiento sobre Arduino y lógica de videojuegos en sistemas embebidos.",
-		"how": "Utiliza Arduino con botones y pantalla LCD. Se planea seguir contribuyendo con más niveles y mejoras de sonido.",
+		"description": {
+			"es": "Juego de nave espacial donde el jugador debe disparar a objetivos que se acercan. Cuenta con sistema de vidas y utiliza el mismo circuito base que KokoaTrivia.",
+			"en": "A space shooter where the player fires at incoming targets. It has a lives system and runs on the same base circuit as KokoaTrivia."
+		},
+		"purpose": {
+			"es": "Explorar y profundizar en el conocimiento sobre Arduino y lógica de videojuegos en sistemas embebidos.",
+			"en": "To dig deeper into Arduino and into game logic on embedded systems."
+		},
+		"how": {
+			"es": "Utiliza Arduino con botones y pantalla LCD. Se planea seguir contribuyendo con más niveles y mejoras de sonido.",
+			"en": "Runs on Arduino with buttons and an LCD screen. We plan to keep adding levels and better sound."
+		},
 		"github_url": "https://github.com/SymondSalazar/Arduino-Invaders",
 		"apk_url": null,
 		"web_url": null,
@@ -100,9 +136,18 @@
 		"term": "2025-1s",
 		"name": "READIM",
 		"categories": ["software", "libreria", "python"],
-		"description": "Proyecto de software libre que permite convertir imágenes en formato IM7 a formatos comunes como PNG, facilitando su visualización y análisis.",
-		"purpose": "Facilitar el uso de imágenes científicas formato IM7 en trabajos académicos y de investigación.",
-		"how": "Desarrollado en Python usando la librería ReadIM y la herramienta REAMCLI para conversión desde línea de comandos. El equipo trabajó con metodología de pares.",
+		"description": {
+			"es": "Proyecto de software libre que permite convertir imágenes en formato IM7 a formatos comunes como PNG, facilitando su visualización y análisis.",
+			"en": "A free software project that converts IM7 images into common formats such as PNG, making them easier to view and analyse."
+		},
+		"purpose": {
+			"es": "Facilitar el uso de imágenes científicas formato IM7 en trabajos académicos y de investigación.",
+			"en": "To make IM7 scientific images easier to use in academic and research work."
+		},
+		"how": {
+			"es": "Desarrollado en Python usando la librería ReadIM y la herramienta REAMCLI para conversión desde línea de comandos. El equipo trabajó con metodología de pares.",
+			"en": "Written in Python with the ReadIM library and the REAMCLI tool for command line conversion. The team worked in pairs."
+		},
 		"github_url": "https://github.com/kokoaespol/COLVIRM_im7conversion",
 		"apk_url": null,
 		"web_url": null,
@@ -144,9 +189,18 @@
 		"term": "2025-1s",
 		"name": "Página Web Kokoa",
 		"categories": ["desarrollo web"],
-		"description": "Proyecto enfocado en el mantenimiento, actualización y desarrollo de nuevos requerimientos para el sitio web del club.",
-		"purpose": "Mantener actualizada la información del club, incluyendo eventos, proyectos y miembros.",
-		"how": "Desarrollo y refactorización continua liderada por miembros del club. Se ha realizado un trabajo intensivo de refactorización para mejorar la estructura.",
+		"description": {
+			"es": "Proyecto enfocado en el mantenimiento, actualización y desarrollo de nuevos requerimientos para el sitio web del club.",
+			"en": "A project focused on maintaining and updating the club website, and on building whatever it needs next."
+		},
+		"purpose": {
+			"es": "Mantener actualizada la información del club, incluyendo eventos, proyectos y miembros.",
+			"en": "To keep the club information current, including events, projects and members."
+		},
+		"how": {
+			"es": "Desarrollo y refactorización continua liderada por miembros del club. Se ha realizado un trabajo intensivo de refactorización para mejorar la estructura.",
+			"en": "Continuous development and refactoring led by club members. A lot of refactoring work has gone into improving the structure."
+		},
 		"github_url": "https://github.com/kokoaespol/kokoa-site",
 		"apk_url": null,
 		"web_url": "https://kokoa.club",

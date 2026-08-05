@@ -2,7 +2,11 @@
 	import Card from "$lib/components/card.svelte";
 	import CenterContainer from "$lib/components/center-container.svelte";
 	import Tag from "$lib/components/tag.svelte";
+	import { use_i18n } from "$lib/i18n/use.js";
 	import { get_stack_icon } from "./icons.js";
+
+	const { t } = use_i18n();
+
 	let { data } = $props();
 	const photos = import.meta.glob("$lib/assets/members/*", {
 		eager: true,
@@ -37,7 +41,7 @@
 
 		{#if data.member.stack.length > 0}
 			<div class="p-4 md:col-span-2">
-				<h3 class="mb-4 font-fira text-xl font-semibold">Stack</h3>
+				<h3 class="mb-4 font-fira text-xl font-semibold">{t("members.stack")}</h3>
 				<div class="mt-4 flex flex-wrap gap-4">
 					{#each data.member.stack as tech (tech)}
 						<img src={get_stack_icon(tech)} alt={tech} class="h-8" />
@@ -48,7 +52,7 @@
 
 		{#if data.member.interests.length > 0}
 			<div class="p-4 md:col-span-2">
-				<h3 class="mb-4 font-fira text-xl font-semibold">Áreas de interés</h3>
+				<h3 class="mb-4 font-fira text-xl font-semibold">{t("members.interests")}</h3>
 				<div class="mt-4 flex flex-wrap gap-2">
 					{#each data.member.interests as interest (interest)}
 						<Tag category={interest} />
@@ -61,7 +65,7 @@
 
 {#if data.member_projects.length > 0}
 	<CenterContainer class="py-12">
-		<h2 class="mb-4 font-fira text-xl font-semibold">Proyectos</h2>
+		<h2 class="mb-4 font-fira text-xl font-semibold">{t("members.projects")}</h2>
 		<ul
 			role="list"
 			class="mx-auto mt-12 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"

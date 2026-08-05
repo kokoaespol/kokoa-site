@@ -2,9 +2,14 @@
 	import { onMount } from "svelte";
 	import { page } from "$app/state";
 	import CenterContainer from "$lib/components/center-container.svelte";
+	import { use_i18n } from "$lib/i18n/use.js";
 	import { fly } from "svelte/transition";
 
 	let { children } = $props();
+
+	const { t } = use_i18n();
+
+	const heading = $derived(page.data.title_key ? t(page.data.title_key) : page.data.title);
 
 	/** Arranca en false para que las barras decorativas entren animadas al montar. */
 	let mounted = $state(false);
@@ -16,7 +21,7 @@
 <div class="bg-linear-to-r/oklch from-kokoa-lime4 to-kokoa-lime3">
 	<CenterContainer class="relative py-10 sm:py-12">
 		<h1 class="flex text-3xl font-bold text-gray-950 uppercase sm:px-10 sm:text-4xl">
-			{page.data.title}
+			{heading}
 			<span class="ml-auto w-24 sm:w-56"></span>
 		</h1>
 		{#if mounted}
