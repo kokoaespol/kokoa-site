@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Card from "$lib/components/card.svelte";
 	import CenterContainer from "$lib/components/center-container.svelte";
+	import SocialLinks from "$lib/components/social-links.svelte";
 	import Tag from "$lib/components/tag.svelte";
 	import { get_stack_icon } from "./icons.js";
 	let { data } = $props();
@@ -28,6 +29,7 @@
 					alt={data.member.name}
 				/>
 			</div>
+			<SocialLinks social_media={data.member.social_media} class="mt-6" />
 		</div>
 
 		<div class="p-4 md:col-span-2">
