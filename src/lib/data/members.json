@@ -1,148 +1,116 @@
 [
 	{
-		"name": "Ronald Criollo",
+		"name": "Erick Lavid Cedeño",
 		"role": "Mentor",
-		"photo": "/members/Ronald_Criollo.webp",
+		"photo": "/members/Erick_Lavid.webp",
 		"directiva": "si",
 		"facultad": "FIEC",
-		"carrera": "Docente - Investigador",
+		"carrera": "Docente",
 		"social_media": [
 			{
 				"nombre": "linkedin",
-				"link": "https://www.linkedin.com/in/rrcriollo/"
+				"link": "https://www.linkedin.com/in/erick-lavid/"
 			}
 		],
 		"description": "Trabajando en esto",
 		"stack": [],
 		"interests": [],
-		"slug": "ronald-criollo"
+		"slug": "erick-lavid-cedeno"
 	},
 	{
-		"name": "Michael Estrada",
+		"name": "Nahin Espinoza",
 		"role": "Presidente",
-		"photo": "/members/Michael_Estrada.webp",
+		"photo": "/members/Nahin_Espinoza.webp",
 		"directiva": "si",
 		"facultad": "FIEC",
 		"carrera": "Computación",
 		"social_media": [
 			{
 				"nombre": "github",
-				"link": "https://github.com/BryanEstrada003"
-			},
-			{
-				"nombre": "linkedin",
-				"link": "https://www.linkedin.com/in/maiestrada/"
+				"link": "https://github.com/nahinespinoza"
 			}
 		],
-		"description": "Estudio Ciencias de la Computación en la ESPOL y desde 2021 me he enfocado en lo que más me gusta: el análisis de datos, la ingeniería de datos y la visión por computadora.\n\nHe trabajado como pasante en Diseño de Interfaces, aplicando creatividad y conceptos de UI/UX, y también en Business Intelligence, donde automatizaba procesos con Python, manejaba ETL y hacía consultas en Google BigQuery. Ahora soy Asistente de Investigación en Visión por Computadora, desarrollando modelos que aprenden a partir de imágenes.\n\nAdemás, soy miembro activo y actual presidente del Club de Software Libre Kokoa, donde he dado talleres de Linux, hablado en eventos como CLI Week, aprendí a usar supercomputadoras para proyectos de visión artificial y he participado en el Install Fest del FLISOL 2025. Me encanta resolver problemas, trabajar en equipo y explorar nuevas tecnologías. 😊",
+		"description": "Soy estudiante de Ingeniería en Computación en ESPOL, apasionado por el desarrollo de software y la inteligencia artificial. Me motiva enfrentar desafíos que me permitan transformar ideas en proyectos concretos, impulsando el cambio a través de la tecnología y contribuyendo al desarrollo de un futuro más conectado y eficiente.\n\n¡Arriba las TWICE y los tøp :D!",
 		"stack": [
-			"svelte",
-			"vue",
-			"typescript",
+			"react",
+			"django",
+			"javascript",
 			"python",
-			"rust",
+			"java",
+			"tailwindcss",
+			"css",
+			"html",
 			"figma",
-			"inkscape",
 			"arduino",
-			"raspberrypi",
-			"proteus",
-			"kicad"
+			"proteus"
 		],
-		"interests": [
-			"Machine Learning",
-			"Deep Learning",
-			"Visión por Computadora",
-			"Investigación",
-			"Ingeniería de Datos",
-			"Análisis de Datos",
-			"Electrónica",
-			"UX/UI Design"
-		],
-		"slug": "michael-estrada"
+		"interests": ["Electrónica", "Inteligencia Artificial", "Desarrollo de Software"],
+		"slug": "nahin-espinoza"
 	},
 	{
-		"name": "Juan Pablo Plúas",
+		"name": "Kevin Maldonado",
 		"role": "Vicepresidente",
-		"photo": "/members/Juan_Plúas.webp",
+		"photo": "/members/Kevin_Maldonado.webp",
 		"directiva": "si",
 		"facultad": "FIEC",
 		"carrera": "Computación",
 		"social_media": [
 			{
 				"nombre": "github",
-				"link": "https://github.com/jppluas"
-			},
-			{
-				"nombre": "linkedin",
-				"link": "https://www.linkedin.com/in/juanppluasm/"
+				"link": "https://github.com/SirProg"
 			}
 		],
-		"description": "Apasionado del desarrollo web y aprendizaje autónomo, entusiasta de la ingeniería de datos y la música. ",
+		"description": "Estudiante de la carrera de Computación, interesado en Desarrollar aplicaciones multiplataformas y en Analizar Datos. Me considero una persona autodidacta y disciplinada a la hora de cumplir mis metas. Me apasiona la tecnología, su constante crecimiento y desarrollo, dado que me da la posibilidad de aprender y adquirir más experiencia.",
 		"stack": [
 			"svelte",
 			"react",
-			"vue",
-			"angular",
 			"nodejs",
-			"laravel",
-			"typescript",
+			"flask",
 			"javascript",
 			"python",
 			"rust",
 			"java",
 			"php",
-			"ruby",
-			"vite",
-			"bootstrap",
+			"tailwindcss",
 			"css",
-			"html",
-			"figma",
-			"canva",
-			"inkscape",
-			"proteus"
+			"html"
 		],
-		"interests": ["Programación", "Electrónica", "Sistemas Digitales", "Inteligencia Artificial"],
-		"slug": "juan-pablo-pluas"
+		"interests": [
+			"FullStack",
+			"Desarrollador de Videojuegos",
+			"Inteligencia Artificial",
+			"Diseño de Software",
+			"Ciencias de Datos"
+		],
+		"slug": "kevin-maldonado"
 	},
 	{
-		"name": "Carlos Tingo",
-		"role": "Secretario",
-		"photo": "/members/Carlos_Tingo.webp",
+		"name": "Alexa Marin",
+		"role": "Secretaria",
+		"photo": "/members/Alexa_Marin.webp",
 		"directiva": "si",
-		"facultad": "FIEC",
-		"carrera": "Computación",
+		"facultad": "FIMCP",
+		"carrera": "Mecatrónica",
 		"social_media": [
 			{
 				"nombre": "github",
-				"link": "https://github.com/TingoCarlos08"
-			},
-			{
-				"nombre": "linkedin",
-				"link": "https://www.linkedin.com/in/carlos-tingo-8b6088218/"
+				"link": "https://github.com/aamarin05"
 			}
 		],
-		"description": "Soy estudiante de Ingeniería en Computación en la Escuela Superior Politécnica del Litoral (ESPOL), con experiencia en programación, gestión de bases de datos y Business Intelligence. Mi formación incluye Power BI, SQL, y Python, que he aplicado en proyectos tanto académicos como profesionales, donde he optimizado procesos de análisis y visualización de datos. Me apasiona el desarrollo de soluciones tecnológicas que mejoren la toma de decisiones y optimicen procesos. Además, soy miembro activo de Club Kokoa, donde promuevo el uso de software libre y participo en hackathons, lo que refuerza mi interés por la tecnología y mi compromiso con el trabajo colaborativo y la innovación.",
+		"description": "Estudiante de ingeniería en mecatrónica, apasionada por aprender todos los ámbitos tecnológicos. Enfocada en realizar proyectos que combinen hardware y software.",
 		"stack": [
-			"react",
-			"angular",
-			"nodejs",
-			"typescript",
-			"javascript",
 			"python",
 			"java",
-			"ruby",
 			"css",
 			"html",
-			"figma",
-			"canva"
+			"arduino",
+			"raspberrypi",
+			"autocad",
+			"fusion360",
+			"proteus"
 		],
-		"interests": [
-			"Análisis de datos",
-			"Ciencia de Datos",
-			"Desarrollo Web",
-			"Inteligencia Artificial"
-		],
-		"slug": "carlos-tingo"
+		"interests": ["Robótica", "Sistemas Digitales", "Software Libre"],
+		"slug": "alexa-marin"
 	},
 	{
 		"name": "Fernando Alvarez",
@@ -432,6 +400,29 @@
 		"slug": "isaac-criollo"
 	},
 	{
+		"name": "Francisco Defranc",
+		"role": "Miembro",
+		"photo": "/members/Francisco_Defranc.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/EtienneDefranc"
+			}
+		],
+		"description": "Soy estudiante de Computación con un marcado interés en el análisis de datos, el machine learning y la inteligencia artificial. Me motiva comprender cómo los datos pueden transformarse en conocimiento útil para la toma de decisiones y la resolución de problemas reales, explorando enfoques analíticos y modelos predictivos. Busco seguir desarrollando habilidades en estas áreas y aportar en entornos colaborativos orientados a datos.",
+		"stack": ["python", "nextjs"],
+		"interests": [
+			"Inteligencia Artificial",
+			"Ciencia de Datos",
+			"Análisis de Datos",
+			"Machine Learning"
+		],
+		"slug": "francisco-defranc"
+	},
+	{
 		"name": "Adrián Delgado",
 		"role": "Miembro",
 		"photo": "/members/Adrián_Delgado.webp",
@@ -448,7 +439,7 @@
 				"link": "https://www.adrianjdelgado.com"
 			}
 		],
-		"description": "Trabajando en esto",
+		"description": "Just another free software fan.",
 		"stack": [
 			"svelte",
 			"react",
@@ -470,34 +461,114 @@
 		"slug": "adrian-delgado"
 	},
 	{
-		"name": "Nahin Espinoza",
+		"name": "Geovanny Díaz",
 		"role": "Miembro",
-		"photo": "/members/Nahin_Espinoza.webp",
+		"photo": "/members/Geovanny_Diaz.webp",
 		"directiva": "no",
 		"facultad": "FIEC",
 		"carrera": "Computación",
 		"social_media": [
 			{
 				"nombre": "github",
-				"link": "https://github.com/nahinespinoza"
+				"link": "https://github.com/g30dl"
 			}
 		],
-		"description": "Soy estudiante de Ingeniería en Computación en ESPOL, apasionado por el desarrollo de software, la inteligencia artificial y la ciencia de datos. Me motiva enfrentar desafíos que me permitan transformar ideas en proyectos concretos, impulsando el cambio a través de la tecnología y contribuyendo al desarrollo de un futuro más conectado y eficiente.",
+		"description": "Soy estudiante de Ingeniería en Computación, apasionado por la tecnología y el desarrollo de soluciones prácticas que generen impacto real. Me interesa especialmente el desarrollo de software, bases de datos y la aplicación de nuevas tecnologías como la inteligencia artificial en proyectos innovadores.\n\nMe considero una persona proactiva, con ganas de aprender constantemente y de enfrentar nuevos retos. Disfruto trabajar en equipo, aportar ideas y mantener una comunicación clara para lograr objetivos en conjunto.\n\nActualmente, busco oportunidades donde pueda seguir creciendo profesionalmente, aplicar mis conocimientos y aprender de personas con más experiencia en el área tecnológica. Me motiva construir cosas útiles, eficientes y bien hechas.",
 		"stack": [
 			"react",
+			"nodejs",
 			"django",
+			"flask",
 			"javascript",
 			"python",
 			"java",
+			"vite",
 			"tailwindcss",
+			"bootstrap",
 			"css",
 			"html",
 			"figma",
-			"arduino",
-			"proteus"
+			"canva"
 		],
-		"interests": ["Electrónica", "Inteligencia Artificial", "Desarrollo de Software"],
-		"slug": "nahin-espinoza"
+		"interests": [
+			"Inteligencia Artificial",
+			"Ciberseguridad",
+			"Desarrollo Web",
+			"Videojuegos",
+			"Animación"
+		],
+		"slug": "geovanny-diaz"
+	},
+	{
+		"name": "Sophia Eras",
+		"role": "Miembro",
+		"photo": "/members/Sophia_Eras.webp",
+		"directiva": "no",
+		"facultad": "FIMCP",
+		"carrera": "Mecatrónica",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/Sophilette"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/sophia-eras-aspiazu-a12327297/"
+			}
+		],
+		"description": "Soy estudiante de Ingeniería Mecatrónica en la ESPOL. Me gusta todo lo relacionado con la tecnología y crear cosas nuevas. Me apasiona aprender constantemente, explorar ideas y retarme con proyectos que mezclen distintas áreas. Disfruto trabajar en equipo, conocer personas con ideas diferentes y ser parte de espacios donde se fomente la creatividad, la innovación y el crecimiento personal.",
+		"stack": ["express", "python", "java", "canva", "blender", "arduino", "fusion360"],
+		"interests": [
+			"Robótica",
+			"Análisis de Datos",
+			"Inteligencia Artificial",
+			"Diseño",
+			"Innovación"
+		],
+		"slug": "sophia-eras"
+	},
+	{
+		"name": "Michael Estrada",
+		"role": "Miembro",
+		"photo": "/members/Michael_Estrada.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/BryanEstrada003"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/maiestrada/"
+			}
+		],
+		"description": "Estudio Ciencias de la Computación en la ESPOL y desde 2021 me he enfocado en lo que más me gusta: el análisis de datos, la ingeniería de datos y la visión por computadora.\n\nHe trabajado como pasante en Diseño de Interfaces, aplicando creatividad y conceptos de UI/UX, y también en Business Intelligence, donde automatizaba procesos con Python, manejaba ETL y hacía consultas en Google BigQuery. Ahora soy Asistente de Investigación en Visión por Computadora, desarrollando modelos que aprenden a partir de imágenes.\n\nAdemás, soy miembro activo y actual presidente del Club de Software Libre Kokoa, donde he dado talleres de Linux, hablado en eventos como CLI Week, aprendí a usar supercomputadoras para proyectos de visión artificial y he participado en el Install Fest del FLISOL 2025. Me encanta resolver problemas, trabajar en equipo y explorar nuevas tecnologías. 😊",
+		"stack": [
+			"svelte",
+			"vue",
+			"typescript",
+			"python",
+			"rust",
+			"figma",
+			"inkscape",
+			"arduino",
+			"raspberrypi",
+			"proteus",
+			"kicad"
+		],
+		"interests": [
+			"Machine Learning",
+			"Deep Learning",
+			"Visión por Computadora",
+			"Investigación",
+			"Ingeniería de Datos",
+			"Análisis de Datos",
+			"Electrónica",
+			"UX/UI Design"
+		],
+		"slug": "michael-estrada"
 	},
 	{
 		"name": "Jorge Gaibor",
@@ -622,69 +693,43 @@
 		"slug": "dominique-herrera"
 	},
 	{
-		"name": "Kevin Maldonado",
+		"name": "José Marín",
 		"role": "Miembro",
-		"photo": "/members/Kevin_Maldonado.webp",
+		"photo": "/members/Jose_Marin.webp",
 		"directiva": "no",
 		"facultad": "FIEC",
 		"carrera": "Computación",
 		"social_media": [
 			{
 				"nombre": "github",
-				"link": "https://github.com/SirProg"
+				"link": "https://github.com/JoseM0lina"
 			}
 		],
-		"description": "Futuro graduado politécnico con la decisión de hacer salir mis puntos fuertes en las áreas que se me cruzen en mi camino. Empeñado en explorar nuevas tecnologías, aumentar mi conocimiento realizando y participando en proyectos.",
+		"description": "Soy estudiante de Ingeniería en Computación, con un marcado interés en el análisis de datos y la ciberseguridad. Me motiva el análisis porque me permite transformar datos en información útil y la ciberseguridad porque me interesa la prevención de riesgos y la protección de la información. Disfruto trabajar en equipo, aprender de forma continua y aplicar buenas prácticas, siempre con un enfoque en la calidad y confiabilidad del producto final.",
 		"stack": [
-			"svelte",
 			"react",
+			"angular",
 			"nodejs",
-			"flask",
+			"django",
+			"typescript",
 			"javascript",
 			"python",
-			"rust",
+			"go",
 			"java",
 			"php",
+			"ruby",
+			"vite",
 			"tailwindcss",
-			"css",
-			"html"
-		],
-		"interests": [
-			"FullStack",
-			"Desarrollador de Videojuegos",
-			"Inteligencia Artificial",
-			"Diseño de Software",
-			"Ciencias de Datos"
-		],
-		"slug": "kevin-maldonado"
-	},
-	{
-		"name": "Alexa Marin",
-		"role": "Miembro",
-		"photo": "/members/Alexa_Marin.webp",
-		"directiva": "no",
-		"facultad": "FIMCP",
-		"carrera": "Mecatrónica",
-		"social_media": [
-			{
-				"nombre": "github",
-				"link": "https://github.com/aamarin05"
-			}
-		],
-		"description": "Estudiante de ingeniería en mecatrónica, apasionada por aprender todos los ámbitos tecnológicos. Enfocada en realizar proyectos que combinen hardware y software.",
-		"stack": [
-			"python",
-			"java",
+			"bootstrap",
 			"css",
 			"html",
+			"figma",
+			"canva",
 			"arduino",
-			"raspberrypi",
-			"autocad",
-			"fusion360",
 			"proteus"
 		],
-		"interests": ["Robótica", "Sistemas Digitales", "Software Libre"],
-		"slug": "alexa-marin"
+		"interests": ["Inteligencia Artificial", "Análisis de Datos", "Ciberseguridad"],
+		"slug": "jose-marin"
 	},
 	{
 		"name": "Daniel Mateo",
@@ -756,6 +801,85 @@
 		],
 		"interests": ["Ciencia de Datos", "Inteligencia Artificial"],
 		"slug": "maria-jose-moyano"
+	},
+	{
+		"name": "Salvador Muñoz",
+		"role": "Miembro",
+		"photo": "/members/Salvador_Munoz.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/salva1984"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/slvdrmunoz/"
+			}
+		],
+		"description": "Estudio Computación en ESPOL. Me interesa el desarrollo web y la inteligencia artificial, y siempre estoy tratando de aprender cosas nuevas y aplicarlas en proyectos. Me gusta trabajar en equipo y aportar cuando puedo. En mi tiempo libre disfruto la música y el cine.",
+		"stack": ["react", "angular", "nodejs", "django", "typescript", "python"],
+		"interests": ["Inteligencia Artificial", "Backend"],
+		"slug": "salvador-munoz"
+	},
+	{
+		"name": "Javier Murillo",
+		"role": "Miembro",
+		"photo": "/members/Javier_Murillo.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/Murillotox"
+			}
+		],
+		"description": "Muchos de mis amigos están acá, la presión social me ganó, igual me apasiona la programación y estoy abierto a aprender nuevos lenguajes.",
+		"stack": ["nodejs", "typescript", "javascript"],
+		"interests": ["Automatización de Pruebas", "Inteligencia Artificial"],
+		"slug": "javier-murillo"
+	},
+	{
+		"name": "Braulio Neira",
+		"role": "Miembro",
+		"photo": "/members/Braulio_Neira.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/BraulioNeira24"
+			}
+		],
+		"description": "Soy estudiante de Ingeniería en Ciencias de la Computación en la ESPOL, y estoy apasionado por el desarrollo de software, la ciberseguridad y la tecnología de código abierto. Trabajo con Python, Java, SQL y MongoDB, y siempre busco aplicar la tecnología para resolver problemas reales. Creo que el conocimiento crece cuando se comparte libremente, y eso es exactamente lo que me trajo a Kokoa.",
+		"stack": [
+			"react",
+			"nodejs",
+			"javascript",
+			"python",
+			"java",
+			"nextjs",
+			"css",
+			"html",
+			"figma",
+			"canva",
+			"arduino",
+			"proteus"
+		],
+		"interests": [
+			"Desarrollo de Software",
+			"Ciberseguridad",
+			"Software Libre",
+			"Redes y Sistemas",
+			"Inteligencia Artificial",
+			"Bases de Datos",
+			"Desarrollo Web"
+		],
+		"slug": "braulio-neira"
 	},
 	{
 		"name": "Alexander Nieves",
@@ -837,44 +961,66 @@
 		"slug": "melanie-penaherrera"
 	},
 	{
-		"name": "Jairo Rodríguez",
+		"name": "Adrián Pincay",
 		"role": "Miembro",
-		"photo": "/members/Jairo_Rodríguez.webp",
+		"photo": "/members/Adrian_Pincay.webp",
 		"directiva": "no",
 		"facultad": "FIEC",
 		"carrera": "Computación",
 		"social_media": [
 			{
 				"nombre": "github",
-				"link": "https://github.com/jairordtgz"
+				"link": "https://github.com/adrimero"
 			}
 		],
-		"description": "Hello there!, soy estudiante de Computación en ESPOL, descubrí que nací para esta profesión desde el colegio cuando me llamó la atención la programación, lo que evolucionó a interés de participar en proyectos y solución de problemas enfocados en UX. ",
+		"description": "Estudiante de Computación metido de lleno en el mundo del Backend y los datos. Siempre listo para aprender algo nuevo y compartirlo.",
+		"stack": ["react", "javascript", "python", "java", "css", "html", "figma", "canva"],
+		"interests": ["Inteligencia Artificial"],
+		"slug": "adrian-pincay"
+	},
+	{
+		"name": "Juan Pablo Plúas",
+		"role": "Miembro",
+		"photo": "/members/Juan_Plúas.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/jppluas"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/juanppluasm/"
+			}
+		],
+		"description": "Apasionado del desarrollo web y aprendizaje autónomo, entusiasta de la ingeniería de datos y la música. ",
 		"stack": [
+			"svelte",
 			"react",
+			"vue",
+			"angular",
 			"nodejs",
+			"laravel",
+			"typescript",
 			"javascript",
 			"python",
 			"rust",
 			"java",
+			"php",
+			"ruby",
 			"vite",
-			"tailwindcss",
 			"bootstrap",
 			"css",
 			"html",
 			"figma",
 			"canva",
-			"arduino",
+			"inkscape",
 			"proteus"
 		],
-		"interests": [
-			"FullStack",
-			"Experiencia de usuario",
-			"Trabajo en equipo",
-			"Análisis de datos",
-			"Inteligencia Artificial"
-		],
-		"slug": "jairo-rodriguez"
+		"interests": ["Programación", "Electrónica", "Sistemas Digitales", "Inteligencia Artificial"],
+		"slug": "juan-pablo-pluas"
 	},
 	{
 		"name": "Symond Salazar",
@@ -941,6 +1087,34 @@
 		"slug": "jordan-salinas"
 	},
 	{
+		"name": "Jorge Santamaría",
+		"role": "Miembro",
+		"photo": "/members/Jorge_Santamaria.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/Jorgepr01"
+			}
+		],
+		"description": "Soy estudiante de ciencias de la computación, aficionado al ajedrez, con fuerte interés en el desarrollo backend con herramientas como Django o FastApi, me apasiona la gestión de entornos Linux, explorar herramientas de autoalojamiento como Raspberry Pi.",
+		"stack": [
+			"react",
+			"django",
+			"javascript",
+			"python",
+			"vite",
+			"tailwindcss",
+			"bootstrap",
+			"arduino",
+			"raspberrypi"
+		],
+		"interests": ["Desarrollo Web", "Inteligencia Artificial", "Self-Hosting", "Análisis de Datos"],
+		"slug": "jorge-santamaria"
+	},
+	{
 		"name": "Carmen Serrano",
 		"role": "Miembro",
 		"photo": "/members/Carmen_Serrano.webp",
@@ -952,6 +1126,46 @@
 		"stack": ["python", "canva"],
 		"interests": ["Diseño Gráfico", "Análisis De Datos"],
 		"slug": "carmen-serrano"
+	},
+	{
+		"name": "Carlos Tingo",
+		"role": "Miembro",
+		"photo": "/members/Carlos_Tingo.webp",
+		"directiva": "no",
+		"facultad": "FIEC",
+		"carrera": "Computación",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/TingoCarlos08"
+			},
+			{
+				"nombre": "linkedin",
+				"link": "https://www.linkedin.com/in/carlos-tingo-8b6088218/"
+			}
+		],
+		"description": "Soy estudiante de Ingeniería en Computación en la Escuela Superior Politécnica del Litoral (ESPOL), con experiencia en programación, gestión de bases de datos y Business Intelligence. Mi formación incluye Power BI, SQL, y Python, que he aplicado en proyectos tanto académicos como profesionales, donde he optimizado procesos de análisis y visualización de datos. Me apasiona el desarrollo de soluciones tecnológicas que mejoren la toma de decisiones y optimicen procesos. Además, soy miembro activo de Club Kokoa, donde promuevo el uso de software libre y participo en hackathons, lo que refuerza mi interés por la tecnología y mi compromiso con el trabajo colaborativo y la innovación.",
+		"stack": [
+			"react",
+			"angular",
+			"nodejs",
+			"typescript",
+			"javascript",
+			"python",
+			"java",
+			"ruby",
+			"css",
+			"html",
+			"figma",
+			"canva"
+		],
+		"interests": [
+			"Análisis de datos",
+			"Ciencia de Datos",
+			"Desarrollo Web",
+			"Inteligencia Artificial"
+		],
+		"slug": "carlos-tingo"
 	},
 	{
 		"name": "José Tobar",
@@ -970,6 +1184,66 @@
 		"stack": ["python", "java", "canva"],
 		"interests": ["Ciencia de datos", "desarrollo web", "Machine Learning"],
 		"slug": "jose-tobar"
+	},
+	{
+		"name": "Gabriel Vallejo",
+		"role": "Miembro",
+		"photo": "/members/Gabriel_Vallejo.webp",
+		"directiva": "no",
+		"facultad": "FIMCP",
+		"carrera": "Mecatrónica",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/GakunnSkap"
+			}
+		],
+		"description": "Soy básicamente nuevo, entré y no he podido estar muy activo pero me gusta mucho el club y lo que he llegado a ver, soy de mecatrónica, tengo impresora 3d y me considero bueno en los proyectos, ya he trabajado en varios desde el bachillerato en partes como armar circuitos soldar o programar así básico, me llama la atención que clase de proyectos y eventos tendrá el siguiente semestre :D",
+		"stack": ["javascript", "python", "adobephotoshop", "canva", "arduino", "autocad", "fusion360"],
+		"interests": [
+			"Robótica",
+			"Inteligencia Artificial",
+			"Arduino",
+			"Impresión 3D",
+			"Videojuegos",
+			"Raspberry Pi",
+			"Modelado 3D",
+			"Programación"
+		],
+		"slug": "gabriel-vallejo"
+	},
+	{
+		"name": "Mauro Vega",
+		"role": "Miembro",
+		"photo": "/members/Mauro_Vega.webp",
+		"directiva": "no",
+		"facultad": "FIMCP",
+		"carrera": "Mecatrónica",
+		"social_media": [
+			{
+				"nombre": "github",
+				"link": "https://github.com/Mvega-SKM"
+			}
+		],
+		"description": "Me gusta mucho la programación y la mecánica, en mis tiempos libre suelo jugar o pintar, son 2 cosas que me apasionan.",
+		"stack": [
+			"react",
+			"vue",
+			"nodejs",
+			"typescript",
+			"javascript",
+			"python",
+			"java",
+			"canva",
+			"blender",
+			"arduino",
+			"raspberrypi",
+			"autocad",
+			"fusion360",
+			"nxsiemens"
+		],
+		"interests": ["Robótica", "Programación", "Diseño Mecánico"],
+		"slug": "mauro-vega"
 	},
 	{
 		"name": "Danny Véliz",
